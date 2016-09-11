@@ -1,0 +1,809 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+	<meta http-equiv=“X-UA-Compatible” content=“IE=8″>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+	<link rel="alternate" type="application/rss+xml" title="dieter RSS Feed" href="feed=rss2" />
+	<link rel="pingback" href="#" />
+    <link type="text/css" href="css/lrtk.css" rel="stylesheet" />
+	<link type="text/css" href="css/animation.css" rel="stylesheet" />
+	<title>season</title>
+<script type="text/javascript"> 
+
+function refrush(){
+console.log(document.body.scrollTop);
+
+if(document.documentElement.scrollTop+document.body.scrollTop < window.document.getElementById('cidea').offsetTop){	<!-----idea---->
+console.log('aa');
+my_idea.style.display="none";
+my_design.style.display="none";
+my_method.style.display="none";
+my_result.style.display="none";
+my_team.style.display="none";
+note.style.display="block";
+}
+else if(document.documentElement.scrollTop+document.body.scrollTop>=window.document.getElementById('cidea').offsetTop && document.documentElement.scrollTop+document.body.scrollTop < window.document.getElementById('cdesign').offsetTop){	<!-----design---->
+console.log('bb');
+my_idea.style.display="block";
+<!-----隐藏---->
+my_design.style.display="none";
+my_method.style.display="none";
+my_result.style.display="none";
+my_team.style.display="none";
+note.style.display="none";
+
+}
+<!-----method---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=window.document.getElementById('cdesign').offsetTop && document.documentElement.scrollTop+document.body.scrollTop<window.document.getElementById('cmethod').offsetTop){	
+console.log('bb');
+my_design.style.display="block";
+<!-----隐藏---->
+my_idea.style.display="none";
+my_method.style.display="none";
+my_result.style.display="none";
+my_team.style.display="none";
+note.style.display="none";
+}
+else if(document.documentElement.scrollTop+document.body.scrollTop>=window.document.getElementById('cmethod').offsetTop && document.documentElement.scrollTop+document.body.scrollTop<window.document.getElementById('cresult').offsetTop){	
+console.log('bb');
+my_method.style.display="block";
+<!-----隐藏---->
+my_idea.style.display="none";
+my_design.style.display="none";
+my_result.style.display="none";
+my_team.style.display="none";
+note.style.display="none";
+}
+else if(document.documentElement.scrollTop+document.body.scrollTop>=window.document.getElementById('cresult').offsetTop && document.documentElement.scrollTop+document.body.scrollTop<window.document.getElementById('cteam').offsetTop){	
+console.log('bb');
+my_result.style.display="block";
+<!-----隐藏---->
+my_idea.style.display="none";
+my_design.style.display="none";
+my_method.style.display="none";
+my_team.style.display="none";
+note.style.display="none";
+}
+
+else{
+<!-----team---->
+my_team.style.display="block";
+<!-----隐藏---->
+my_idea.style.display="none";
+my_design.style.display="none";
+my_method.style.display="none";
+my_result.style.display="none";
+note.style.display="none";
+}
+}
+</script>
+
+
+</head>
+
+<body style="overflow:scroll;overflow-x:hidden">
+<script src="js/echo.js"></script>
+ <script>
+  echo.init({
+    offset: 0,
+    throttle: 250,
+    unload: false,
+    callback: function (element, op) {
+      console.log(element, 'has been', op + 'ed')
+    }
+  });
+</script>
+<div id="back"></div>
+<div id="page_wrapper">
+  
+
+<!--------------------------------------------------------------------------------------------------------左菜单--------------------------------------------------------------------------------------------------------->
+  
+    <!--左1-->   
+<div id="my_idea" style="display: none; z-index: 10;">
+<table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 31.5%; height: 100%; padding-left: 2%; position: fixed;" />
+  <tr >
+    <td>       
+    
+<div style="position: relative; height: 100%; width: 60%; z-index: 1;">
+
+<div padding left=20% style="position: absolute; padding-left: 10%; z-index: 1;">
+ 
+<img src="images/loading.gif" data-echo="images/xiao.png"  style=" width: 80%; " />
+
+<p><biaot>Introduction</biaot></p>
+ <p><biaot>Background</biaot></p>
+<p><xbiaot>Kinesin</xbiaot></p>
+<p><xbiaot>DNA catenane</xbiaot></p>
+<p><xbiaot>Triplex-forming oligonucleotides</xbiaot></p>
+<p><xbiaot>Our purpose</xbiaot></p>
+
+
+</div> 
+ 
+<img src="images/loading.gif" data-echo="images/left1.png" height="100%" border="0" style="height: 100%;width:93.5%;" />
+</div> 
+
+</td>
+  </tr>
+</table>
+
+</div>  
+      
+      
+      
+          
+      <!--左2-->
+<div id="my_design" style="display:none;">
+     <table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 31.5%; height: 100%; padding-left: 2%; position: fixed;" />
+  <tr >
+    <td>       
+    
+<div style="position: relative; height: 100%; width: 60%; z-index: 1;">
+
+<div padding left=20% style="position: absolute; padding-left: 10%; z-index: 1;">
+ 
+<img src="images/loading.gif" data-echo="images/xiao.png"  style=" width: 80%; " />
+
+<p><biaot>Design</biaot></p>
+<xbiaot>Idea from kinesins</xbiaot>
+<p><biaot>Our design</biaot></p>
+
+<p><xbiaot>Track complex</xbiaot></p>
+<p><xbiaot>Duplex scaffold</xbiaot></p>
+<p><xbiaot>Paving stones</xbiaot></p>
+<p><xbiaot>ssDNA Walker</xbiaot></p>
+<p><xbiaot>SABC Suite</xbiaot></p>
+<p><xbiaot>SABA Suite</xbiaot></p>
+ 
+</div> 
+ 
+<img src="images/loading.gif" data-echo="images/left2.png" height="100%" border="0" style=" height: 100%;width:93.5%;" />
+</div> </td>
+  </tr>
+</table>
+
+</div>      
+
+
+
+ 
+      <!--左3-->
+<div id="my_method" style="display: none; ">
+<table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 31.5%; height: 100%; padding-left: 2%; position: fixed;" />
+  <tr >
+    <td>       
+    
+<div style="position: relative; height: 100%; width: 60%; z-index: 1;">
+
+<div padding left=20% style="position: absolute; padding-left: 10%; z-index: 1;">
+ 
+<img src="images/loading.gif" data-echo="images/xiao.png"  style=" width: 80%; " />
+
+<p><biaot>Method</biaot></p>
+<xbiaot>Molecular design for constructing Track</xbiaot>
+<p><xbiaot>
+UV absorption spectrometry</xbiaot></p>
+
+<p><xbiaot>
+Gel electrophoresis</xbiaot></p>
+<p><xbiaot>
+Preparation of catenane structure</xbiaot></p>
+<p><biaot>
+Materials</biaot></p>
+</div> 
+ 
+<img src="images/loading.gif" data-echo="images/left3.png" height="100%" border="0" style=" height: 100%;width:93.5%;" />
+</div> </td>
+  </tr>
+</table>
+
+</div>
+
+
+
+      <!--左4-->
+<div id="my_result" style="display: none; ">
+<table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 31.5%; height: 100%; padding-left: 2%; position: fixed;" />
+  <tr >
+    <td>       
+  <div style="position: relative; height: 100%; width: 60%; z-index: 1;">
+
+<div padding left=20% style="position: absolute; padding-left: 10%; z-index: 1;">
+ 
+<img src="images/loading.gif" data-echo="images/xiao.png"  style=" width: 80%; " />
+  
+<p><biaot>Experiment</biaot></p>
+   <p> </p>
+<p><xbiaot>1</xbiaot></p>
+  <p> </p>
+<p><xbiaot>2</xbiaot></p>
+  <p> </p>
+<p><xbiaot>3</xbiaot></p>
+</div> 
+ 
+<img src="images/loading.gif" data-echo="images/left4.png" height="100%" border="0" style=" height: 100%;width:93.5%;" />
+</div> </td>
+  </tr>
+</table>
+
+</div>
+  
+  
+  
+  
+        <!--左5--> 
+<div id="my_team" style="display: none;">
+         
+ <table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 31.5%; height: 100%; padding-left: 2%; position: fixed;" />
+  <tr >
+    <td>       
+    
+<div style="position: relative; height: 100%; width: 60%; z-index: 1;">
+
+<div padding left=20% style="position: absolute; padding-left: 10%; z-index: 1;">
+ 
+<img src="images/loading.gif" data-echo="images/xiao.png"  style=" width: 80%; " />
+
+<p><biaot>Phone（Lin）:</biaot> </p>
+  <p> </p>
+<p>
+<xbiaot>+86 15063923176</xbiaot></p>
+  <p> </p>
+  <p><biaot>Team Email:</biaot> </p>
+<p><xbiaot>oucbiomod@outlook.com</xbiaot></p>
+  <p><biaot>Address:</biaot> </p>
+  
+  <p> </p>
+<p><xbiaot>Association for,	Ocean University of China（Yushan campus）, Qingdao, China</xbiaot></p>
+  
+</div> 
+ 
+<img src="images/loading.gif" data-echo="images/left5.png" height="100%" border="0" style=" height: 100%;width:93.5%;" />
+</div> 
+</td>
+  </tr>
+</table>
+
+</div> 
+
+<!--------------------------------------------------------------------------------------------------------弹窗--------------------------------------------------------------------------------------------------------->
+<div id="light1" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light1').style.display='none'"><img src="images/loading.gif" data-echo="images/0liang.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light2" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light2').style.display='none'"><img src="images/loading.gif" data-echo="images/0advisor.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light3" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light3').style.display='none'"><img src="images/loading.gif" data-echo="images/0guider.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light4" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light4').style.display='none'"><img src="images/loading.gif" data-echo="images/1.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light5" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light5').style.display='none'"><img src="images/loading.gif" data-echo="images/12.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light6" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light6').style.display='none'"><img src="images/loading.gif" data-echo="images/5.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light7" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light7').style.display='none'"><img src="images/loading.gif" data-echo="images/11.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light8" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light8').style.display='none'"><img src="images/loading.gif" data-echo="images/10.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light9" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light9').style.display='none'"><img src="images/loading.gif" data-echo="images/7.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light10" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light10').style.display='none'"><img src="images/loading.gif" data-echo="images/8.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light11" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light11').style.display='none'"><img src="images/loading.gif" data-echo="images/6.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light12" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light12').style.display='none'"><img src="images/loading.gif" data-echo="images/2.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light13" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light13').style.display='none'"><img src="images/loading.gif" data-echo="images/3.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light14" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light14').style.display='none'"><img src="images/loading.gif" data-echo="images/4.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light15" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light15').style.display='none'"><img src="images/loading.gif" data-echo="images/13.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+<div id="light16" class="white_content"><a href = "javascript:void(0)" onclick = "document.getElementById('light16').style.display='none'"><img src="images/loading.gif" data-echo="images/9.png" style="
+   width:100%;height:100%;
+"  /></a></div>
+
+
+
+  <!---正文---->
+  <div id="note"> <a href="#idea" target="_parent"><img src="images/loading.gif" data-echo="images/note.png" style="height: 100%; width:75%; z-index: 5;" /></a>
+  </div>  
+<div id="cover">
+<div class="post_header_single">
+ 
+</div>
+</div>
+<div id="cidea">
+<div class="post_header_single">
+ <table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 140%;" />
+  <tr>
+    <td>
+     <p> </p>
+     
+
+   <neir>
+  <h2>&nbsp; </h2>
+  <h2><a name="idea" id="idea"></a>Introduction</h2>
+ <div > <img src="images/loading.gif" data-echo="images/l.png"style="width:100%" /></div>
+
+  <p > </p>
+   <p > </p>
+   <p > </p>
+<h6> 	
+A variety of DNA-based walker system have been reported, which can used as transport devices to mimic the linear movement of molecular motors. However, none of them has demonstrated domains that can feed information cyclically from one to the other.[1] Separated from axonplasm since 1985[2], kinesin has became the inspiration of many delicate DNA walker systems due to its unique movement pattern. Kinesins are motor proteins that transport such cargo by walking unidirectionally along microtubule tracks in a "hand-over-hand" manner.[3] The motion of kinesin is through the conformation change of the microtubule-binding domains and the orientation of the neck linker with respect to the motor heads. </h6>
+<p>&nbsp;</p>
+<div style="text-align:center"> <img src="images/loading.gif" data-echo="images/3f1.png" style="width:60%" /></div>
+<h4>Figure 1 Structure of kinesin dimer and microtubules </h4>
+<p>&nbsp;</p>
+<h6>Inspired by the structure and movement of kinesin, we constructed  a DNA strand walking along DNA catenanes to mimic an autonomous solely DNA bipedal nanomotor . The whole system consists of two parts, a track complex and a ssDNA walker. The track complex has two units, a four-ring ssDNA catenane and a duplex DNA strand for immobilizing the ssDNA catenane to form the triplex structure. To build the track, we first synthesize a DNA duplex (95bp) and then use ssDNA to build catenane linkage on the basis of it. Each rings in catenane binds to the duplex through Hoogsteen hydrogen bonds. The interlocked catenane and partly triplex oligodeoxynucleotides (ODN) makes the track more rigid than normal duplex DNA. The four ssDNA rings in catenanes immobilized by triplex ODN can be considered as four paving stones. The ssDNA walker can bind to each paving stone specifically through two hybridization sites, a weaker one (12nt) and a stronger one (15nt). The alternate hybrid of the walker with different rings in catenane triggers the movement of the walker along the paving stones. In order to accelerate the step, a restriction enzyme is added to assist the melting of walker from the stable double-stranded helix. Then, the free walker can look for the following hybridization sequences in the adjacent paving stone. By such analogy, the walker can walk along the paving stone from the first ring to the last ring, and a nano-delivery system is constructed. Real-time monitoring of walker movement is achieved via enzyme digestion, denaturing PAGE and Fluorescence resonance energy transfer (FERT). The first and most important issue we faced is to immobilize the ssDNA catenanes into the double-stranded helix to form the triple-stranded track complex.</h6>
+<p>&nbsp;</p>
+<div style="text-align:center"><embed src="http://biomod.oucer.net/2014/swf/vcastr22.swf?vcastr_file=http://biomod.oucer.net/2015/mv/season.flv" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="960" height="585"> </embed></div>
+</br></br><h4><a href="https://www.youtube.com/watch?v=hNRYC4vUpBg" target="_blank">See this video in YouTube</a></h4>
+<p>1.	Omabegho T, Sha R, Seeman NC: A bipedal DNA Brownian motor with coordinated legs. Science 2009, 324(5923):67-71.</p>
+<p>2. Ronald D. Vale, Thomas S. Reese, Michael P. Sheetz.,Identification of a novel force-generating protein, kinesin, involved in microtubule-based motility. 1985. 42(1):39-50</p>
+
+<p>3.	Yildiz A, Tomishige M, Vale RD, Selvin PR: Kinesin walks hand-over-hand. Science 2004, 303(5658):676-678.</p>
+<p>&nbsp;</p>
+
+<p> </p>
+<h2>&nbsp; </h2>
+<h2>Background information </h2>
+
+  <img src="images/loading.gif" data-echo="images/l.png" width="80%" />
+  <h3>Kinesin</h3>
+  
+  <p ></p>
+  <p > </p>
+<h6>A kinesin is a motor protein in eukaryotic cells. It moves along microtubule filaments to its positive end, powered by the hydrolysis of adenosine triphosphate. The active movement of kinesins supports several cellular functions including mitosis, meiosis and transport of cellular cargo.  </h6> 
+<p></p>
+<p></p>
+<p> </p>
+
+  <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+  <h3>DNA catenane </h3>
+<p ></p>
+  <p > </p>
+<h6>Catenane is a mechanically-interlocked molecular architecture. Deoxyribonucleic acids have been reported as ideal molecule unit in catenanes assembly.[1-4]The unique mechanic bonds make DNA catenane more stable and rigid, hence it can be used as bases for building more complex structures.</h6> 
+<p></p>
+<p></p>
+<p> </p>
+
+
+  <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+<h3>Triplex-forming oligonucleotides</h3>
+
+ 
+<p > </p>
+  <p > </p>
+<h6>A triple-stranded DNA is a structure of DNA in which three oligonucleotides wind around each other and form a triple helix. In this structure, one strand binds to a B-form DNA double helix through Hoogsteen or reversed Hoogsteen hydrogen bonds (Fig. 1). </h6>
+<p>&nbsp;</p>
+<div style="text-align:center"> <img src="images/loading.gif" data-echo="images/ff1.png"style="width:60%" /></div>
+<h4>Figure 1 Triplex structure.[5]</h4>
+<p>&nbsp;</p>
+<h6> TFOs fall into at least two families that differ in the sequence composition of the third strand, the relative orientation of the backbones of the three strands, and the base triple interactions. In both structural families, a third strand is bound to the major groove of a homopurine·homopyrimidine. Watson-Crick duplex domain.[6] Two classes of the hybridization have been observed. In one class, pyrimidine-rich oligonucleotides bind to purine tracts in the major groove of a host Watson-Crick DNA duplex through the formation of specific Hoogsteen-type hydrogen bonds (T·AT and C+·GC base triples),[7-8] which is parallel to the purine Waston-Crick strand(Fig. 2). In a second class, purine-rich oligonucleotides bind to purine tracts in the major groove of a host WatsonCrick DNA duplex. In this hybridization motif, the third strand binds antiparallel to the Watson-Crick purine strand by forming reverse Hoogsteen hydrogen bonds G·GC and A·AT or T·AT base triples[9-11](Fig. 3). </h6>
+<p>&nbsp;</p> 
+<div style="text-align:center"> <img src="images/loading.gif" data-echo="images/ff2.png"style="width:80%" />
+<img src="images/loading.gif" data-echo="images/ff3.png"style="width:80%" /></div>
+<h4>Fig. 2 The pyrimidine binding motif(parallel) and its Hoogsteen-type[12].</h4>
+<p>&nbsp;</p>
+<div style="text-align:center"> <img src="images/loading.gif" data-echo="images/ff41.png"style="width:80%" />
+<img src="images/loading.gif" data-echo="images/ff51.png"style="width:80%" /></div>
+<h4>Fig. 3 The purine binding motif(antiparallel) and its Hoogsteen-type[12].</h4>
+<p>&nbsp;</p>
+<h6>The triple helix interaction provides a powerful tool for manipulating DNA, from molecular scissors to gene cleaver. At the core of its strength is the ability of a TFO to bind tightly to DNA in a sequence-specific manner which allows researchers to target particular sequences of DNA for site-directed[12]. </h6> 
+<p> </p><p> </p><p> </p><img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+<h3>Our purpose</h3>
+
+  <p > </p>
+  <p > </p>
+<h6> Different types of walker systems based on nucleic acids have been explored. However, they either need fuels to keep walking or cannot be reused. Inspired by the movement of kinesin, we designed a kinesin-like ssDNA walker and a microtubule filament looked like a track, which is constructed by TFOS and catenanes. According to our proposal, the walker can walk along the track by the break and formation of hydrogen bonds. Additionally, we adopt a promoted bridge-burn strategy (1) so that we just need to add DNA ligase to refresh our system when the whole movement is finished.       </h6>
+<p>&nbsp;</p>
+<p> </p><h1> Our specific primary purposes are listed as follow:</h1>
+<h6>1. Immobilization ssDNA to a duplex strand DNA and interlock them to form a triplex complex Track.
+</h6>
+<h6>2. Determination of the walking states between DNA walker and Track.
+</h6>
+<h6>3. Optimization of sequences in ssDNA walker to achieve an efficient motion along the Track.
+</h6>
+<p>&nbsp;</p>
+<h5>Explanations:
+</h5>
+<h5>(1)bridge-burn strategy: a walker system control strategy that the track of the system is damaged after the walker passing by to ensure it walk ahead
+</h5>
+
+<p></p>
+<p> </p>
+<p></p>
+<p></p>
+<h4> Reference</h4>
+  <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+
+
+<p>
+1.	Qi XJ, Lu CH, Liu X, Shimron S, Yang HH, Willner I: Autonomous control of interfacial electron transfer and the activation of DNA machines by an oscillatory pH system. Nano letters 2013, 13(10):4920-4924. </p>
+<p>
+2.	Schmidt TL, Heckel A: Construction of a structurally defined double-stranded DNA catenane. Nano letters 2011, 11(4):1739-1742.</p><p>
+3.	Liang X, Kuhn H, Frank-Kamenetskii MD: Monitoring single-stranded DNA secondary structure formation by determining the topological state of DNA catenanes. Biophysical journal 2006, 90(8):2877-2889.</p><p>
+4.	Lohmann F, Valero J, Famulok M: A novel family of structurally stable double stranded DNA catenanes. Chemical communications 2014, 50(46):6091-6093.</p><p>
+5.	Duca M, Vekhoff P, Oussedik K, Halby L, Arimondo PB: The triple helix: 50 years later, the outcome. Nucleic acids research 2008, 36(16):5123-5138.</p><p>
+6.	GE Plum，DS Pilch，S F Singleton aKB: Nucleic acid hybridization: triplex stability and energetics. Annual Review of Biophysics & Biomolecular Structure 1995, 24（1）:319-350.</p><p>
+7.	Román F. Macaya DEG, Shiva Malek, Janet S. Sinsheimer and Juli Feigon: Structure and Stability of X·G·C Mismatches in the Third Strand of Intramolecular Triplexes. Science 1991, 254: 270-274.</p><p>
+8.	Dervan PB, Moser HE: Sequence-Specific Cleavage of Double Helical DNA by Triple Helix Formation. Science 1987, 238:645-650.</p><p>
+9.	Ishwar Radhakrishnan CdlS, Dinshaw J. Patel: Nuclear Magnetic Resonance Structural Studies of A·AT Base Triple Alignments in Intramolecular Purine · Purine · Pyrimidine DNA Triplexes in Solution. Journal of Molecular Biology 1993, 234:188-197.</p><p>
+10.	Ishwar Radhakrishnan CdlS, Dinshaw J. Patel: Nuclear magnetic resonance structural studies of intramolecular purine.purine.pyrimidine DNA triplexes in solution. Base triple pairing alignments and strand direction. Journal of Molecular Biology 1991, 221:1403-1408.</p><p>
+
+11.	Ishwar Radhakrishnan, Dinshaw J. Patel: Solution structure of a purine·purine·pyrimidine DNA triplex containing G·GC and T·AT triples. Structure 1993, 1(2):135-152.</p><p>
+12.	Chan PP, Glazer PM: Triplex DNA: fundamentals, advances, and potential applications
+       for gene therapy. Journal of Molecular Medicine 1997, 75(4):267-282.
+
+</p>
+<p> </p>
+    </td>
+  </tr>
+</table>
+</div>
+</div>
+
+   
+   
+   
+<div id="cdesign">
+<div class="post_header_single">
+<table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 140%;" />
+  <tr>
+    <td>
+    <h2><a name="design" id="design"></a>design</h2>
+    
+    
+ <img src="images/loading.gif" data-echo="images/l.png" width="80%" />
+<h3>Idea from kinesins</h3>
+
+  <p > </p>
+  <p > </p>
+<h6>Inspired by kinesin movement along a microtubule, we constructed an autonomous DNA bipedal nanomotor, made solely of DNA. In our design, the bipedal walker travels along the track triggered by the alternate hybrid with paving stones, which is very similar to the way kinesin walking along the microtubules. Similar to kinesis, the DNA bipedal walker could be divided into two parts, a linker single-stranded ODN as the stalk in kinesin and two single-stranded ODN as the motor heads in kinesin. Similar to microtubules, the track complex is a triplex ODN containing ssDNA catenanes and a duplex DNA scaffold. We proposed to trigger the motion of bipedal ssDNA walker along the track complex through base-pair complementary rules between them.</h6> 
+<h2></h2>
+<p></p>
+<p> </p>  <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+<h2>Our design </h2>
+  <img src="images/loading.gif" data-echo="images/l.png" width="80%" />
+<h3>Track complex</h3>
+ 
+ <p > </p>
+  <p > </p>
+<h6>The track consists of two parts: the duplex scaffold and the paving stones.
+
+</h6>
+<p>&nbsp;</p>
+
+<img src="images/loading.gif" data-echo="images/d1.png" width="80%" />
+<h4>Fig. 1 Scaffold+paving stones </h4>
+<p>&nbsp;</p><p>&nbsp;</p><img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+<h3>Duplex scaffold </h3>
+ 
+ <p > </p>
+  <p > </p>
+<h6>The scaffold duplex is a 95 bp duplex DNA (Table1), and the region to hybridize each paving stone is of 18nt-length. From 5’ to 3’ terminus, the scaffold was orderly complementary with the four paving stones.</h6>
+<p>&nbsp;</p>
+
+<img src="images/loading.gif" data-echo="images/f1.png" width="80%" />
+
+<h4>Table 1. Sequences in duplex scaffold (5&#8217;&#8594;3&#8217;).</h4>
+<h5>*blue: to Circle C; red: to Circle B; green: to Circle A; gray: to Circle S</h5> 
+
+<p></p><p></p><p></p>
+  <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+
+<h3>Paving stones</h3>
+  
+  <p > </p>
+
+  <p > </p>
+<h6>To better control the walker and make the system more sustainable, we designed paving stones to let our walker go along them rather than the double-stranded helix. We design four different paving stones, marked S, A, B, C. The central segment of each unit (18nt) can bind to the scaffold specifically through Hoogsteen function and form triple-stranded helix. In order to interlock them, each stones has one or two complementary sequences (8nt per part) at one or both side of it. After the formation of triplex structure and linkage, ring closure was carried out by T4 DNA ligase under the assistance of three oligodeoxynucleotides (12nt) which we called splints. Thus the whole structure is more rigid than normal double-stranded helix. In order to characterize its structure, three specific recognition sites for restriction enzymes were designed (Fig. 3). The assembly can be shown as Fig. 4.</h6>
+<p>&nbsp;</p>
+
+<img src="images/loading.gif" data-echo="images/f2.png" width="80%" />
+<h4>Fig.1. 2 Sequence of paving stones(circle) and splints (5&#8217;&#8594;3&#8217;) </h4>
+
+<h5>*purple: the complementary sequence between Circle A and the walker; yellow: the complementary sequence between Circle A and Circle B; bright green: the sequence of Circle A which can bind to the scaffold; gray:the complementary sequence between Circle S and Circle A; dark green: the complementary sequence between Circle A and the walker; deep yellow: the complementary sequence between Circle B and Circle C; red: the sequence of Circle B which can bind to the scaffold; blue: the sequence of Circle C which can bind to the scaffold; green: the sequence of Circle S which can bind to the scaffold.
+  </h5>
+<p> </p>
+ 
+<img src="images/loading.gif" data-echo="images/f3.png" width="80%" />
+<h4>Fig.1.3 The enzyme function site of each paving stones</h4>
+<p>&nbsp;</p>
+  
+<img src="images/loading.gif" data-echo="images/d2.png" width="80%" />
+<h4> Fig.1.4 the assembly of the structure</h4>
+<h3></h3>
+<p></p>
+<p> </p> <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+<h3>ssDNA Walker</h3>
+
+  <p > </p>
+  <p > </p>
+<h6>Our walker is a linear ssDNA with three binding domains (15nt for Circle A, 12nt for Circle B and 20nt for Circle S). After mixed with the Track complex, the walker is firstly anchored by Circle S. Then, a restriction enzyme (Ava II) was added to digest the Circle S and release the walker. Once the walker is released, there will be two states of our system. In state Ι, the repulsive force between the walker and the circle A is in a Dynamic equilibrium with hydrogen bonds in their connections. The walker can bind to another site forming a more stable site automatically. In order to avoid the cutting site on Circle B being identified by nicking enzyme, we designed a 15nt length oligodeoxynucleotides in the middle of our walker to shelter it(Fig. 4). In state Ⅱ, the walker is in a relatively more stable state and the site for nicking is exposed. We add Nt.BbvCI(a kind of nicking enzyme) to catalysis its transforming to stateⅡ. 
+</h6>
+<p>&nbsp;</p>
+<p> </p>
+<p > </p>
+   <img src="images/loading.gif" data-echo="images/f4.png" width="80%" />
+<h4>Fig. 5 the sequence of the walker  </h4>
+
+<h5>*purple: to Circle A; blue: to Circle B; orange: to Circle S. </h5>
+<p ></p>
+<p ></p>
+<p > </p>
+ <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+<h3>SABC Suite</h3>
+ <p > </p>
+  <p > </p>
+<h6>In this suite, paving stones contain S, A, B and C. The walker will be in state I, which hybridized with Circle A and B, but not link to Circle C. In other words, the ssDNA walker stopped at the third paving stones. Consequently, the nicking enzyme recognition site in Circle B is concealed. As this state is not stable, the hydrogen bonds between Circle A and the walker will been released, which leads to the exposure of the nicking enzyme recognition site. Then the walker will transform from state Ⅱ to state Ⅰ in the presence of the nicking enzyme.</h6>
+<p>&nbsp;</p>
+<img src="images/loading.gif" data-echo="images/ABCXL1.png" width="90%" />
+<img src="images/loading.gif" data-echo="images/ABCXL2.png" width="90%" />
+<h5> Fig. 6 the final state of SABC suite</h5>
+<h3></h3>
+<p></p>
+<p> </p> <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+<h3>SABA Suite</h3>
+ 
+  <p > </p>
+  <p > </p>
+<h6>Only Circle S,A and B are used to form the linkage structure and finally the walker will be in state Ⅱ between Circle B and A. To observe whether the walker can travel to the last paving stone, we insert an fluorophore into the walker and design a 29nt oligodeoxynucleotides which has an quencher at 3’-terminus (Fig. 7). When the walker arrive the last circle, the fluorescence intensity will be greatly reduced because of fluorescence resonance energy transfer (FRET).
+	
+</h6>
+<p > </p>
+
+<img src="images/loading.gif" data-echo="images/f5.png" width="80%" />
+<h4>Fig. 7 The sequence of walker and quencher strand in SABA (5&#8217;&#8594;3&#8217;;F for fluorophore and Qfor quencher) </h4>
+<p>&nbsp;</p>
+
+<img src="images/loading.gif" data-echo="images/d3.png" width="80%" />
+<img src="images/loading.gif" data-echo="images/d4.png" width="80%" />
+<img src="images/loading.gif" data-echo="images/d5.png" width="80%" />
+<img src="images/loading.gif" data-echo="images/d6.png" width="80%" />
+<h4>Fig. 8 the final state of SABA suite </h4>
+<p > </p>
+ <img src="images/loading.gif" data-echo="images/l1.png" width="80%" /></td>
+  </tr>
+</table>
+</div>
+</div>
+
+
+<div id="cmethod">
+<div class="post_header_single">
+<table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 140%;" />
+  <tr >
+    <td>
+   <h2><a name="team" id="method"></a>Method</h2>
+ <img src="images/loading.gif" data-echo="images/l.png" width="80%" />
+<h3>Molecular design for constructing Track</h3>
+ 
+ <p > </p>
+  <p > </p>
+<h6>  Linear monomers to be catenaned have to interact by the complementary sequences and as we need a repetitive ABAB copolymer, we need two complementary regions at each monomer. To restrict the length and specialize the start of our track, we use a double helix scaffold DNA to fix monomers by forming triplex DNA before twine between adjacent monomers.
+</h6>
+ 
+ <p > </p>
+  <p > </p>
+<h6>The scaffold contained oligonucleiotides of 95 nt length, and the hybridization region with each monomer was of 18 nt at the central segment of each monomer. From 5’ to 3’ terminus, the scaffold was orderly complementary with S, A, B and A. Both A and B have two parts of complementary sequences(8 nt) with each other at both sides of the ring, and at the top of the ring, there was a complementary part between our monomers and the walker(12nt for A and 15nt for B). a nicking enzyme (Nt.BbvCI) recognition site was embedded in the complementary region between ring B and walker, to make our system works. Ring S has a complementary region (20 nt) with the 3` end of the walker for anchoring it at first. And we have a embedded restriction enzyme recognition site at the end of this sequence to free the walker. The 3’ ends and 5’-phosphorylate ends of A, B, and S can hybridize with their corresponding splint DNA (12 nt) for ring closure by T4 DNA ligase. Each closure region was embedded a different restriction enzyme recognition site, EcoRI in A, Dpn II in B and Ava II in S, respectively. Regions of single stranded bases are lacking enough rigidity to provide tension, which is the mean power of our walker. Hence, we decreasing the single stranded region to 5nt in the mean track-forming ring(A and B). 
+
+</h6><p>&nbsp;</p>
+<p>&nbsp;</p>
+ <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+
+<h3>UV absorption spectrometry</h3>
+ 
+ <p > </p>
+  <p > </p>
+<h6> We measure the Tm of triplex DNA by UV-thermal denaturation to evaluate the stability of triple helix. Absorbance values versus temperature melting profiles were obtained at 260nm on a UV-1800 spectrophotometer coupled with a DC-1700 High Performance Temperature Controller. The spectrophotometer was interfaced to a Tm Analysis for data collection and analysis.
+</h6>
+<h6> Triplex DNA solutions were prepared by the scaffold A, scaffold A-C and circle A in a 1:1:1.5 molar ratio in 1mM PBS buffer, containing 10mMspermine.(The experiment of triplex B is the same as triplex A.) Solution of scaffold A and scaffold A-C were heated to 80℃ for 3min before adding circle A and then allowed to equilibrate at room temperature for the night before using in melting temperature experiments. Temperature of the samples was increased at a rate of 0.5℃/min and absorbance was monitored automatically every 24s. 
+</h6>
+<p>&nbsp;</p> <p>&nbsp;</p><img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+
+<h3>Gel electrophoresis</h3>
+ 
+ <p > </p>
+  <p > </p>
+<h6> All the catenane systems were analyzed on a 12% denaturing polyacrylamide gel under 350V and 12% non-denaturing polyacrylamide gel under 300V. The gels were run in 1XTBE buffer at ambient temperature. DNA bands were visualized by SYBR Green II staining (Life technologies) and detected by Gel Doc™ XR+ System (Bio-Rad). Bands were analyzed by Image Lab 3.0 software (Bio-Rad).  
+</h6>
+<p>&nbsp;</p>
+  <p > </p><div style="text-align:center"> <img src="images/loading.gif" data-echo="images/m1.png"style="width:80%" /></div>
+  <h5>Ladder*: GeneRuler Low Range DNA ladder ready-to use #SM1203 (Thermo scientific).</h5>
+  <p>&nbsp;</p>  <p>&nbsp;</p> <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+
+<h3>Preparation of catenane structure</h3>
+ 
+ <p > </p>
+  <p > </p>
+<h6> The phosphorylated linear DNA including strand S, A, B and C were reacted respectively in PBS buffer(pH 5.5) which contains spermine at 25°C for 2h to obtain protonated linear DNA S*/A*/B*/C*. Then, S*, A*, B* and C* were reacted simultaneously with the double-stranded track in a 1:1:1:1:1 molar ratio in PBS buffer with spermine(pH 5.5)and then adjust the solution to pH 6.5. The mixture was first heated to 90°C for 3 min then cooled to 25°C at the rate of 0.1°C/s. 5 Weiss U/μLT4 ligase and splints of S*, A*, B* and C* were added in 1:1 for 5h. The enzyme was denatured by heating at 65°C for 20 min, and the catenane structure was treated with Exonuclease Ⅲ(100 units/μL) for 30 min at 37°C to degrade the ligated primer that remained attached to the circular DNA. The enzyme was denatured by heating at 70°C for 20 min.
+</h6>
+<p>&nbsp;</p> <p>&nbsp;</p><img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+
+<h3>Materials</h3>
+ 
+ <p > </p>
+  <p > </p>
+<h6>  All the oligonucleotides were purchased from Genewiz. Restriction Endonucleases including EcoRI, DpnII and AvaII, Exonuclease III, and Nicking EndonucleaseNt.BbvCI were purchased from New England Biolabs. Chemicals were purchased from Sinopharm Chemical Reagent Co.,Ltd. DNase/RNase -Free Deionized Water were purchased from TianGen.
+</h6>
+<h4>&nbsp;</h4>
+<h4>10xTBE Buffer</h4>
+ 
+ <p > </p><div style="text-align:center"> <img src="images/loading.gif" data-echo="images/m2.png"style="width:80%" /></div>
+  <p > </p>
+  <h4>&nbsp;</h4>
+  <h4>8M urea acrylamide solution (20%)</h4>
+ 
+ <p > </p><div style="text-align:center"> <img src="images/loading.gif" data-echo="images/m3.png"style="width:80%" /></div>
+  <p > </p>
+  <h4>&nbsp;</h4>
+  <h4>PBS with spermine</h4>
+ 
+ <p > </p><div style="text-align:center"> <img src="images/loading.gif" data-echo="images/m4.png"style="width:80%" /></div>
+  <p > </p>
+  <h4>&nbsp;</h4>
+  <h4>Denaturing polyacrylamide gels (12%)</h4> 
+ <p > </p><div style="text-align:center"> <img src="images/loading.gif" data-echo="images/m5.png"style="width:80%" /></div>
+  <p > </p>
+<h5>Steps: Dissolve and gently mix tank. Carefully insert comb into gel sandwich until bottom of teeth reaches top of front plate. After the gel is solidified, samples are loaded. Run the gel by 350 V for about 2.5 hours.
+</h5>
+ <h4>&nbsp;</h4>
+ <h4>Non-denaturing polyacrylamide gels (12%)</h4> 
+ <p > </p><div style="text-align:center"> <img src="images/loading.gif" data-echo="images/m6.png"style="width:80%" /></div>
+  <p > </p>
+<h5>Steps: Dissolve and gently mix tank. Carefully insert comb into gel sandwich until bottom of teeth reaches top of front plate. After the gel is solidified, samples are loaded. Run the gel by 300V for about 3 hours.
+
+</h5>
+<p> </p>
+<p> </p>
+<p> </p> <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+<p> </p>
+<p> </p>
+ </td>
+  </tr>
+</table>
+</div>
+</div>
+
+<div id="cresult">
+<div class="post_header_single">
+ <table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 140%;" />
+  <tr >
+    <td>
+    <h2><a name="team" id="result"></a>Result</h2> <img src="images/loading.gif" data-echo="images/l.png" width="80%" />
+    <h3>Characterization of Triplex Track Complex by using UV absorption </h3>
+    
+    <h6>Triple-helix formation, as previously reported, is associated with a hypochromism at 260 nm.[1-2]Thus, thermal dissociation studies allow us to determine half-dissociation temperatures after subtraction of the duplex-to-single strand transition curve from the global melting curves. Compared with long double-stranded scaffold DNA shown in design, short chain only contains the part of triplex DNA which is intercepted from the long chain. Furthermore, the longer DNA duplex allows us to easily distinguish between the triplex-to-duplex and the duplex-to-single strand transition. The 18-base-long triplex complex is capable to measure melting temperature which can be used to prove the formation of triplex DNA.</h6>
+    <div style="text-align:center"> <img src="images/loading.gif" data-echo="images/r1.png"style="width:80%" /></div>
+    <h4>Table 1.  Sequences of duplex scaffold and strand A (5’→3’).</h4>
+    <h5>* The sequences of triplex structure are labeled in green.</h5>
+    <h6>Triplex DNA solutions are prepared by the scaffold, complementary to scaffold and strand A in a molar ratio of 1:1:1.5 in 1mM PBS buffer at pH 5.5 containing 10mM spermine. The sample is heated to 90℃ at first. Then it is cooled from 90℃ to 20℃ at a rate of 0.5℃/min and absorbance is monitored automatically every 24s. (Fig 1.a) In melting experiments, the triplex complex has two clearly resolved transitions (Fig 1.b), one for the duplex (higher T,) which is corresponding to strand separation of duplex DNA, { scaffold •complementary to scaffold + strand A → scaffold + complementary to scaffold + strand A } and one for the triplex (lower T,) which is corresponding to triplex DNA melting { scaffold A•scaffold A-C•circle A → scaffold A•scaffold A-C + circle A}. To sum up, the sequences of triplex structure can efficiently form stable triplex and be able to live up to our expectations in design.</h6>
+    <div style="text-align:center"> <img src="images/loading.gif" data-echo="images/r2.png"style="width:80%" /></div>
+ <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+
+<h3>Characterization of Triplex Track Complex by using Gel electrophoresis</h3>
+<div style="text-align:center"><img src="images/loading.gif" data-echo="images/r3.png"style="width:80%" /></div>
+<h5>Fig.2.a Denaturing PAGE patterns of DNA track complex. Lane 1-4 contain track complex made from strand S+double helix, strand A+double helix , strand B+double helix, strand C+double helix, respectively. Land 5-7 contain track complex made from strand S+A+double helix, strand A+B+double helix, strand B+C+double helix, respectively. Lane 8-9 contain track complex made from strand S +A+B+double helix, strand A+B+C+double helix,respectively. Lane 10 contains track complex made from strand S+A+B+C+double helix.</h5>
+<h6>In order to explore the connections between paving stones in the presence of triplex structure, we use gel electrophoresis to characterize DNA track complex. The samples are loaded in the same volume on the 12% denaturing gels for characterization of DNA catenanes. All samples are prepared in the way that shown in Materials and Methods. 
+The bands in lane 1-4 are circle S, A, B, C, respectively. The yield of all single circles can reach to nearly 90%. Lane 5-7 are two-ring catenane SA, AB, BC, respectively. Lane 8-9 contain three-ring catenane SAB, ABC, respectively. We originally assumed that no other byproduct could be seen if catenation efficiency is high enough. However, as shown in Fig.3, all the single rings have generated few grand-circle structures.(Fig.2.b) Considering the band labeled in lane 8 is bidden more dye than bands at the same position in lane 3 and 6, we make a logical speculation that the three-ring catenane SAB is at the same position of the grand-circle structure of Circle B. No four-ring catenane band appears in lane 10 may due to the low yield of two-ring and three-ring catenane or disappropriate molar ratio of DNA materials.</h6>
+<div style="text-align:center"><img src="images/loading.gif" data-echo="images/r4.png"style="width:80%" /></div>
+<h5>Fig.3 Denaturing PAGE patterns of DNA track complex. Lane 1,3,5,7,9 contain DNA track complex made from strand S+A+double helix, strand A+B+double helix, strand B+C+double helix, strand S+A+B+double helix, strand A+B+C+double helix, respectively. These samples were treated with Exonuclease Ⅲ. Lane 1,3,5,7,9 contain two-ring catenane made from strand S+A, strand A+B, strand B+C, strand S+A+B, strand A+B</h5>
+<h6>To assess the superiority of the DNA track complex in the aspect of catenation, a denaturing gel with catenanes in the presence of triplex structure, and catenanes alone, are run against linear DNA molecular weight standards. The yields of catenanes in each lane are shown as Table.2. As the table shows, the yields of two-ring SA and AB are improved greatly in the presence of triplex structure. In addtion, because of the yield of two-ring catenanes is less than 50%, there is a slightly improvement in three-ring catenanes. However, we can still draw the conclusion that the efficiency of catenation will be improved in the presence of triplex track.</h6>
+<div style="text-align:center"> <img src="images/loading.gif" data-echo="images/r5.png"style="width:80%" /></div>
+
+<h4>Table.2 The yield of catenane in line 1-10 respectively</h4>
+ <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+<h3>Characterization of ssDNA Walker</h3><div style="text-align:center"> 
+<img src="images/loading.gif" data-echo="images/r6.png"style="width:80%" /></div>
+<h5>Fig.5 Denaturing PAGE patterns of DNA track complex with ssDNA walker. Lane 1-2 contain DNA track complex made from strand S with walker. Lane 3-5 contain DNA track complex made from strand S+A with walker. Lane 6-8 contain DNA track complex made from strand S+A+B with walker. Lane 9-11 contain DNA track complex made from strand S+A+B+A with walker. Samples of lane 1,3,6,9 were treated with Exonuclease Ⅲ. Samples of lane 2,4,7,10 were treated with restriction endonuclease Ava Ⅱ before adding in Exonuclease Ⅲ. Samples of lane 5,8,11 were reated with restriction endonuclease Ava Ⅱ first and then be added in nicking endonuclease Nt.BbvCI and Exonuclease Ⅲ in order.</h5>
+<h6>As we mentioned in design, the nicking enzyme recognition site in Circle B will be concealed when the walker is in state Ι. After adding the restriction endonuclease Ava Ⅱ in the solution, one end of the walker will be released from the first paving stone and hybridize with paving stone B. At this moment the walker will transform to state Ι. Lane 3, 6, 9 represent the walker has hybridized with paving stone S at the beginning of the track. In lane 7, 10, one end of the walker has been released from paving stone S in the presence of restriction endonuclease and then hybridize with the stronger hybridization site on paving stone A to form state Ι. We add nicking endonuclease into solutions on the basis of lane 7, 10. As shown in the denaturing PAGE pattern, bands of lane 7,10 are in accordance with those of line 8,11 respectively. It shows that nicking endonuclease doesn’t have an impact on the cutting site on Circle B. In other words, the length of the walker has an efficient effect on protecting the cutting site from being identified by nicking enzyme when it is in state Ι.</h6>
+<p>1.	G E Plum YWP, S F Singleton, P B Dervan, and K J Breslauer: Thermodynamic characterization of the stability and the melting behavior of a DNA triplex: a spectroscopic and calorimetric study. . Proc Natl Acad Sci 1990, 87:9436-9440.</p>
+<p>2.	Pilch DS, Brousseau, R., & Shafer, R. H.,: Thermodynamics of triple helix formation: Spectrophotometric studies on the d(A)10·2d(T)10 and d(C+ 3T4C+ 3)·d(G3A4G3)·d(C 3T4C3) triple helices. Nucleic acids research 1990, 18(19):5743-5750.</p>
+ <img src="images/loading.gif" data-echo="images/l1.png" width="80%" />
+<h2> Discussion  </h2> <img src="images/loading.gif" data-echo="images/l.png" width="80%" />
+    </td>
+  </tr>
+</table>
+
+</div>
+</div>
+
+<div id="cteam">
+<div class="post_header_single">
+ <table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 100%;" />
+  <tr >
+    <td><h2><a name="team" id="team"></a>team</h2>
+      <p>&nbsp;</p>
+     
+<p> </p>
+<p> </p>
+<p> </p>
+<div class="center major-list-outer">
+  <ul class="major-list">
+    <li class="major-item" id="dx"><a href = "javascript:void(0)" onclick = "document.getElementById('light1').style.display='block'" onmouseover="#team"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="rj"><a href = "javascript:void(0)" onclick = "document.getElementById('light2').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="jx"><a href = "javascript:void(0)" onclick = "document.getElementById('light3').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="gdz"><a href = "javascript:void(0)" onclick = "document.getElementById('light4').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="jsj"><a href = "javascript:void(0)" onclick = "document.getElementById('light5').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="kz"><a href = "javascript:void(0)" onclick = "document.getElementById('light6').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="jg"><a href = "javascript:void(0)" onclick = "document.getElementById('light7').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="sx"><a href = "javascript:void(0)" onclick = "document.getElementById('light8').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="gl"><a href = "javascript:void(0)" onclick = "document.getElementById('light9').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="ch"><a href = "javascript:void(0)" onclick = "document.getElementById('light10').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="wl"><a href = "javascript:void(0)" onclick = "document.getElementById('light11').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="xw"><a href = "javascript:void(0)" onclick = "document.getElementById('light12').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="gx"><a href = "javascript:void(0)" onclick = "document.getElementById('light13').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="cx"><a href = "javascript:void(0)" onclick = "document.getElementById('light14').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="wx"><a href = "javascript:void(0)" onclick = "document.getElementById('light15').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+    <li class="major-item" id="xx"><a href = "javascript:void(0)" onclick = "document.getElementById('light16').style.display='block'"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>
+  </ul>
+</div>
+
+<!-- 代码 结束 -->
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<img src="images/loading.gif" data-echo="images/tt1.gif" style="width:97%">
+</td>
+  </tr>
+</table>
+
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+      <!----------------------------------------------------------------------------------------------------右菜单----------------------------------------------------------------------------------------------->
+    <div id="main_content_right">
+    <li id="main_content_righta"><a href="#idea" ><img src="images/loading.gif" data-echo="images/right1.png" height="100%" border="0"  style="
+    height: 100%;
+" /></a></li>
+    <li id="main_content_rightb"><a href="#design" ><img src="images/loading.gif" data-echo="images/right2.png" height="100%" border="0"  style="
+    height: 100%;
+" /></a></li>
+        <li id="main_content_rightc"><a href="#method"><img src="images/loading.gif" data-echo="images/right3.png" height="100%" border="0"  style="
+    height: 100%;
+" /></a></li>
+<li id="main_content_rightd"><a href="#result" ><img src="images/loading.gif" data-echo="images/right4.png" height="100%" border="0"  style="
+    height: 100%;
+" /></a></li>
+ <li id="main_content_righte"><a href="#team" ><img src="images/loading.gif" data-echo="images/right5.png" height="100%" border="0"style="
+    height: 100%;
+" /></a></li>
+
+  </ul>
+
+</div>
+  <div id="main_content_right2"><img src="images/loading.gif" data-echo="images/haha.png" height="100%" border="0"style="height: 100%; " />
+</div>  
+
+
+ <script type="text/javascript">
+document.onscroll = refrush;
+ </script>
+<script>document.write('<style>#loading{display:none}<\/style>');</script>
+</body>
+</html>

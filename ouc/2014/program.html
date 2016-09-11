@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Team SeaSon-Ocean University of China-Biomod2014</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="icon" href="/favicon.ico" mce_href="/favicon.ico" type="image/x-icon" />
+<link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<style type="text/css">
+a.backToTop{width:60px; height:60px; background:#eaeaea url(img/top.gif) no-repeat -51px 0; text-indent:-999em}
+a.backToTop:hover{background-position:-113px 0}
+</style>
+<style type="text/css">
+			body { text-align:justify; widows:0; orphans:0; font-family:Calibri; font-size:10.5pt }
+			h1, h2, h3, p { margin:0pt }
+			h1 { margin-top:17pt; margin-bottom:16.5pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:241%; widows:0; orphans:0; font-size:22pt; font-weight:bold }
+			h2 { margin-top:13pt; margin-bottom:13pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:173%; widows:0; orphans:0; font-family:Cambria; font-size:16pt; font-weight:bold }
+			h3 { margin-top:13pt; margin-bottom:13pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:173%; widows:0; orphans:0; font-size:16pt; font-weight:bold }
+			.BalloonText { text-align:justify; widows:0; orphans:0; font-size:9pt }
+			.Caption { text-align:justify; widows:0; orphans:0; font-family:Cambria; font-size:10pt }
+			.Footer { text-align:left; widows:0; orphans:0; font-size:9pt }
+			.Header { text-align:center; widows:0; orphans:0; border-bottom-style:solid; border-bottom-width:0.75pt; border-bottom-color:#000000; padding-bottom:1pt; font-size:9pt }
+			span.Char { font-size:9pt }
+			span.1Char { font-size:22pt; font-weight:bold }
+			span.2Char { font-family:Cambria; font-size:16pt; font-weight:bold }
+			span.3Char { font-size:16pt; font-weight:bold }
+			span.Char0 { font-size:9pt }
+			span.Char1 { font-size:9pt }
+			.-31 { font-size:11pt }
+		</style>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/gotoTop.js"></script>
+<script src="js/SlideTrans.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".backToTop").goToTop();
+	$(window).bind('scroll resize',function(){
+		$(".backToTop").goToTop({
+			pageWidth:960,
+			duration:0
+		});
+	});
+});
+</script>
+</head>
+<body>
+<div id="layout">
+  <div id="header">
+    <h1 id="logo"><a href="index.html"><img src="img/logo.png" width="250" height="50" /></a></h1>
+    <hr class="noscreen" />
+    <p class="noscreen noprint"> <em>Skip to <a href="#obsah">content</a>, <a href="#nav">navigation</a>.</em> </p>
+    <hr class="noscreen" />
+    <div id="nav" class="box">
+       <ul>
+        <li><a href="index.html">Home<br />
+          <span>主页</span></a></li>
+        <li><a href="design.html">Design<br />
+          <span>设计</span></a></li>
+        <li><a href="protocol.html">Protocol<br />
+          <span>实验方案</span></a></li>
+		<li><a href="conclusion.html">Result<br />
+          <span>结果与结论</span></a></li>
+		<li><a href="perspective.html">Perspective<br />
+          <span>前景展望</span></a></li>
+		<li><a href="team.html">Team<br />
+          <span>团队</span></a></li>
+		<li><a href="contact_us.html">Contact Us<br />
+          <span>联系我们</span></a></li>
+      </ul>
+      <hr class="noscreen" />
+    </div>
+	</div>
+	<h2>Sequence Design Program</h2>
+	<p>It took us more than 3 weeks to design sequences of Olympic-ring. Many factors needed to be taken into consideration i.e. mismatch, GC ratio, unexpected secondary structure etc. We realized that it is urgent to develop a computer program to simplify the process. Yang Xu came up with an algorithm, called 345 algorithm. The aim of 345 algorithm is to generate a set of DNA strands which could form specific secondary structure following the instruction of users. Each strand could only hybridize with its complementary strand. No mismatch and unexpected self-secondary structure is allowed. Beside duplex region, ploy-T sequences were inserted to avoid unexpected result.</br></br>
+    The program is based on a simple rule: any three-base-long oligodeoxynucleotides (ODN) on strand A should not be fully complement with any three-based-long ODN on the other strands. To achieve that, a library containing 32 three-based-long ODNs (4^3/2) were built. Each component ODN cannot fully pair with any other ODNs in the library. Using this strategy, we created four-based-long ODN and five-based-long ODN as well. The algorithm will use these libraries as the fundamental element to generate the ideal DNA sequence. You could download the source code, executable file and user guide below.</p>
+    <br/><center><a href="file/program.zip">>>click here to download<<</a></center>
+	<p>The program is far from being perfect. Many functions cannot be accomplished yet. If you are interested in developing a program for sequence design, please contact with Yang Xu (2806207969@qq.com)</p>
+         
+      
+      <div id="footer"> <span class="f-left"> <img src="img/footer.png" width="315" height="65" /></span>  <span class="f-right" > &copy; 2014 <a href="#">BIOMOD-OUC-2014</a>&nbsp&nbsp designed by: <a href="http://blog.liujason.com/" title="伪技术の宅" target="_blank">伪技术の宅</a> </span> </div>
+  </div>
+  <script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9a86ec3ef5b976727d0daaa20ff57f2d' type='text/javascript'%3E%3C/script%3E"));
+</script>
+  </body>
+</html>

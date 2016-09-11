@@ -1,0 +1,65 @@
+/*================================================================
+Reset Browser Defaults
+==================================================================*/
+
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, tbody, tfoot, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-style: inherit;
+	font-family: "Arial Black", Gadget, sans-serif;
+	vertical-align: middle;
+	height: auto;
+	width: 70%;
+	top: 0px;
+	background-color: ;
+	
+}
+
+ tr,th,td,caption,table{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-style: inherit;
+	font-family: "Arial Black", Gadget, sans-serif;
+	vertical-align: middle;
+	height: auto;
+	word-break:keep-all;
+	top: 0px;
+
+
+
+
+
+
+	background-color: ;
+	
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul, li {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}

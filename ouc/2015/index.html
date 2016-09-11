@@ -1,0 +1,1216 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<script src="js/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function MM_effectGrowShrink(targetElement, duration, from, to, toggle, referHeight, growFromCenter)
+{
+	Spry.Effect.DoGrow(targetElement, {duration: duration, from: from, to: to, toggle: toggle, referHeight: referHeight, growCenter: growFromCenter});
+}
+//-->
+</script>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style type="text/css">
+#loading{
+	z-index:90000;
+	left:0;
+	top:0;
+	width:100%;
+	color:#FFF;
+	position:fixed;
+	height: 100%;
+	background-color: #FFF;
+	padding-top: 17%;
+	padding-left: 18%;
+}
+#wraper{
+	width: 100%;
+	height: 10000px;
+}
+#p{
+position: fixed;height: 100%;
+}
+#p0{
+position: fixed;height: 100%;
+}
+#p1{
+position: fixed;height: 100%;
+}
+#p2{
+position: fixed;height: 100%;
+}
+#p3{
+position: fixed;height: 100%;
+}
+#p4{
+position: fixed;height: 100%;
+}
+#p5{
+position: fixed;height: 100%;
+}
+#p6{
+position: fixed;height: 100%;
+}
+#p7{
+position: fixed;height: 100%;
+}
+#p8{
+position: fixed;height: 100%;
+}
+#p9{
+position: fixed;height: 100%;
+}
+#g1{
+position: fixed;height: 100%;
+}
+#a1{
+position: fixed;height: 100%;
+}
+#a2{
+position: fixed;height: 100%;
+}
+#a3{
+position: fixed;height: 100%;
+}
+#b1{
+position: fixed;height: 100%;
+}
+#b2{
+position: fixed;height: 100%;
+}
+#b3{
+position: fixed;height: 100%;
+}
+#b4{
+position: fixed;height: 100%;
+}
+#at1{
+position: fixed;height: 100%;
+}
+#at2{
+position: fixed;height: 100%;
+}
+#at3{
+position: fixed;height: 100%;
+}
+#bt1{
+position: fixed;height: 100%;
+}
+#bt2{
+position: fixed;height: 100%;
+}
+#bt3{
+position: fixed;height: 100%;
+}
+#s1{
+position: fixed;height: 100%;
+}
+#s2{
+position: fixed;height: 100%;
+}
+#s3{
+position: fixed;height: 100%;
+}
+#a{
+	position: fixed;
+	height: 100%;
+}
+#first{
+	background-color: #c2e6ff;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	position: fixed;
+	background-image: url(action/1.png);
+	background-repeat: repeat-x;
+}
+#last{
+	background-color: #06F;
+	height: 100%;
+	left: 0px;
+	top: 11000px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	background-image: url(action/1.png);
+	background-repeat: repeat-x;
+}
+#start{
+	width: 60%;
+	height: 60%;
+	padding-top: 5%;
+	padding-left: 33%;
+}
+#boy{
+	width: 10%;
+	left: 0%;
+	height: 50%;
+	top: 0%;
+	padding: 6% 0 0 30%;
+	position: fixed;
+}
+#words{
+	width: 60%;
+	left: 0%;
+	height: 20%;
+	top: 0%;
+	padding: 1% 0 0 19%;
+	position: fixed;
+}
+#words1{
+	width: 60%;
+	left: 0%;
+	height: 20%;
+	top: -200%;
+	padding: 1.5% 0 0 20%;
+	position: fixed;
+}
+#words2{
+	width: 60%;
+	left: 0%;
+	height: 20%;
+	top: -200%;
+	padding: 1% 0 0 20%;
+	position: fixed;
+}
+#words3{
+	width: 60%;
+	top: -200%;
+	left: 0%;
+	height: 20%;
+	top: -200%;
+	padding: 15% 0 0 20%;
+	position: fixed;
+}
+#down{
+	width: 6%;
+	left: 46.5%;
+	top: 88%;
+	height: 12%;
+	position: fixed;
+}
+#here{
+	width: 6%;
+	left: 85%;
+	top: -200%;
+	height: 12%;
+	position: fixed;
+}
+#skip{
+	width: 20%;
+	left: 85%;
+	height: 8%;
+	top: 90%;
+	position: fixed;
+}
+#skip2{
+    height:100%;
+	left: 0px;
+	top: 80%;
+	position: fixed;
+}
+#fabric{
+	background-image:url(action/2.png);
+	background-repeat: repeat;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+#words tr td p{
+	font-weight: bold;
+	color: #FF6;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+}
+#words1 tr td p{
+	font-weight: bold;
+	color: #FFF;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+}
+#words2 tr td p{
+	font-weight: bold;
+	color: #FF6;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 23px;
+}
+#words3 tr td p{
+	font-weight: bold;
+	color: #FFF;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 50px;
+}
+</style>
+
+
+<script type="text/javascript">
+ $(function() {
+            alert($(window).width());
+        });
+function refrush(){
+if(document.documentElement.scrollTop+document.body.scrollTop < 10){console.log(document.documentElement.scrollTop+document.body.scrollTop);
+	<!-----hello---->
+	first.style.top='0%'
+	boy.style.top='0%'
+	words.style.top='0%'
+	down.style.top='88%'
+	words3.style.top='-200%'
+	here.style.top='-200%'
+	words1.style.top='-200%'
+	words2.style.top='-200%'
+	fabric.style.top ='100%';
+<!-----隐藏---->
+a.style.left='100%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+a3.style.top='-200%'
+b3.style.top='-200%'
+b4.style.top='-200%'
+s3.style.top='-200%'
+at3.style.top='-200%'
+bt3.style.top='-200%'
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+}	
+
+else if(document.documentElement.scrollTop+document.body.scrollTop > 10&& document.documentElement.scrollTop+document.body.scrollTop <= 400){console.log(document.documentElement.scrollTop+document.body.scrollTop);
+	<!-----hello---->
+	first.style.top='0%'
+	boy.style.top='0%'
+	down.style.top='88%'
+	words.style.top='-200%'
+	here.style.top='-200%'
+	words1.style.top='0%'
+	words3.style.top='-200%'
+	words2.style.top='-200%'
+	fabric.style.top ='100%';
+<!-----隐藏---->
+a.style.left='100%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+a3.style.top='-200%'
+b3.style.top='-200%'
+b4.style.top='-200%'
+s3.style.top='-200%'
+at3.style.top='-200%'
+bt3.style.top='-200%'
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+}	
+else if(document.documentElement.scrollTop+document.body.scrollTop > 400&& document.documentElement.scrollTop+document.body.scrollTop <= 900){console.log(document.documentElement.scrollTop+document.body.scrollTop);
+	<!-----hello---->
+	first.style.top='0%'
+	boy.style.top='0%'
+	words.style.top='-200%'
+	here.style.top='76%'
+	down.style.top='-200%'
+	words2.style.top='0%'
+	words1.style.top='-200%'
+	words3.style.top='-200%'
+	fabric.style.top ='100%';
+<!-----隐藏---->
+a.style.left='100%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+a3.style.top='-200%'
+b3.style.top='-200%'
+b4.style.top='-200%'
+s3.style.top='-200%'
+at3.style.top='-200%'
+bt3.style.top='-200%'
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+}	
+else if(document.documentElement.scrollTop+document.body.scrollTop > 900&& document.documentElement.scrollTop+document.body.scrollTop <= 1200){console.log(document.documentElement.scrollTop+document.body.scrollTop);
+	<!-----hello---->
+	first.style.top='0%'
+	boy.style.top='-200%'
+	here.style.top='-200%'
+	words.style.top='-200%'
+	down.style.top='-200%'
+	words3.style.top='0%'
+	words1.style.top='-200%'
+	words2.style.top='-200%'
+	fabric.style.top ='100%';
+<!-----隐藏---->
+a.style.left='100%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+a3.style.top='-200%'
+b3.style.top='-200%'
+b4.style.top='-200%'
+s3.style.top='-200%'
+at3.style.top='-200%'
+bt3.style.top='-200%'
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+}	
+else if(document.documentElement.scrollTop+document.body.scrollTop >=1200 && document.documentElement.scrollTop+document.body.scrollTop < 1400){	<!-----设置滑动出现区间,背景上移---->
+
+fabric.style.top = (100-(document.documentElement.scrollTop+document.body.scrollTop-1200)/2)+ '%';
+fabric.style.left = '0px';
+<!-----隐藏---->
+a.style.left='100%'
+<!-----隐藏---->
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+<!-----隐藏---->
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+a3.style.top='-200%'
+b3.style.top='-200%'
+s3.style.top='-200%'
+at3.style.top='-200%'
+bt3.style.top='-200%'
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+}
+<!-----1设置向左出现长链区间,背景上移---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=1400 && document.documentElement.scrollTop+document.body.scrollTop <2200){	
+fabric.style.left = '0px';
+fabric.style.top ='0px' ;
+a.style.top='80%';
+a.style.left=(-(document.documentElement.scrollTop+document.body.scrollTop-1400)/8+100) + '%';
+<!-----隐藏---->
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+<!-----隐藏---->
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+a3.style.top='-200%'
+b3.style.top='-200%'
+b4.style.top='-200%'
+s3.style.top='-200%'
+at3.style.top='-200%'
+bt3.style.top='-200%'
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+}
+
+
+<!-----2加链---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=2200 && document.documentElement.scrollTop+document.body.scrollTop < 2800){
+fabric.style.left = '0px';
+fabric.style.top ='0px';
+a.style.left = '0px';<!-----x.style.---->
+<!-----隐藏---->
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+a3.style.top='-200%'
+b3.style.top='-200%'
+b4.style.top='-200%'
+s3.style.top='-200%'
+at3.style.top='-200%'
+bt3.style.top='-200%'
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+<!-----显现---->
+s1.style.left=((document.documentElement.scrollTop+document.body.scrollTop-2200)/12-50)+ '%';
+b1.style.left=((document.documentElement.scrollTop+document.body.scrollTop-2200)/12-20)+ '%';
+a1.style.left=((document.documentElement.scrollTop+document.body.scrollTop-2200)/12-35)+ '%';
+at1.style.left=((document.documentElement.scrollTop+document.body.scrollTop-2200)/12)+ '%';
+bt1.style.left=((document.documentElement.scrollTop+document.body.scrollTop-2200)/12+15)+ '%';
+s1.style.top=((document.documentElement.scrollTop+document.body.scrollTop-2200)/6-100)+ '%';
+b1.style.top=((document.documentElement.scrollTop+document.body.scrollTop-2200)/6-100)+ '%';
+a1.style.top=((document.documentElement.scrollTop+document.body.scrollTop-2200)/6-100)+ '%';
+at1.style.top=((document.documentElement.scrollTop+document.body.scrollTop-2200)/6-100)+ '%';
+bt1.style.top=((document.documentElement.scrollTop+document.body.scrollTop-2200)/6-100)+ '%';
+}
+
+
+
+
+<!-----3三螺旋---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=2800 && document.documentElement.scrollTop+document.body.scrollTop < 3100){
+fabric.style.left = '0px';
+fabric.style.top ='0px';
+<!-----隐藏---->
+a3.style.top='-200%'
+b3.style.top='-200%'
+b4.style.top='-200%'
+s3.style.top='-200%'
+at3.style.top='-200%'
+bt3.style.top='-200%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+<!-----显现---->
+a2.style.left='12%'
+b2.style.left='25%'
+s2.style.left='-9%'
+at2.style.left='48%'
+bt2.style.left='69%'
+a2.style.top='8%'
+b2.style.top='-4%'
+s2.style.top='8%'
+at2.style.top='8%'
+bt2.style.top='-4%'
+
+
+}
+
+
+
+
+	<!-----4成环---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=3100 && document.documentElement.scrollTop+document.body.scrollTop < 3800){
+fabric.style.left = '0px';
+fabric.style.top ='0px';
+a.style.left = '0px';
+a.style.top='80%';
+<!-----隐藏---->
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+<!-----隐藏---->
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+p1.style.top='-200%'
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+b4.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+<!-----显现---->
+a3.style.left='39%'
+b3.style.left='54.3%'
+s3.style.left='23.5%'
+at3.style.left='75.5%'
+bt3.style.left='90.7%'
+a3.style.top='31.5%'
+b3.style.top='28.5%'
+s3.style.top='32%'
+at3.style.top='31.5%'
+bt3.style.top='28.5%'
+}
+
+
+
+
+
+<!-----5集体下移，章鱼gif出现---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=3800 && document.documentElement.scrollTop+document.body.scrollTop < 4100){
+fabric.style.left = '0px';
+fabric.style.top ='0px';
+<!-----隐藏---->
+a2.style.left='-200%'
+b2.style.left='-200%'
+s2.style.left='-200%'
+at2.style.left='-200%'
+bt2.style.left='-200%'
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+b4.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+
+
+a.style.left = '0px';
+a.style.top=((document.documentElement.scrollTop+document.body.scrollTop-3800)/12  +80)+ '%';
+<!-----隐藏---->
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+b4.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+<!-----显现---->
+a3.style.left='39%';
+b3.style.left='54.3%';
+s3.style.left='23.5%';
+at3.style.left='75.5%';
+bt3.style.left='90.7%';
+a3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-3800)/12  +31.5)+ '%';
+b3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-3800)/12  +28.5)+ '%';
+s3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-3800)/12  +32)+ '%';
+at3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-3800)/12  +31.5)+ '%';
+bt3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-3800)/12  +28.5)+ '%';
+p1.style.top='0%';
+}
+else if(document.documentElement.scrollTop+document.body.scrollTop >=4100 && document.documentElement.scrollTop+document.body.scrollTop < 4400){
+console.log('bb');
+<!-----隐藏---->
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+b4.style.top='-200%'
+
+p1.style.top='0%';
+a.style.top='-200%';
+a3.style.top='56.5%';
+b3.style.top='53.5%';
+s3.style.top='57%';
+at3.style.top='56.5%';
+bt3.style.top='53.5%';
+}
+<!-----6卡上s，刀限制酶出现---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=4400 && document.documentElement.scrollTop+document.body.scrollTop < 5000){
+console.log('bb');
+a.style.top='-200%';
+<!-----隐藏---->
+p1.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+b4.style.top='-200%'
+
+p2.style.top='20%'
+p2.style.left='21%'
+p9.style.top='15%'
+p9.style.left='8%'
+
+a3.style.top='56.5%';
+b3.style.top='53.5%';
+s3.style.top='57%';
+at3.style.top='56.5%';
+bt3.style.top='53.5%';
+}
+
+<!-----7AB1，碎片---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=5000 && document.documentElement.scrollTop+document.body.scrollTop < 5600){
+console.log('bb');
+a.style.top='-200%';
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+b4.style.top='-200%'
+
+p3.style.top='20%'
+p3.style.left='5.1%'
+a3.style.top='56.5%';
+b3.style.top='53.5%';
+s3.style.top='57%';
+at3.style.top='56.5%';
+bt3.style.top='53.5%';
+}
+<!-----xiahua---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=5600 && document.documentElement.scrollTop+document.body.scrollTop < 6200){
+console.log('bb');
+a.style.top='-200%';
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+b4.style.top='-200%'
+
+a3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-5600)/17.5  +56.5)+ '%';
+b3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-5600)/17.5  +53.5)+ '%';
+s3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-5600)/17.5  +57)+ '%';
+at3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-5600)/17.5  +56.5)+ '%';
+bt3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-5600)/17.5  +53.5)+ '%';
+p3.style.top=((document.documentElement.scrollTop+document.body.scrollTop-5600)/17.5  +20)+ '%';
+}
+<!-----8AB2---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=6200 && document.documentElement.scrollTop+document.body.scrollTop < 6800){
+console.log('bb');
+a.style.top='-200%';
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+b4.style.top='-200%'
+
+p4.style.top='22.5%'
+p4.style.left='7.8%'
+a3.style.top='88.786%';
+b3.style.top='85.786%';
+s3.style.top='89.286%';
+at3.style.top='88.786%';
+bt3.style.top='85.786%';
+
+}
+<!-----9AB3---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=6800 && document.documentElement.scrollTop+document.body.scrollTop < 7400){
+console.log('bb');
+a.style.top='-200%';
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+b4.style.top='-200%'
+bt1.style.top='-200%'
+
+p5.style.top='22.7%'
+p5.style.left='7.4%'
+fabric.style.left = '0px';
+fabric.style.top ='0px';
+a3.style.top='88.786%';
+b3.style.top='85.786%';
+s3.style.top='89.286%';
+at3.style.top='88.786%';
+bt3.style.top='85.786%';
+
+}
+<!-----10BA左移，标明构象转变---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=7400 && document.documentElement.scrollTop+document.body.scrollTop < 8000){
+console.log('bb');
+a.style.top='-200%';
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+b4.style.top='-200%'
+bt1.style.top='-200%'
+
+p6.style.top='7.8%'
+p6.style.left='28%'
+fabric.style.left = '0px';
+fabric.style.top ='0px';
+a3.style.top='88.786%';
+b3.style.top='85.786%';
+s3.style.top='89.286%';
+at3.style.top='88.786%';
+bt3.style.top='85.786%';
+
+}
+<!-----10BA左移，标明构象转变---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=8000 && document.documentElement.scrollTop+document.body.scrollTop < 8600){
+console.log('bb');
+a.style.top='-200%';
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+b4.style.top='-200%'
+
+p7.style.top='50.6%'
+p7.style.left='25.8%'
+fabric.style.left = '0px';
+fabric.style.top ='0px';
+a3.style.top='88.786%';
+b3.style.top='85.786%';
+s3.style.top='89.286%';
+at3.style.top='88.786%';
+bt3.style.top='85.786%';
+
+}
+<!-----10BA左移，标明构象转变---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=8600 && document.documentElement.scrollTop+document.body.scrollTop < 9200){
+console.log('bb');
+a.style.top='-200%';
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+b3.style.top='-200%';
+p8.style.top='51.7%'
+p8.style.left='58.5%'
+fabric.style.left = '0px';
+fabric.style.top ='0px';
+a3.style.top='88.786%';
+b4.style.top='85.786%';
+b4.style.left='54.3%'
+s3.style.top='89.286%';
+at3.style.top='88.786%';
+bt3.style.top='85.786%';
+
+}
+<!-----png缩放---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=9200 && document.documentElement.scrollTop+document.body.scrollTop < 9800){
+console.log('bb');
+<!-----隐藏---->
+a.style.top='-200%'
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+<!-----隐藏---->
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+g1.style.top='-200%'
+a3.style.top='-200%';
+b3.style.top='-200%';
+b4.style.top='-200%';
+s3.style.top='-200%';
+at3.style.top='-200%';
+bt3.style.top='-200%';
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+g1.style.top='-200%'
+
+p0.style.left='10%';
+p0.style.top=(-(document.documentElement.scrollTop+document.body.scrollTop-9200)/30+52)+ '%';
+p0.style.height=(-(document.documentElement.scrollTop+document.body.scrollTop-9200)/28+100)+ '%';
+fabric.style.left = '0px';
+fabric.style.top ='0px';
+
+}
+
+<!-----11Nicking，gif，继续左移至第一个A看不见---->
+else if(document.documentElement.scrollTop+document.body.scrollTop >=9800 && document.documentElement.scrollTop+document.body.scrollTop < 11000){
+console.log('bb');
+<!-----隐藏---->
+a.style.top='-200%'
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+a3.style.top='-200%'
+b3.style.top='-200%'
+b4.style.top='-200%'
+s3.style.top='-200%'
+at3.style.top='-200%'
+bt3.style.top='-200%'
+<!-----隐藏---->
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+p0.style.top='-200%';
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.left='0%';
+g1.style.top='0%';
+fabric.style.left = '0px';
+fabric.style.top ='0px';
+}
+
+else{
+<!-----设撤退顶部距离---->
+<!-----隐藏---->
+a.style.top='-200%'
+a2.style.left='-200%'
+a2.style.top='-200%'
+b2.style.top='-200%'
+s2.style.top='-200%'
+at2.style.top='-200%'
+bt2.style.top='-200%'
+<!-----隐藏---->
+a1.style.top='-200%'
+b1.style.top='-200%'
+s1.style.top='-200%'
+at1.style.top='-200%'
+bt1.style.top='-200%'
+a3.style.top='-200%'
+b3.style.top='-200%'
+s3.style.top='-200%'
+at3.style.top='-200%'
+bt3.style.top='-200%'
+<!-----隐藏---->
+p1.style.top='-200%'
+p2.style.top='-200%'
+p3.style.top='-200%'
+p4.style.top='-200%'
+p5.style.top='-200%'
+p6.style.top='-200%'
+p7.style.top='-200%'
+p8.style.top='-200%'
+p9.style.top='-200%'
+p0.style.top='-200%'
+g1.style.top='-200%'
+
+fabric.style.left = '0px';
+fabric.style.top = (11000-(document.documentElement.scrollTop+document.body.scrollTop)/4)+ '%';<!-----修改为开始隐藏位置---->
+}
+}
+</script>
+
+
+</head>
+<body>
+<div id='loading'>
+  <img src="images/loadinng.jpg" style="width:60%; height:30%;" />
+ </div>
+<div id="first">
+
+<div id="boy"><img src="images/boy.png"  height="200%" width="400%"></div>
+</div>
+
+</div>
+<SCRIPT language=JavaScript>
+<!--
+var scrollY = 0;
+var direction=0
+function scrollWindow()
+  {
+   if(document.documentElement.scrollTop+document.body.scrollTop< 10000)
+    direction=0
+	if (direction == 0)
+  {
+  window.scrollBy(0,+1);
+ 
+  if(document.documentElement.scrollTop+document.body.scrollTop > 10000)
+    direction=1
+  else
+  scrollY=scrollY + 1000;
+  }
+  setTimeout("scrollWindow()", 4);
+  }
+</SCRIPT>
+<div id="down" onClick="scrollWindow()"><img src="action/down.gif"  height="100%" width="100%">
+</div>
+<script type="text/javascript" ></script>
+
+<div id="here"><img src="action/here.gif"  height="100%" width="100%">
+</div>
+
+<div id="words">
+<table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 100%;" />
+  <tr>
+    <td><p  align="center">Hello there!</p>
+   
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+</div>
+<div id="words1">
+<table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 100%;" />
+  <tr>
+    <td> 
+    <p  align="center">I come to tell you a story.</p>
+    </td>
+  </tr>
+</table>
+
+</div>
+<div id="words2">
+<table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 100%;" />
+  <tr>
+    <td>
+    <p  align="center" style="line-height:1">You can also skip it, </p>
+    <p  align="center" style="line-height:1">and read the homepage directly.</p></td>
+  </tr>
+</table>
+</div>
+<div id="words3">
+<table  border="0" cellspacing="0" cellpadding="0" style="word-break:keep-all; width: 100%;" />
+  <tr>
+    <td>
+    <p  align="center">now the story begins...</p></td>
+  </tr>
+</table>
+
+</div>
+<!-----第一页---->
+<div id="last">
+<div id="start"><a href="home.html"><img src="action/start.png" width="60%" height="120%"></a></div>
+</div>
+<!-----最后一页---->
+
+
+<div id="wraper"></div>
+<div id="fabric"></div>
+<div id="at1"><img src="action/A1.png"  style="height: 87.8%;"/></div>
+<div id="at2"><img src="action/A2.png" style="height: 77.9%;"></div>
+<div id="at3"><img src="action/A.png" style="height: 54.9%;" style.width="76%"/></div>
+<div id="bt1"><img src="action/B1.png" style="height: 87.8%;"></div>
+<div id="bt2"><img src="action/B2.png" style="height: 91.1%;"></div>
+<div id="bt3"><img src="action/B.png" style="height: 58%;" style.width="270%"/></div>
+
+<div id="a1"><img src="action/A1.png"  style="height: 87.8%;"></div>
+<div id="a2"><img src="action/A2.png"  style="height: 77.9%;"></div>
+<div id="a3"><img src="action/A.png"style="height: 54.9%;"style.width="53.2%"/></div>
+<div id="b1"><img src="action/B1.png"  style="height: 87.8%;"></div>
+<div id="b2"><img src="action/B2.png"  style="height: 91.1%;"></div>
+<div id="b3"><img src="action/B.png" style="height: 58%;"style.width="54.4%"/></div>
+<div id="b4"><img src="action/Bcut.png" style="height: 58%;"style.width="54.4%"/></div>
+<div id="s1"><img src="action/S1.png" style="height: 87.6%;"></div>
+<div id="s2"><img src="action/S2.png"style="height: 77.9%;"></div>
+<div id="s3"><img src="action/S.png"style="height: 54.9%;" style.width="52.8%"/></div>
+<div id="a"><img src="action/line.png" height="15%" style.width="231.5%"></div>
+<div id="p1"><img src="action/p1.png" style="height: 78.8%;"></div>
+<div id="p2"><img src="action/p2.png"style="height: 84.9%;"style.width="67.8%"/></div>
+<div id="p3"><img src="action/p3.png" style="height: 64.34%;"style.width="55%"/></div>
+<div id="p4"><img src="action/p4.png"style="height: 76.56%;"style.width="90%"/></div>
+<div id="p5"><img src="action/p5.png"style="height: 74.34%;"style.width="84%"/></div>
+<div id="p6"><img src="action/p6.png" style="height: 89.6%;"style.width="69%"/></div>
+<div id="p7"><img src="action/p7.png" style="height: 54.6%;"style.width="90%"/></div>
+<div id="p8"><img src="action/p8.png"style="height: 53.7%;"style.width="105%"/></div>
+<div id="p9"><img src="action/p9.gif" style="height: 27.1%;"style.width="55%"/></div>
+<div id="p0"><img src="action/p0.png" style="height: 100%;"style.width="200%"/></div>
+<div id="g1"><img src="action/gif.gif" style="height: 100%;"style.width="180%"/></div>
+
+<script type="text/javascript">
+document.onscroll = refrush;
+</script>
+<div id="skip"><a href="home.html" target="_blank"><img src="images/skip.png" border="0" style="height: 100%;"/></a></div>
+<script>document.write('<style>#loading{display:none}<\/style>');</script>
+</body>
+</html>
