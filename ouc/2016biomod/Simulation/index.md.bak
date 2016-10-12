@@ -1,0 +1,63 @@
+
+<head>
+<title>Team Members</title>
+<style>
+div.img
+  {
+  margin:10px 10px;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:3px;
+
+  }
+div.img a:hover img
+  {
+  border:1px solid #333333;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:weight;
+  width:150px;
+  font-size:20px;
+  margin:10px 5px 10px 5px;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+  cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+# Project
+
+Many proteins are known to function in multimeric configuration. For instance, Trp RNA-Binding Attenuation Protein(TRAP) [1] and GTPase [2] assemble circular structures while Tetratricopeptite-repeat Protein (TRP) [3] assembles a linear structure (Fig. 1)
+In the case of circular configuration, proteins have intrinsic curvature and the number of monomers are determined by the angle of a monomer. However, most of linear assembly like the fiber or string of proteins grow unlimitedly. Controlling the number of linear assembly is difficult without additional capping mechanism [4-5]. Here, we focused on constructing size-controllable linear homomultimer by DNA origami. We proposed a novel mechanism to control the linear assembly.
+
+<div class="img">
+  ![Ballade](project1a.gif)
+  </a>
+  <div class="desc">Figure1a</div>
+</div>
+
+<div class="img">
+  [
+  ![Ballade](project1b.gif)
+  ](project1b.gif)
+  <div class="desc">Figure1b</div>
+</div>
+
+<div class="img">
+  [
+  ![Ballade](project1c.gif)
+  ](project1c.gif)
+  <div class="desc">Figure1c</div>
+</div>
+
+</body>

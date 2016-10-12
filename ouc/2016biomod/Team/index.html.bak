@@ -1,0 +1,103 @@
+﻿
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" href="my.ico">
+<title>Team Members</title>
+<style>
+div.img
+  {
+  margin:30px 80px;
+  border:1px solid #bebebe;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:3px;
+  border:15px solid #bebebe;
+  }
+div.img a:hover img
+  {
+  border:1px solid #333333;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:weight;
+  width:50px;
+  font-size:30px;
+  margin:10px 5px 10px 5px;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+  cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<h1>Team&Sopnosrs</h1>
+<h2> Team</h2>
+
+<div class="img">
+  <a target="_blank" href="wht.jpg">
+  <img src="wht.jpg" alt="Ballade" width="360" height="400">
+  </a>
+  <div class="desc">Haiting Wang</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="qyf.jpg">
+  <img src="qyf.jpg" alt="Ballade" width="360" height="400">
+  </a>
+  <div class="desc">Yiqiao Fan</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="wht.png">
+  <img src="wht.jpg" alt="Ballade" width="360" height="400">
+  </a>
+  <div class="desc">Haotian Wu</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="hxd.png">
+  <img src="hxd.jpg" alt="Ballade" width="360" height="400">
+  </a>
+  <div class="desc">Xudong Hu</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="zqy.jpg">
+  <img src="zqy.jpg" alt="Ballade" width="360" height="400">
+  </a>
+  <div class="desc">Qingyue Zhu</div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="gl.jpg">
+  <img src="gl.jpg" alt="Ballade" width="360" height="400">
+  </a>
+  <div class="desc">Luo Guo</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="hwj.png">
+  <img src="hwj.png" alt="Ballade" width="360" height="400">
+  </a>
+  <div class="desc">Wenjing Huang</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="xyy.png">
+  <img src="xyy.png" alt="Ballade" width="360" height="400">
+  </a>
+  <div class="desc">Yuying Xu</div>
+</div>
+
+<h2>Mentors</h2>
+</body>
+</html>
