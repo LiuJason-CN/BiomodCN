@@ -267,8 +267,8 @@ div.desc
 
 <h2>Members</h2>
 <div class="img">
-  <a target="_blank" href="whtt.jpg">
-  <img src="whtt.jpg" alt="Ballade" width="270" height="300">
+  <a target="_blank" href="whtt.JPG">
+  <img src="whtt.JPG" alt="Ballade" width="270" height="300">
   </a>
   <div class="desc">Haiting Wang</div>
 </div>
@@ -278,6 +278,15 @@ div.desc
   <img src="wh.jpg" alt="Ballade" width="270" height="300">
   </a>
   <div class="desc">Hao Wang/div>
+</div>
+
+
+
+<div class="img">
+  <a target="_blank" href="cy.jpg">
+  <img src="cy.jpg" alt="Ballade" width="270" height="300">
+  </a>
+  <div class="desc">Yu Cheng/div>
 </div>
 
 
