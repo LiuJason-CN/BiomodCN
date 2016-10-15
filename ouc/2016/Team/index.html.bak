@@ -277,7 +277,7 @@ div.desc
   <a target="_blank" href="wh.jpg">
   <img src="wh.jpg" alt="Ballade" width="270" height="300">
   </a>
-  <div class="desc">Hao Wang/div>
+  <div class="desc">Hao Wang</div>
 </div>
 
 
@@ -286,7 +286,7 @@ div.desc
   <a target="_blank" href="cy.jpg">
   <img src="cy.jpg" alt="Ballade" width="270" height="300">
   </a>
-  <div class="desc">Yu Cheng/div>
+  <div class="desc">Yu Cheng</div>
 </div>
 
 
