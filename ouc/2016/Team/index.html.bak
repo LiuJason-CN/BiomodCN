@@ -53,7 +53,7 @@ div.img ">
 
     <!-- Title -->
     
-    <title>Season</title>
+    <title>Team</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -136,7 +136,7 @@ div.img ">
             
             <li class="menu-item">
                 <a href="../Team">
-                    Team
+                    TEAM
                 </a>
             </li>
             
@@ -170,7 +170,7 @@ div.img ">
     <div class="post-header">
         <h1 class="title">
             <a href="../Team/index.html">
-                SEASON
+                TEAM
             </a>
         </h1>
         <div class="post-info">
@@ -231,8 +231,7 @@ div.desc
 </style>
 </head>
 <body>
-<h1>Team&Sopnosrs</h1>
-<h2> Team</h2>
+<h1> Team</h1>
 
 
 <div id="myCarousel" class="carousel slide">
@@ -265,7 +264,7 @@ div.desc
 
 
 
-<h2>Members</h2>
+<h1>Members</h1>
 <div class="img">
   <a target="_blank" href="whtt.JPG">
   <img src="whtt.JPG" alt="Ballade" width="270" height="300">
