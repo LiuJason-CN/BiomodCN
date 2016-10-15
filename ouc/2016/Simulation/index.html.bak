@@ -1,4 +1,191 @@
-﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="Team Members
+
+div.img
+  {
+  margin:30px 40px;
+  border:1px solid #bebebe;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.img ">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Wenjing Huang">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Season"/>
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Season"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="website" />
+    
+
+    <!--Page Cover-->
+    
+
+    <meta name="twitter:card" content="summary" />
+    
+
+    <!-- Title -->
+    
+    <title>Season</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/2016/css/style.css">
+
+    <!-- Google Analytics -->
+    
+
+
+</head>
+
+
+<body>
+
+<div class="bg-gradient"></div>
+<div class="bg-pattern"></div>
+
+<!-- Menu -->
+<!--Menu Links and Overlay-->
+<div class="menu-bg">
+    <div class="menu-container">
+        <ul>
+            
+            <li class="menu-item">
+                <a href="/2016/">
+                    Home
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/2016/Background">
+                    Background&amp;Motivation
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/2016/Design">
+                    Design
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/2016/Simulation">
+                    Simulation
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/2016/Material">
+                    Materials&amp;Methods
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/2016/Results">
+                    Results&amp;Discussion
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/2016/Future">
+                    Future
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/2016/Team">
+                    Team
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+<!--Hamburger Icon-->
+<nav>
+    <a href="#menu"> MENU</a>
+</nav>
+
+<div class="container">
+
+    <!-- Main Content -->
+    <div class="row">
+    <div class="col-sm-12">
+
+        <!--Title and Logo-->
+        <header>
+    <div class="logo">
+        <a href="/2016/"><img src="logo.png"></a>
+        
+    </div>
+</header>
+
+        <section class="main">
+            
+<div class="post">
+
+    <div class="post-header">
+        <h1 class="title">
+            <a href="/2016/Simulation/index.html">
+                SEASON
+            </a>
+        </h1>
+        <div class="post-info">
+
+            
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- Gallery -->
+        
+
+        <!-- Post Content -->
+        
 <!doctype html>
 <html>
 <head>
@@ -38,125 +225,184 @@ div.desc
 </style>
 </head>
 <body>
-<h1>Team&Sopnosrs</h1>
-<h2> Team</h2>
 
-<div class="img">
-<div class="img">
-  <a target="_blank" href="hezhao.jpg">
-  <img src="hezhao.jpg" alt="Ballade" width="900" height="500">
-  </a>
-</div>
-</div>
+<h1>1.Z-B chimera model</h1>
+<p>We use the PC system based on 3D rendering and animation software 3ds max (3D Studio Max) to make Z-B chimera model, according to the different types of DNA on both sides, while the distance between the base is different, the distance between the Z-DNA base was about two times that of B-DNA, and the two side of the same number of spiral. So our model is as follows:</p>
+<h1>2.Z-B chimera combination process simulation</h1>
 
+<p>When the two single ring meet, because the base complementary pairing, two single ring will be entangled together, we use Max 3DS software to simulate the loop process, as follows: (put animation)</p>
+
+<h1>3.Z-B chimera transcription model</h1>
+<p> When transcribing, the transcription enzyme binds to BDNA of Z-B chimera. When the enzyme is moving, junction is moving too. We use Max 3DS software to make this model.</p>
 
 
-
-<h2>Members</h2>
-<div class="img">
-  <a target="_blank" href="wht.jpg">
-  <img src="wht.jpg" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Haiting Wang</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="qyf.jpg">
-  <img src="qyf.jpg" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Yiqiao Fan</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="wht.png">
-  <img src="wht.jpg" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Haotian Wu</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="hxd.png">
-  <img src="hxd.jpg" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Xudong Hu</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="zqy.jpg">
-  <img src="zqy.jpg" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Qingyue Zhu</div>
-</div>
-
-
-<div class="img">
-  <a target="_blank" href="gl.jpg">
-  <img src="gl.jpg" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Luo Guo</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="hwj.png">
-  <img src="hwj.png" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Wenjing Huang</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="xyy.png">
-  <img src="xyy.png" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Yuying Xu</div>
-</div>
-<div style="clear:both"></div>
-<h2>Mentors</h2>
-<h3>Project Adviser</h3>
-<div class="img">
-  <a target="_blank" href="lls.jpg">
-  <img src="lls.jpg" alt="Ballade" width="600" height="300">
-  </a>
-  <div class="desc"> Prof. Liang</div>
-</div>
-<div style="clear:both"></div>
-
-<h3>Faculty mentor</h3>
-
-<div class="img">
-  <a target="_blank" href="lq.jpg">
-  <img src="lq.jpg" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Qi Li</div>
-</div>
-<div class="img">
-  <a target="_blank" href="wec.png">
-  <img src="wec.png" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Erchi Wang</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="lyk.png">
-  <img src="lyk.png" alt="Ballade" width="270" height="300">
-  </a>
-  <div class="desc">Yikai Lin</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="lzx.png">
-  <img src="lzx.png" alt="Ballade" width="270" height="400">
-  </a>
-  <div class="desc">Zixia Liu</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="wgq.png">
-  <img src="wgq.png" alt="Ballade" width="270" height="400">
-  </a>
-  <div class="desc">Guangqi Wu</div>
-</div>
 
 
 
 </body>
+</html>
+    </div>
+
+    
+
+    
+
+    <!-- Comments -->
+    
+    <div class="comments">
+        
+
+
+    </div>
+    
+
+</div>
+        </section>
+    </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<div class="push"></div>
+
+<footer class="footer-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
+                <h2>Contact Us</h2>
+                <p>
+                    This project was developed by Season 2016.If you have any questions,feel free to email OUCBIOMOD@163.com.
+                </p>
+            </div>
+            
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">
+        <h2>Larotory</h2>
+	<a href="http://www.drnatech.com/"><img src="lablogo.png"  height="80" width="465"></a>
+
+    </div>
+
+
+
+            
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="list-inline footer-social-icons">
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/?lang=en">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-facebook"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-instagram"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="http://qzone.qq.com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-qq"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://plus.google.com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-google-plus"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="http://mp.weixin.qq.com/s?__biz=MzIyNTUwNDgxMw==&mid=2247483686&idx=1&sn=48237c28853b1923a1bfcfe18f18a1f8&scene=23&srcid=0806nRkMAQ11mKdqxt3s5YKG#rd/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-wechat"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="mailto:OUCBIOMOD@163.com">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-envelope-o"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="http://weibo.com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-weibo"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+		    
+                    <li class="list-inline-item">
+                        <a href="https://about.gitlab.com/gitlab-com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-gitlab"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="footer-copyright">
+                    Copyright &copy; 2016 Team Season. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- After footer scripts -->
+
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Tween Max -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Custom JavaScript -->
+<script src="/2016/js/main.js"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
 </html>
