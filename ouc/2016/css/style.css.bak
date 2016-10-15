@@ -68,7 +68,7 @@ a:hover {
   }
 }
 header {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 header .logo {
   margin: 0 auto;
