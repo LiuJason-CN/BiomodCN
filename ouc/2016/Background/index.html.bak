@@ -233,14 +233,13 @@ div.desc
 </style>
 </head>
 <body>
-<h1>Bcakground&Motivation</h1>
-<h2>1.	What is Z-DNA?</h2>
+<h1>1.	What is Z-DNA?</h1>
 <p>Z-DNA is one of the many possible double helical structures of DNA. It is a left-handed double helical structure in which the double helix winds to the left in a zig-zag pattern (instead of to the right, like the more common B-DNA form). Z-DNA is thought to be one of three biologically active double helical structures along with A- and B-DNA.</p>
 <h3>Structure</h3>
 <p>Z-DNA is quite different from the right-handed forms. In fact, Z-DNA is often compared against B-DNA in order to illustrate the major differences. The Z-DNA helix is left-handed and has a structure that repeats every 2 base pairs. The major and minor grooves, unlike A- and B-DNA, show little difference in width. Formation of this structure is generally unfavourable, although certain conditions can promote it; such as alternating purine-pyrimidine sequence (especially poly(dGC)2), negative DNA supercoiling or high salt and some cations (all at physiological temperature, 37 °C, and pH 7.3-7.4). Z-DNA can form a junction with B-DNA (called a "B-to-Z junction box") in a structure which involves the extrusion of a base pair.[1] The Z-DNA conformation has been difficult to study because it does not exist as a stable feature of the double helix. Instead, it is a transient structure that is occasionally induced by biological activity and then quickly disappears.[2]</p>
 <h3>Predicting Z-DNA structure</h3>
 <p>It is possible to predict the likelihood of a DNA sequence forming a Z-DNA structure. An algorithm for predicting the propensity of DNA to flip from the B-form to the Z-form, ZHunt, was written by Dr. P. Shing Ho in 1984 (at MIT).[3]This algorithm was later developed by Tracy Camp, P. Christoph Champ, Sandor Maurice, and Jeffrey M. Vargason for genome-wide mapping of Z-DNA (with P. Shing Ho as the principal investigator).[4]</p>
-<h2>2.	Biological significance of Z-DNA</h2>
+<h1>2.	Biological significance of Z-DNA</h1>
 <p>Though Z-DNA was firstly discovered in vitro, recently many evidences revealed that Z-DNA was existed and may possessed diversity of function in vivo including gene expression and regulation, chromosomal breaks, recombination, antivirus defense and virus generations and so on.
 Z-DNA is commonly believed to provide torsional strain relief (supercoiling) while DNA transcription occurs.[5] The potential to form a Z-DNA structure also correlates with regions of active transcription. A comparison of regions with a high sequence-dependent, predicted propensity to form Z-DNA in human chromosome 22 with a selected set of known gene transcription sites suggests there is a correlation.[6]
 </p>
@@ -250,7 +249,7 @@ In mammals, there are three types of ADARs, 1, 2 and 3.[10] ADAR1 and ADAR2 are 
 ADAR play an important role in many diseases. For instance, Research has shown that ADAR1 can be both beneficial and a hindrance in a cells ability to fight off HIV infection. Expression levels of the ADAR1 protein have shown to be elevated during HIV infection and it has been suggested that it is responsible for A to G mutations in the HIV genome, inhibiting replication.[11] The authors of this study also suggest that mutation of the HIV genome by ADAR1 might in some cases lead to beneficial viral mutations which could contribute to drug resistance.
 </p>
 
-<h2>3.	Motivation</h2>
+<h1>3.	Motivation</h1>
 <h3>DNA catenane</h3>
 <p>Catenane is a mechanically-interlocked molecular architecture consisting of two or more interlocked macro-cycles. The unique mechanic bonds provide catenanes with special traits when it comes to explore their properties. The approaches of synthesizing them also yield new ideas to chemists.
 DNA has been commonly known as the molecule unit to assemble catenanes, called DNA catenanes, since decades ago. It was first learned as a common cellular feature.1 It is well-known that catenanes are the intermediates in the terminal stage of replication of circular DNA2, such as plasmid. Perhaps the most striking example of catenation is found in kinetoplasts where DNA is a network of thousands of linked rings. 3 DNA catenanes in nature were of large molecular weight and complex topological structure, which endowed controllable and valuable functions in biological activities.
@@ -272,7 +271,7 @@ Associated with linking number, we were curious what will happen if we mix two c
 <br><br>
 Our team had done DNA catenanes which successfully gained the DNA Triad(three-rings DNA catenanes )and the DNA Olympic rings by previous team members in 2014.It’s worth continuing to go deep into DNA catenanes for the further use pragmatically.
 </p>
-<h2>4.	Our purpose</h2>
+<h1>4.	Our purpose</h1>
 <p>Currently, most of approaches to Z-DNA synthesis using chemical modification which has negative effect on the purity and functions. Meanwhile, most methods were with low yield. Inspired by the structure of DNA rings, we are going to building a DNA ring with the structure of Z-DNA which provides better stability and purity. What’s more, we hope to extend this method of Z-DNA synthesis to RNA for its functions in genetic transcription. We firmly believed that our ideas would infuse new blood to nucleic acid technology and provide scientists with inspiration to develop nucleic acid technology. Specified purposes are listed as follow:</p>
  
 <ol type="i">  
@@ -281,7 +280,7 @@ Our team had done DNA catenanes which successfully gained the DNA Triad(three-ri
 <li>Extend this method of Z-DNA synthesis to RNA and build Z-B RNA as our development goals.</li>  
 </ol>
 
-<h2>References</h2>
+<h1>References</h1>
 <li>1.  de Rosa M, de Sanctis D, Rosario AL, Archer M, Rich A, Athanasiadis A, Carrondo MA (2010-05-18). "Crystal structure of a junction between two Z-DNA helices". Proc Natl Acad Sci USA. 107 (20): 9088–9092.Bibcode:2010PNAS..107.9088D.doi:10.1073/pnas.1003182107. PMC 2889044 .PMID 20439751.</li>  
 <li>2.	Jump up^ Zhang H, Yu H, Ren J, Qu X (2006). "Reversible B/Z-DNA transition under the low salt condition and non-B-form polydApolydT selectivity by a cubane-like europium-L-aspartic acid complex". Biophysical Journal. 90 (9): 3203–3207.Bibcode:2006BpJ....90.3203Z.doi:10.1529/biophysj.105.078402. PMC 1432110 .PMID 16473901.</li>  
 <li>3.	 Ho PS, Ellison MJ, Quigley GJ, Rich A (1986). "A computer aided thermodynamic approach for predicting the formation of Z-DNA in naturally occurring sequences". EMBO Journal. 5 (10): 2737–2744. PMC 1167176 . PMID 3780676.</li>  

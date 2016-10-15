@@ -194,32 +194,41 @@ div.img ">
 <style>
 div.img
   {
-  margin:30px 80px;
+  margin:20px 20px;
   border:1px solid #bebebe;
   height:auto;
   width:auto;
   float:left;
   text-align:center;
   }
-div.img img
+  div.img img
   {
   display:inline;
-  margin:3px;
-  border:15px solid #bebebe;
+  margin:30px;
+  border:10px solid #bebebe；
   }
 div.img a:hover img
   {
   border:1px solid #333333;
-  }
 div.desc
   {
-  text-align:center;
+
   font-weight:weight;
-  width:50px;
+  width:200px;
   font-size:30px;
-  margin:10px 5px 10px 5px;
+  margin:10px;
   font-family: "Orbitron", sans-serif;
-  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+  cursor: pointer;
+  text-align:left;
+  }
+  div.intro
+  {
+  text-align:left;
+  font-weight:weight;
+  width:200px;
+  font-size:10px;
+  margin:0px 0px 0px 0px;
+  font-family: "Orbitron", sans-serif;
   cursor: pointer;
   }
 </style>
@@ -234,17 +243,19 @@ div.desc
 	  </a>
 	<div class="desc">Figure1.The schematic of the transcription, noting the negative supercoiled DNA formed while the process</div>
 	</div>
-	<div style="clear:both"></div>
+
 </div>	
+	<div style="clear:both"></div>
 <h1>siRNA that is hard to degrade</h1>
 <p>As is known to all, the application of siRNA is restricted by its instability[2]. We suspect that there may be Z–RNA if we replace the DNA chimera with RNA. With this research, we may design a RNA chimera, the Z part of which contains the siRNA sequences. While the Z-RNA can’t be recognized and degraded by enzyme, the A-RNA will be cut and the siRNA will be released. After release, without the constrain of circle, siRNA will transform from Z-RNA to A-RNA, and restore physiological activity. That is to say, we may be capable of producing a new kind of siRNA which has better stability and use ratio. As a result, siRNA chimera will have a great prospect in biology field and medicine field.</p>
-
+<div class="img">
 	<div class="img" style="text-align:center">
 	  <a target="_blank" href="figure2.png">
 	  <img src="figur2.png" alt="Figure4a" width="340" height="340">
         <div class="desc">Figure2.The schematic of the RNA chimera containing siRNA sequence in Z-RNA part</div>
 	  </a>
 	</div>
+</div>
 <div style="clear:both"></div>
 
 <h1>The chimera plasmid</h1>
