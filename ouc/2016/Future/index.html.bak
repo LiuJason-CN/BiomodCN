@@ -242,7 +242,7 @@ div.desc
 	  <a target="_blank" href="figure2.png">
 	  <img src="figure2.png" alt="Ballade" width="340" height="340">
 	  </a>
-	  <div class="desc">Figure2.The schematic of the Z-B RNA chimera containing the siRNA sequence</div>
+	  <div class="desc">Figure2.The schematic of the RNA chimera containing siRNA sequence in Z-RNA part</div>
 	</div>
 <div style="clear:both"></div>
 <h1>The chimera plasmid</h1>
