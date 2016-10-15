@@ -245,15 +245,15 @@ div.desc
 	<!-- 轮播（Carousel）项目 -->
 	<div class="carousel-inner">
 		<div class="item active">
-			<img src="hwj.png" alt="First slide">
+			<img src="wh.jpg" alt="First slide">
 			<div class="carousel-caption">First Photo</div>
 		</div>
 		<div class="item">
-			<img src="hwj.png" alt="Second slide">
+			<img src="xyy.jpg" alt="Second slide">
 			<div class="carousel-caption">Second Photo</div>
 		</div>
 		<div class="item">
-			<img src="hwj.png" alt="Third slide">
+			<img src="cy.jpg" alt="Third slide">
 			<div class="carousel-caption">Third Photo</div>
 		</div>
 	</div>
@@ -327,8 +327,8 @@ div.desc
 </div>
 
 <div class="img">
-  <a target="_blank" href="hwj.png">
-  <img src="hwj.png" alt="Ballade" width="270" height="300">
+  <a target="_blank" href="hwj.jpg">
+  <img src="hwj.jpg" alt="Ballade" width="270" height="300">
   </a>
   <div class="desc">Wenjing Huang</div>
 </div>
