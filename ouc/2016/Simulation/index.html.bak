@@ -10,18 +10,18 @@
 
     <!--Description-->
     
-        <meta name="description" content="Team Members
-
-div.img
+        <meta name="description" content="div.img
   {
-  margin:30px 40px;
+  margin:20px 40px;
   border:1px solid #bebebe;
   height:auto;
   width:auto;
   float:left;
   text-align:center;
   }
-div.img ">
+  div.img img
+  {
+  di">
     
 
     <!--Author-->
@@ -53,7 +53,7 @@ div.img ">
 
     <!-- Title -->
     
-    <title>Simulation</title>
+    <title>Season</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -72,7 +72,7 @@ div.img ">
     <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/2016/css/style.css">
 
     <!-- Google Analytics -->
     
@@ -93,49 +93,49 @@ div.img ">
         <ul>
             
             <li class="menu-item">
-                <a href="../">
+                <a href="/2016/">
                     Home
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Background">
+                <a href="/2016/Background">
                     Background&amp;Motivation
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Design">
+                <a href="/2016/Design">
                     Design
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Simulation">
+                <a href="/2016/Simulation">
                     Simulation
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Material">
+                <a href="/2016/Material">
                     Materials&amp;Methods
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Results">
+                <a href="/2016/Results">
                     Results&amp;Discussion
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Future">
+                <a href="/2016/Future">
                     Future
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Team">
+                <a href="/2016/Team">
                     Team
                 </a>
             </li>
@@ -158,7 +158,7 @@ div.img ">
         <!--Title and Logo-->
         <header>
     <div class="logo">
-        <a href="../"><img src="logo.png"></a>
+        <a href="/2016/"><img src="logo.png"></a>
         
     </div>
 </header>
@@ -169,7 +169,7 @@ div.img ">
 
     <div class="post-header">
         <h1 class="title">
-            <a href="../Simulation/index.html">
+            <a href="/2016/Simulation/index.html">
                 SIMULATION
             </a>
         </h1>
@@ -189,37 +189,46 @@ div.img ">
 <!doctype html>
 <html>
 <head>
-<link rel="shortcut icon" href="my.ico">
-<title>Team Members</title>
+
+
 <style>
 div.img
   {
-  margin:30px 40px;
+  margin:20px 40px;
   border:1px solid #bebebe;
   height:auto;
   width:auto;
   float:left;
   text-align:center;
   }
-div.img img
+  div.img img
   {
   display:inline;
-  margin:3px;
-  border:15px solid #bebebe;
+  margin:30px;
+  border:10px solid #bebebe;
   }
 div.img a:hover img
   {
   border:1px solid #333333;
-  }
 div.desc
   {
-  text-align:center;
+
   font-weight:weight;
-  width:50px;
+  width:200px;
   font-size:30px;
-  margin:10px 5px 10px 5px;
+  margin:10px;
   font-family: "Orbitron", sans-serif;
-  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+  cursor: pointer;
+  text-align:left;
+  }
+  div.intro
+  {
+  text-align:left;
+  font-weight:weight;
+  width:200px;
+  font-size:10px;
+  margin:0px 0px 0px 0px;
+  font-family: "Orbitron", sans-serif;
   cursor: pointer;
   }
 </style>
@@ -228,18 +237,50 @@ div.desc
 
 <h1>1.Z-B chimera model</h1>
 <p>We use the PC system based on 3D rendering and animation software 3ds max (3D Studio Max) to make Z-B chimera model, according to the different types of DNA on both sides, while the distance between the base is different, the distance between the Z-DNA base was about two times that of B-DNA, and the two side of the same number of spiral. So our model is as follows:</p>
+
+<div class="img">
+	<div class="img" style="text-align:center">
+	  <a target="_blank" href="figure1.png">
+	  <img src="figure1.png" alt="Figure1" width="600" height="500">
+        <div class="desc">Figure1	Strip Z-B chimera model</div>
+	  </a>
+	</div>
+	<div style="clear:both"></div>
+
 <h1>2.Z-B chimera combination process simulation</h1>
 
 <p>When the two single ring meet, because the base complementary pairing, two single ring will be entangled together, we use Max 3DS software to simulate the loop process, as follows: (put animation)</p>
+	<div class="img" style="text-align:center">
+	  <a target="_blank" href="figure2.png">
+	  <img src="figure2.png" alt="Figure2" width="600" height="500">
+        <div class="desc">Figure2	Stick Z-B chimera model</div>
+	  </a>
+	</div>
+	<div style="clear:both"></div>
+
+<h1>2.Z-B chimera combination process simulation</h1>
 
 <h1>3.Z-B chimera transcription model</h1>
 <p> When transcribing, the transcription enzyme binds to BDNA of Z-B chimera. When the enzyme is moving, junction is moving too. We use Max 3DS software to make this model.</p>
 
+	<div class="img" style="text-align:center">
+	  <a target="_blank" href="figure3.png">
+	  <img src="figure3.png" alt="Figure2" width="600" height="500">
+	  </a>
+	</div>
+	<div style="clear:both"></div>
+
+
+	<div class="img" style="text-align:center">
+	  <a target="_blank" href="figure4.png">
+	  <img src="figure4.png" alt="Figure4" width="600" height="500">
+	  </a>
+	</div>
+	<div style="clear:both"></div>
 
 
 
-
-</body>
+</div></body>
 </html>
     </div>
 
@@ -397,7 +438,7 @@ div.desc
 <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- Custom JavaScript -->
-<script src="../js/main.js"></script>
+<script src="/2016/js/main.js"></script>
 
 <!-- Disqus Comments -->
 
