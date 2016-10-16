@@ -214,7 +214,7 @@ div.desc
   {
   font-weight:weight;
   width:200px;
-  font-size:80px;
+  font-size:12px;
   margin:0px 0px 0px 0px;
   font-family: "Orbitron",Arial, sans-serif;
   cursor: pointer;
