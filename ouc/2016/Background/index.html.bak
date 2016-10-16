@@ -191,9 +191,10 @@ div.img
 <title>Team Members</title>
 <style>
 li { font:22px 'Open Sans';margin-top:10px; }
-div.img
+a.img
   {
   margin:40px 60px;
+  border:1px solid #bebebe;
   height:auto;
   width:auto;
   float:left;
@@ -212,7 +213,7 @@ div.desc
   {
   font-weight:weight;
   width:200px;
-  font-size:12px;
+  font-size:80px;
   margin:0px 0px 0px 0px;
   font-family: "Orbitron",Arial, sans-serif;
   cursor: pointer;
