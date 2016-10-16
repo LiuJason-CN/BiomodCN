@@ -102,7 +102,7 @@ section.main {
 section.main .post {
   margin-top: 70px;
   margin-left: 40px;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 @media (max-width: 33.9em) {
   section.main .post {
