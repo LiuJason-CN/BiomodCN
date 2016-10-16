@@ -86,8 +86,8 @@ header .logo .logo-icon {
   text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
 }
 header .logo img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 0;
 }
 header .logo .title {
@@ -101,7 +101,7 @@ section.main {
 }
 section.main .post {
   margin-top: 70px;
-  margin-left: 40px
+  margin-left: 40px;
 }
 @media (max-width: 33.9em) {
   section.main .post {
@@ -249,7 +249,7 @@ section.main .post .content h4,
 section.main .post .content h5,
 section.main .post .content h6 {
   color: #d7ecff;
-  font-family: "Orbitron", sans-serif;
+  font-family: Arial,Times New Romen, sans-serif;
 }
 section.main .post .content h1,
 section.main .post .content h2 {

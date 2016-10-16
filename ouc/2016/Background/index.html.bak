@@ -193,8 +193,7 @@ div.img
 li { font:22px 'Open Sans';margin-top:10px; }
 div.img
   {
-  margin:40px 50px;
-  border:1px solid #bebebe;
+  margin:40px 60px;
   height:auto;
   width:auto;
   float:left;
@@ -211,24 +210,12 @@ div.img a:hover img
   border:1px solid #333333;
 div.desc
   {
-
   font-weight:weight;
   width:200px;
-  font-size:30px;
+  font-size:12px;
   margin:0px 0px 0px 0px;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Orbitron",Arial, sans-serif;
   cursor: pointer;
-  }
-  div.intro
-  {
-  text-align:center
-  font-weight:weight;
-  width:200px;
-  font-size:10px;
-  margin:0px 0px 0px 0px;
-  font-family: "Orbitron", sans-serif;
-  cursor: pointer;
-
   }
 </style>
 </head>
@@ -256,13 +243,14 @@ DNA has been commonly known as the molecule unit to assemble catenanes, called D
 With the rapid development of DNA nanotechnology, artificial fabrication of DNA catenanes has attracted more and more attention in this field. Compared with natural DNA catenanes, artificial DNA catenanes are smaller and topologically simpler. Generally single-stranded (ss) DNA, whose length is always less than 150 nt, was used to fabricate the nanostructures. Using elaborate design, people could make two or three ring catenanes with ssDNA which are controllable to participate in various activities on nano-scale, such as molecular motors. Examples like catenane rotary motor with controlled directionality 4 and oscillator controlled by pH 5 have been reported in the past few years. Meanwhile, studies on the topological state of artificial DNA catenanes e.g. secondary structure 6 also provide new insight into DNA basic research.
 </p>
 
- <div class="img">
+<div class="img">
   <a target="_blank" href="figure1.jpg">
-  <img src="figure1.jpg" alt="Ballade" width="500" height="360">
+   <img src="figure1.jpg" alt="Ballade" width="500" height="360">
   </a>
-    <div class="desc">Fig. 1 Mathematical biological model of DNA catenane[12] </div>
+  <div class="desc">
+Figure1. Mathematical biological model of DNA catenane[12] 
   </div>
-<div style="clear:both"></div>
+</div>
 
 <h3>DNA Topology</h3>
 <p>A typical DNA molecule consists of two complementary polynucleotide chains that are multiply interwound, forming a double helix. Topological aspects of DNA structure arise primarily from the fact that the two DNA strands are repeatedly intertwined. 
@@ -284,7 +272,7 @@ Our team had done DNA catenanes which successfully gained the DNA Triad(three-ri
 <li>1.  de Rosa M, de Sanctis D, Rosario AL, Archer M, Rich A, Athanasiadis A, Carrondo MA (2010-05-18). "Crystal structure of a junction between two Z-DNA helices". Proc Natl Acad Sci USA. 107 (20): 9088–9092.Bibcode:2010PNAS..107.9088D.doi:10.1073/pnas.1003182107. PMC 2889044 .PMID 20439751.</li>  
 <li>2.	Jump up^ Zhang H, Yu H, Ren J, Qu X (2006). "Reversible B/Z-DNA transition under the low salt condition and non-B-form polydApolydT selectivity by a cubane-like europium-L-aspartic acid complex". Biophysical Journal. 90 (9): 3203–3207.Bibcode:2006BpJ....90.3203Z.doi:10.1529/biophysj.105.078402. PMC 1432110 .PMID 16473901.</li>  
 <li>3.	 Ho PS, Ellison MJ, Quigley GJ, Rich A (1986). "A computer aided thermodynamic approach for predicting the formation of Z-DNA in naturally occurring sequences". EMBO Journal. 5 (10): 2737–2744. PMC 1167176 . PMID 3780676.</li>  
-<li>4.	^ Jump up to:a b Champ PC, Maurice S, Vargason JM, Camp T, Ho PS (2004). "Distributions of Z-DNA and nuclear factor I in human chromosome 22: a model for coupled transcriptional regulation".Nucleic Acids Res. 32 (22): 6501–6510. doi:10.1093/nar/gkh988. PMC 545456 .PMID 1559882</li>  
+<li>4.  Jump up to:a b Champ PC, Maurice S, Vargason JM, Camp T, Ho PS (2004). "Distributions of Z-DNA and nuclear factor I in human chromosome 22: a model for coupled transcriptional regulation".Nucleic Acids Res. 32 (22): 6501–6510. doi:10.1093/nar/gkh988. PMC 545456 .PMID 1559882</li>  
 <li>5.	Ha SC, Lowenhaupt K, Rich A, Kim YG, Kim KK (2005). "Crystal structure of a junction between B-DNA and Z-DNA reveals two extruded bases". Nature. 437 (7062): 1183–1186. Bibcode:2005Natur.437.1183H.doi:10.1038/nature04088. PMID 16237447</li>  
 <li>6.	Champ PC, Maurice S, Vargason JM, Camp T, Ho PS (2004)."Distributions of Z-DNA and nuclear factor I in human chromosome 22: a model for coupled transcriptional regulation". Nucleic Acids Res. 32(22): 6501–6510. doi:10.1093/nar/gkh988. PMC 545456 .PMID 15598822</li>  
 <li>7.	 Kim U, Wang Y, Sanford T, Zeng Y, Nishikura K (November 1994)."Molecular cloning of cDNA for double-stranded RNA adenosine deaminase, a candidate enzyme for nuclear RNA editing". Proceedings of the National Academy of Sciences of the United States of America. 91 (24): 11457–61.doi:10.1073/pnas.91.24.11457. PMC 45250 . PMID 7972084.</li>  
