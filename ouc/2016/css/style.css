@@ -112,14 +112,14 @@ section.main .post {
 section.main .post .post-header {
   position: relative;
   width: 100%;
-  margin: 0 10px;
+  margin: 0 0px;
 }
 section.main .post .post-header:before {
   position: relative;
   padding: 5px;
   top: -10px;
   bottom: -10px;
-  left: -10px;
+  left: 0px;
   content: "  ";
   transition: left 0.3s ease;
 }
@@ -134,7 +134,7 @@ section.main .post .post-header:after {
   padding: 5px;
   top: -10px;
   bottom: -10px;
-  right: -10px;
+  right: 0px;
   transition: right 0.3s ease;
 }
 @media (max-width: 33.9em) {
