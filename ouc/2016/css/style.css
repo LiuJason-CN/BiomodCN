@@ -68,7 +68,7 @@ a:hover {
   }
 }
 header {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 header .logo {
   margin: 0 auto;
@@ -87,9 +87,8 @@ header .logo .logo-icon {
 }
 header .logo img {
   width: 120px;
-  height: 100px;
+  height: 120px;
   border-radius: 0;
-  box-shadow: 0 0 30px #d7edff inset;
 }
 header .logo .title {
   line-height: 120px;
