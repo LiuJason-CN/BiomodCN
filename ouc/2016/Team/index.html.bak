@@ -298,16 +298,17 @@ div.desc
 </div>
 
 <h1>Team Members</h1>
+
 <div class="img">
-  <a target="_blank" href="wht.jpg">
-  <img src="wht.jpg" alt="Ballade" width="270" height="300">
+  <a target="_blank" href="whtt.jpg">
+  <img src="whtt.jpg" alt="Ballade" width="300" height="300">
   </a>
   <div class="desc">Haiting Wang</div>
 </div>
 
 <div class="img">
   <a target="_blank" href="wht.jpg">
-  <img src="wht.jpg" alt="Ballade" width="270" height="300">
+  <img src="wht.jpg" alt="Ballade" width="300" height="300">
   </a>
   <div class="desc">Haotian Wu</div>
 </div>
@@ -335,8 +336,8 @@ div.desc
 </div>
 
 <div class="img">
-  <a target="_blank" href="hwj.png">
-  <img src="hwj.png" alt="Ballade" width="270" height="300">
+  <a target="_blank" href="gl.jpg">
+  <img src="gl.jpg" alt="Ballade" width="270" height="300">
   </a>
   <div class="desc">Wenjing Huang</div>
 </div>
@@ -369,7 +370,7 @@ div.desc
 
 
 
-</h1></h1></body>
+</body>
 </html>
     </div>
 

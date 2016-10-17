@@ -217,6 +217,7 @@ div.desc
   margin:0px 0px 0px 0px;
   font-family: "Orbitron",Arial, sans-serif;
   cursor: pointer;
+  text-align:center;
   }
 </style>
 </head>
@@ -242,7 +243,7 @@ div.desc
   <a target="_blank" href="figure1.jpg">
    <img src="figure1.jpg" alt="Ballade" width="500" height="360">
      <div class="desc">
-Figure1. Mathematical biological model of DNA catenane[12] 
+   Figure1. Mathematical biological model of DNA catenane[12] 
   </div>
   </a>
 
