@@ -36,14 +36,21 @@
     
 
     <meta name="twitter:card" content="summary" />
-    
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+
+    <link rel="shortcut icon" href="my.ico">
 
     <!-- Title -->
     
-    <title>Season</title>
+   <title>Team Members</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -66,7 +73,34 @@
 
 
 </head>
-
+	<style>
+		div.img{
+		  margin:30px 60px;
+		  border:1px solid #bebebe;
+		  height:auto;
+		  width:auto;
+		  float:left;
+		  text-align:center;
+		  }
+		div.img img{
+		  display:inline;
+		  margin:3px;
+		  border:15px solid #bebebe;
+		  }
+		div.img a:hover img{
+		  border:1px solid #333333;
+		  }
+		div.desc{
+		  text-align:center;
+		  font-weight:weight;
+		  width:50px;
+		  font-size:30px;
+ 		  margin:10px 5px 10px 5px;
+                  font-family: "Orbitron", sans-serif;
+  		  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+      		  cursor: pointer;
+  		}
+	</style>
 
 <body>
 
@@ -171,54 +205,11 @@
     
         <div class="content">
             
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 
 
-<link rel="shortcut icon" href="my.ico">
-<title>Team Members</title>
-<style>
-div.img
-  {
-  margin:30px 60px;
-  border:1px solid #bebebe;
-  height:auto;
-  width:auto;
-  float:left;
-  text-align:center;
-  }
-div.img img
-  {
-  display:inline;
-  margin:3px;
-  border:15px solid #bebebe;
-  }
-div.img a:hover img
-  {
-  border:1px solid #333333;
-  }
-div.desc
-  {
-  text-align:center;
-  font-weight:weight;
-  width:50px;
-  font-size:30px;
-  margin:10px 5px 10px 5px;
-  font-family: "Orbitron", sans-serif;
-  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
-  cursor: pointer;
-  }
-</style>
-</head>
-<body>
 
 <div id="myCarousel" class="carousel slide">
-	<!-- ÂÖ²¥£¨Carousel£©Ö¸±ê -->
+	<!-- è½®æ’­ï¼ˆCarouselï¼‰æŒ‡æ ‡ -->
 	<ol class="carousel-indicators">
 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		<li data-target="#myCarousel" data-slide-to="1"></li>
@@ -226,13 +217,13 @@ div.desc
 		<li data-target="#myCarousel" data-slide-to="3"></li>
 		<li data-target="#myCarousel" data-slide-to="4"></li>
 	</ol>   
-	<!-- ÂÖ²¥£¨Carousel£©ÏîÄ¿ -->
+	<!-- è½®æ’­ï¼ˆCarouselï¼‰é¡¹ç›® -->
 	<div class="carousel-inner">
 		<div class="item active">
 			<img src="figure1.jpg" alt="First slide">
 		</div>
 
-		<div class="item active">
+		<div class="item">
 			<img src="figure2.png" alt="Second slide">
 		</div>
 
@@ -244,42 +235,23 @@ div.desc
 			<img src="figure4.png" alt="Fourth slide">
 		</div>
 
-		<div class="item active">
+		<div class="item">
 			<img src="figure5.jpg" alt="Fifth slide">
 		</div>
 	</div>
-	<!-- ÂÖ²¥£¨Carousel£©µ¼º½ -->
+	<!-- è½®æ’­ï¼ˆCarouselï¼‰å¯¼èˆª -->
 	<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 	<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-	<!-- ¿ØÖÆ°´Å¥ -->
+	<!-- æŽ§åˆ¶æŒ‰é’® -->
 	<div style="text-align:center;">
-		<input type="button" class="btn slide-one" value="1">
-		<input type="button" class="btn slide-two" value="2">            
-		<input type="button" class="btn slide-three" value="3">
-		<input type="button" class="btn slide-four" value="4">
-		<input type="button" class="btn slide-five" value="5">
+		<input type="button" id="btt1" class="btn slide-one" value="1" onclick="modify(1)">
+		<input type="button" class="btn slide-two" value="2" onclick="modify(2)">            
+		<input type="button" class="btn slide-three" value="3" onclick="modify(3)">
+		<input type="button" class="btn slide-four" value="4" onclick="modify(4)">
+		<input type="button" class="btn slide-five" value="5" onclick="modify(5)">
 	</div>
 </div> 
-<script>
-	$(function(){
-		// Ñ­»·ÂÖ²¥µ½Ä³¸öÌØ¶¨µÄÖ¡ 
-		$(".slide-one").click(function(){
-			$("#myCarousel").carousel(0);
-		});
-		$(".slide-two").click(function(){
-			$("#myCarousel").carousel(1);
-		});
-		$(".slide-three").click(function(){
-			$("#myCarousel").carousel(2);
-		});
-				$(".slide-four").click(function(){
-			$("#myCarousel").carousel(3);
-		});
-				$(".slide-five").click(function(){
-			$("#myCarousel").carousel(4);
-		});
-	});
-</script>  
+
 	
 
 <h1>Abstract</h1>
@@ -296,8 +268,6 @@ div.desc
 </video>
 
 
-</body>
-</html>
         </div>
     
 
@@ -438,8 +408,11 @@ div.desc
 
 <!-- After footer scripts -->
 
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    function modify(index){
+        $("#myCarousel").carousel(index);
+    }
+</script>  
 
 <!-- Tween Max -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
