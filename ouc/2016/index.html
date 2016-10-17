@@ -243,7 +243,7 @@
 	<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 	<!-- 控制按钮 -->
 	<div style="text-align:center;">
-		<input type="button" class="btn slide-one" value="1">
+		<input type="button" id="btt1" class="btn slide-one" value="1">
 		<input type="button" class="btn slide-two" value="2">            
 		<input type="button" class="btn slide-three" value="3">
 		<input type="button" class="btn slide-four" value="4">
@@ -412,12 +412,13 @@
 
 	$(function(){
 		// 循环轮播到某个特定的帧 
-			alert(1);
+			
 		$(".slide-one").click(function(){
+			alert(1);
 			$("#myCarousel").carousel(0);
 		});
-		$(".slide-two").click(function(){
-			$("#myCarousel").carousel(1);
+		$("#btt1").click(function(){
+			alert(2);
 		});
 		$(".slide-three").click(function(){
 			$("#myCarousel").carousel(2);
