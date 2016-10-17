@@ -10,7 +10,11 @@
 
     <!--Description-->
     
-        <meta name="description" content="div.img
+        <meta name="description" content="#div{
+	width:400px;
+	height:300px;
+}
+div.img
   {
   margin:20px 20px;
   height:auto;
@@ -18,11 +22,7 @@
   float:left;
   text-align:center;
   }
-  div.img img
-  {
-  display:inline;
-  margin:0px;
-">
+  div.img img">
     
 
     <!--Author-->
@@ -73,7 +73,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/2016/css/style.css">
 
     <!-- Google Analytics -->
     
@@ -94,49 +94,49 @@
         <ul>
             
             <li class="menu-item">
-                <a href="../">
+                <a href="/2016/">
                     Home
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Background">
+                <a href="/2016/Background">
                     Background&amp;Motivation
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Design">
+                <a href="/2016/Design">
                     Design
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Simulation">
+                <a href="/2016/Simulation">
                     Simulation
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Material">
+                <a href="/2016/Material">
                     Materials&amp;Methods
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Results">
+                <a href="/2016/Results">
                     Results&amp;Discussion
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Future">
-                    Future
+                <a href="/2016/Future">
+                    Perspective
                 </a>
             </li>
             
             <li class="menu-item">
-                <a href="../Team">
+                <a href="/2016/Team">
                     Team
                 </a>
             </li>
@@ -159,7 +159,7 @@
         <!--Title and Logo-->
         <header>
     <div class="logo">
-        <a href="../"><img src="logo.png"></a>
+        <a href="/2016/"><img src="logo.png"></a>
         
     </div>
 </header>
@@ -170,7 +170,7 @@
 
     <div class="post-header">
         <h1 class="title">
-            <a href="../Design/index.html">
+            <a href="/2016/Design/index.html">
                 DESIGN
             </a>
         </h1>
@@ -193,6 +193,10 @@
 
 
 <style>
+#div{
+	width:400px;
+	height:300px;
+}
 div.img
   {
   margin:20px 20px;
@@ -254,13 +258,13 @@ div.img desc
 
 <p>In this part, our goal is to form Z-DNA. The DNA we designed has two complementary mini circles and contains the Z-DNA formation regions with APP (alternative purine-pymidine) sequence(d(TGCG)n) In addition, we also add two restriction enzyme cleavage sites into the dsDNA circle (Fig. 1). The APP sequence is believed to be capable of forming Z-DNA. The restriction enzyme cleavage sites are to verify whether the dsDNA circles we got contain the Z-forming structure. One of the restriction enzyme cleavage sites are in the Z-forming sequence and the other is in the B-forming sequence. So when we use the related enzyme to cleavage these sites, the sites in the Z-forming sequence won’t be cleavage, for it has formed the Z-forming structure, instead, the sites in the B-forming sequence will be cleaved. </p>
 <br><br>
+
 <div class="img">
   <a target="_blank" href="figure2.jpg" class="img">
   <img src="figure2.jpg" alt="Ballade" width="400" height="360">
 	<div class="desc"> Figure 2. Single sequences form the dsDNA circle by the help of DNA splint.</div>
   </a>
   </div>
-	<div style="clear:both"></div>
 <br><br>
 
 <p>In addition to the two complementary ssDNA, we also need to design two DNA splints, which is used for preparation of ssDNA circles (Fig. 2). In the design process of DNA sequence, the software we used is Primer Premier, which is used to detect the mismatch of the DNA sequence. Then we adjusted the sequence according to the results of the software to minimize the number of mismatch, which can improve the yield of the experiment. The ratio of Z-forming sequence to B-forming sequence is about 12: 10.5. Because the B-DNA double helix has 10.5bp per complete turn and Z-DNA double helix has 12bp per complete turn. We have designed five kinds of DNA sequence (42bp, 53bp, 63bp, 74bp, 84bp) (Table.1). These sequences have two necessary things in common. Firstly, the percent of GC (GC%) is less than 50%; Because high GC% will make it difficult to unscrew the double helix. Secondly, the Tm of splint should be more than 25℃ to make it combine to the DNA linear more firmly.</p>
@@ -277,75 +281,78 @@ div.img desc
 </tr>
 <tr>
 <td align="center" rowspan="2" valign="middle" width="100">42 bp</td>
-<td align="center" valign="middle" width="284">A linear</td>
-<td valign="top" width="284">5’-AACCGTGCGTGCGTGCGGATCAACTAATACGACTCATCATAA-3’  </td>
+<td align="center" valign="middle" width="284" style="word-break:break-all">linear &alpha;</td>
+<td valign="top" width="284">5’AACCG<u><font color="red">TGCGTGC</font>GTGCG</u>GATCAACTAATAC<font color="red">GACTC</font>ATCATAA-3’
+</td>
 <td valign="top" width="284">5’-CACGGTTTTATGAT-3’</td>
 </tr>
 <tr>
-<td align="center" valign="middle" width="284">B linear</td>
-<td valign="top" width="284">5’-TTATGATGAGTCGTATTAGTTGATCCGCACGCACGCACGGTT-3’</td>
+<td align="center" valign="middle" width="284">linear &beta;</td>
+<td valign="top" width="284" style="word-break:break-all">5’-TTATGAT<font color="red">GAGTC</font>GTATTAGTTGATC<u>C<font color="red">GCACGC</font>ACGCA</u>CGGTT-3’
+</td>
 <td valign="top" width="284">5’-ATCATAAAACCGTG-3’</td>
 </tr>
 <tr>
-<td align="center" rowspan="2" valign="middle" width="100">53 bp</td>
-<td align="center" valign="middle" width="284">A linear</td>
-<td valign="top" width="284">5’-ACGGTACGGGATATAATACGACTCACTATATGCGTGCGTG
-CGATTCCACCAGA-3’</td>
+<td align="center" rowspan="2" valign="middle" width="100" style="word-break:break-all">53 bp</td>
+<td align="center" valign="middle" width="284">linear &alpha;</td>
+<td valign="top" width="284" style="word-break:break-all">5’-ACGGTACGGGATATAATAC<font color="red">GACTC</font>ACTATA<u>T<font color="red">GCGTGC</font>GTGCG</u>ATTCCACCAGA-3’
+</td>
 <td valign="top" width="284">5’-TACCGTTCTGGT-3’</td>
 </tr>
 <tr>
-<td align="center" valign="middle" width="284">B linear</td>
-<td valign="top" width="284">5’-TCTGGTGGAATCGCACGCACGCATATAGTGAGTCGTATTAT
-ATCCCGTACCGT-3’</td>
+<td align="center" valign="middle" width="284" style="word-break:break-all">linear &beta;</td>
+<td valign="top" width="284" style="word-break:break-all">5’-TCTGGTGGAAT<u>C<font color="red">GCACGC</font>ACGCA</u>TATAGT<font color="red">GAGTC</font>GTATTATATCCCGTACCGT-3’</td>
 <td valign="top" width="284">5’-ACCAGAACGGTA-3’</td>
 </tr>
 <tr>
 <td align="center" rowspan="2" valign="middle" width="100">63 bp</td>
-<td align="center" valign="middle" width="284">A linear</td>
-<td valign="top" width="284">5’-ATGTAATCTAACTGTGCGTGCGTGGACTAATACGACTCACTATA
-AACGGACCAACTATTGAAA-3’
+<td align="center" valign="middle" width="284" style="word-break:break-all">linear &alpha;</td>
+<td valign="top" width="284" style="word-break:break-all">5’-ATGTAATCTAAC<u>TGT<font color="red">GCGTGC</font>GTG</u>GACTAATA
+C<font color="red">GACTC</font>ACTATAAACGGACCAACTATTGAAA-3’
 </td>
 <td valign="top" width="284">5’-GATTACATTTTCAATA-3’
 </td>
 </tr>
 <tr>
-<td align="center" valign="middle" width="284">B linear</td>
-<td valign="top" width="284">5’-TTTCAATAGTTGGTCCGTTTATAGTGAGTCGTATTAGTCCACGC
-ACGCACAGTTAGATTACAT-3’
+<td align="center" valign="middle" width="284">linear &beta;</td>
+<td valign="top" width="284" style="word-break:break-all">5’-TTTCAATAGTTGGTCCGTTTATAGT<font color="red">GAGTC</font>GTATTAGTC<u>CAC<font color="red">GC
+ACGC</font>ACA</u>GTTAGATTACAT -3’
 </td>
 <td valign="top" width="284">5’-TATTGAAAATGTAATC-3’
 </td>
 </tr>
 <tr>
 <td align="center" rowspan="2" valign="middle" width="100">74 bp</td>
-<td align="center" valign="middle" width="284">A linear</td>
-<td valign="top" width="284" style="word-break:break-all">5'-CACCTCGCTTTCAACTTACAATGCGTGCGTGCGGTCTAATACGACT
-CACTATAAATCGAACATCAGCAAACGGA-3’
+<td align="center" valign="middle" width="284" style="word-break:break-all">linear &alpha;</td>
+<td valign="top" width="284" style="word-break:break-all">5’-CACCTCGCTTTCAACTTACAA
+<u>T<font color="red">GCGTGC</font>GTGCG</u>GTCTAATAC<font color="red">GACT
+C</font>ACTATAAATCGAACATCAGCAAACGGA-3’
 </td>
 <td valign="top" width="284">5’-GAGGTGTCCGTT-3’
 </td>
 </tr>
 <tr>
-<td align="center" valign="middle" width="284" style="word-break:break-all">B linear</td>
-<td valign="top" width="284">5’-TCCGTTTGCTGATGTTCGATTTATAGTGAGTCGTATTAGACCGC
-ACGCACGCATTGTAAGTTGAAAGCGAGGTG-3’
+<td align="center" valign="middle" width="284" style="word-break:break-all">linear &beta;</td>
+<td valign="top" width="284">5’-TCCGTTTGCTGATGTTCGATTTATAGT<font color="red">GAGTC</font>GTATTA
+GAC<u>C<font color="red">GCACGC</font>ACGCA</u>TTGTAAGTTGAAAGCGAGGTG-3’
 </td>
 <td valign="top" width="284">5’-AACGGACACCTC-3’
 </td>
 </tr>
 <tr>
 <td align="center" rowspan="2" valign="middle" width="100">84 bp</td>
-<td align="center" valign="middle" width="284">A linear</td>
-<td valign="top" width="284" style="word-break:break-all">5'-CCTACCACCTCGCTTTCAACTTACAATGCGTGCGTGCGGTCTAA
-TACGACTCACTATAAATCGAACATCAGCAAACGGACAGAG-3’
+<td align="center" valign="middle" width="284">linear &alpha;</td>
+<td valign="top" width="284" style="word-break:break-all">5’-CCTACCACCTCGCTTTCAACTTACAA<u>T<font color="red">GCGTGC</font>GTGCG</u>GTCTAA
+TAC<font color="red">GACTC</font>ACTATAAATCGAACATCAGCAAACGGACAGAG-3’
 </td>
 <td valign="top" width="284">5'-GGTAGGCTCTGT-3’
 </td>
 </tr>
 <tr>
-<td align="center" valign="middle" width="284">B linear</td>
-<td valign="top" width="284" style="word-break:break-all">5'-CTCTGTCCGTTTGCTGATGTTCGATTTATAGTGAGTCGTATTAGACCG
-CACGCACGCATTGTAAGTTGAAAGCGAGGTGGTAGG-3’
+<td align="center" valign="middle" width="284">linear &beta;</td>
+<td valign="top" width="284" style="word-break:break-all">5’-CTCTGTCCGTTTGCTGATGTTCGATTTATA
+GT<font color="red">GAGTC</font>GTATTAGAC<u>C<font color="red">GCACGC</font>ACGCA</u>
+TTGTAAGTTGAAAGCGAGGTGGTAGG-3’
 </td>
 <td valign="top" width="284">5’-ACAGAGCCTACC-3’
 </td>
@@ -390,7 +397,7 @@ CACGCACGCATTGTAAGTTGAAAGCGAGGTGGTAGG-3’
 
 <tr>
 <td align="center" rowspan="2" valign="middle" width="100">92 bp</td>
-<td align="center" valign="middle" width="284">A linear</td>
+<td align="center" valign="middle" width="284">linear &alpha;</td>
 <td valign="top" width="284"><font color="yellow">A</font><font color="red">GCAGATATAATACGACTCACTATAGGG</font>AAGC
 AGGATTGAACA<font color="yellow">A</font>GATTGATG<font color="blue">TGTGTACGTG</font>A
 TGGAGTAGGTCAAA<font color="blue">5’- TCTGCTGTACAC-3’</font>-3’
@@ -398,7 +405,7 @@ TGGAGTAGGTCAAA<font color="blue">5’- TCTGCTGTACAC-3’</font>-3’
 <td valign="top" width="284">5’-CACGGTTTTATGAT-3’</td>
 </tr>
 <tr>
-<td align="center" valign="middle" width="284">B linear</td>
+<td align="center" valign="middle" width="284">linear &beta;</td>
 <td valign="top" width="284">5’-<font color="blue">TTATGATGAGTCGTATTAG</font>TTTGACCTACTCCAT<font color="blue">CACG
 TACACA</font>CATCAATCT<font color="yellow">T</font>GTTCAATCCTGCTT<font color="red">CCCTATAGTGAG
 TCGTATTATATCTGC</font><font color="yellow">T</font>-3’
@@ -420,7 +427,7 @@ TCGTATTATATCTGC</font><font color="yellow">T</font>-3’
 	</div>
   </a>
   </div>
-	<div style="clear:both"></div>
+
 <br><br>
 
 
@@ -438,7 +445,7 @@ TCGTATTATATCTGC</font><font color="yellow">T</font>-3’
 <tr>
 <td align="center" rowspan="6" valign="middle" width="100">65 bp</td>
 
-<td align="center" valign="middle" width="284">A linear</td>
+<td align="center" valign="middle" width="284">linear &alpha;</td>
 <td valign="top" width="284"><font color="yellow">5’-<font color="blue">U</font>C<font color="red">UGGACCGGUCGAUGUAUGUC
 UUG</font><font color="green">CACACGUGUA</font>C<font color="blue">UCUU</font><font color="red">AAGC
 AACAGUUACUGCGACGUGA</font><font color="blue">AA</font>-3’
@@ -448,7 +455,7 @@ AACAGUUACUGCGACGUGA</font><font color="blue">AA</font>-3’
 </tr>
 
 <tr>
-<td align="center" valign="middle" width="284">B linear</td>
+<td align="center" valign="middle" width="284">linear &beta;</td>
 <td valign="top" width="284">
 5’- <font color="blue">UU</font><font color="red">UCACGUCGCAGUAACUGUUGC
 UU</font><font color="blue">AAGA</font>C<font color="green">UACACGUGUG</font><font color="red">CA
@@ -659,7 +666,7 @@ AGACAUACAUCGACCGGUCCA</font>C<font color="blue">A</font> -3’
 <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- Custom JavaScript -->
-<script src="../js/main.js"></script>
+<script src="/2016/js/main.js"></script>
 
 <!-- Disqus Comments -->
 
