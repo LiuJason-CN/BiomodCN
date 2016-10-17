@@ -54,8 +54,7 @@ div.img ">
     <!-- Title -->
     
     <title>Season</title>
-	<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="js/jquery.min.js"></script>
+
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 
@@ -314,7 +313,7 @@ div.desc
 </div>
 
 <div class="img">
-  <a target="_blank" href="hxd.png">
+  <a target="_blank" href="hxd.jpg">
   <img src="hxd.jpg" alt="Ballade" width="270" height="300">
   </a>
   <div class="desc">Xudong Hu</div>
@@ -519,7 +518,7 @@ div.desc
 <!-- After footer scripts -->
 
 <!-- jQuery -->
-
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 
 <!-- Tween Max -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
