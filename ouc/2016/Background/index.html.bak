@@ -128,7 +128,7 @@ div.img
             
             <li class="menu-item">
                 <a href="../Future">
-                    Future
+                    Perspective
                 </a>
             </li>
             
@@ -223,37 +223,32 @@ div.desc
 <body>
 <h1>1.	What is Z-DNA?</h1>
 <p>Z-DNA is one of the many possible double helical structures of DNA. It is a left-handed double helical structure in which the double helix winds to the left in a zig-zag pattern (instead of to the right, like the more common B-DNA form). Z-DNA is thought to be one of three biologically active double helical structures along with A- and B-DNA.</p>
-<h3>Structure</h3>
+<h2>Structure</h2>
 <p>Z-DNA is quite different from the right-handed forms. In fact, Z-DNA is often compared against B-DNA in order to illustrate the major differences. The Z-DNA helix is left-handed and has a structure that repeats every 2 base pairs. The major and minor grooves, unlike A- and B-DNA, show little difference in width. Formation of this structure is generally unfavourable, although certain conditions can promote it; such as alternating purine-pyrimidine sequence (especially poly(dGC)2), negative DNA supercoiling or high salt and some cations (all at physiological temperature, 37 °C, and pH 7.3-7.4). Z-DNA can form a junction with B-DNA (called a "B-to-Z junction box") in a structure which involves the extrusion of a base pair.[1] The Z-DNA conformation has been difficult to study because it does not exist as a stable feature of the double helix. Instead, it is a transient structure that is occasionally induced by biological activity and then quickly disappears.[2]</p>
-<h3>Predicting Z-DNA structure</h3>
+<h2>Predicting Z-DNA structure</h2>
 <p>It is possible to predict the likelihood of a DNA sequence forming a Z-DNA structure. An algorithm for predicting the propensity of DNA to flip from the B-form to the Z-form, ZHunt, was written by Dr. P. Shing Ho in 1984 (at MIT).[3]This algorithm was later developed by Tracy Camp, P. Christoph Champ, Sandor Maurice, and Jeffrey M. Vargason for genome-wide mapping of Z-DNA (with P. Shing Ho as the principal investigator).[4]</p>
 <h1>2.	Biological significance of Z-DNA</h1>
-<p>Though Z-DNA was firstly discovered in vitro, recently many evidences revealed that Z-DNA was existed and may possessed diversity of function in vivo including gene expression and regulation, chromosomal breaks, recombination, antivirus defense and virus generations and so on.
-Z-DNA is commonly believed to provide torsional strain relief (supercoiling) while DNA transcription occurs.[5] The potential to form a Z-DNA structure also correlates with regions of active transcription. A comparison of regions with a high sequence-dependent, predicted propensity to form Z-DNA in human chromosome 22 with a selected set of known gene transcription sites suggests there is a correlation.[6]
+<p>Though Z-DNA was firstly discovered in vitro, recently many evidences revealed that Z-DNA was existed and may possessed diversity of function in vivo including gene expression and regulation, chromosomal breaks, recombination, antivirus defense and virus generations and so on.</p>
+<p>Z-DNA is commonly believed to provide torsional strain relief (supercoiling) while DNA transcription occurs.[5] The potential to form a Z-DNA structure also correlates with regions of active transcription. A comparison of regions with a high sequence-dependent, predicted propensity to form Z-DNA in human chromosome 22 with a selected set of known gene transcription sites suggests there is a correlation.[6]
 </p>
-<h3>ADAR</h3>
-<p>Double-stranded RNA-specific adenosine deaminase is an enzyme that in humans is encoded by the ADAR gene (which stands for adenosine deaminase acting on RNA).[7] Adenosine deaminases acting on RNA (ADAR) are enzymes responsible for binding to double stranded RNA (dsRNA) and converting adenosine (A) to inosine (I) by deamination.[8] ADAR protein is a RNA-binding protein, which functions in RNA-editing through post-transcriptional modification of mRNA transcripts by changing the nucleotide content of the RNA.[9] 
-In mammals, there are three types of ADARs, 1, 2 and 3.[10] ADAR1 and ADAR2 are found in many tissues in the body while ADAR3 is only found in the brain. 
-ADAR play an important role in many diseases. For instance, Research has shown that ADAR1 can be both beneficial and a hindrance in a cells ability to fight off HIV infection. Expression levels of the ADAR1 protein have shown to be elevated during HIV infection and it has been suggested that it is responsible for A to G mutations in the HIV genome, inhibiting replication.[11] The authors of this study also suggest that mutation of the HIV genome by ADAR1 might in some cases lead to beneficial viral mutations which could contribute to drug resistance.
-</p>
-
 <h1>3.	Motivation</h1>
-<h3>DNA catenane</h3>
+<h2>DNA catenane</h2>
 <p>Catenane is a mechanically-interlocked molecular architecture consisting of two or more interlocked macro-cycles. The unique mechanic bonds provide catenanes with special traits when it comes to explore their properties. The approaches of synthesizing them also yield new ideas to chemists.
-DNA has been commonly known as the molecule unit to assemble catenanes, called DNA catenanes, since decades ago. It was first learned as a common cellular feature.1 It is well-known that catenanes are the intermediates in the terminal stage of replication of circular DNA2, such as plasmid. Perhaps the most striking example of catenation is found in kinetoplasts where DNA is a network of thousands of linked rings. 3 DNA catenanes in nature were of large molecular weight and complex topological structure, which endowed controllable and valuable functions in biological activities.
-With the rapid development of DNA nanotechnology, artificial fabrication of DNA catenanes has attracted more and more attention in this field. Compared with natural DNA catenanes, artificial DNA catenanes are smaller and topologically simpler. Generally single-stranded (ss) DNA, whose length is always less than 150 nt, was used to fabricate the nanostructures. Using elaborate design, people could make two or three ring catenanes with ssDNA which are controllable to participate in various activities on nano-scale, such as molecular motors. Examples like catenane rotary motor with controlled directionality 4 and oscillator controlled by pH 5 have been reported in the past few years. Meanwhile, studies on the topological state of artificial DNA catenanes e.g. secondary structure 6 also provide new insight into DNA basic research.
 </p>
+<p>DNA has been commonly known as the molecule unit to assemble catenanes, called DNA catenanes, since decades ago. It was first learned as a common cellular feature.1 It is well-known that catenanes are the intermediates in the terminal stage of replication of circular DNA2, such as plasmid. Perhaps the most striking example of catenation is found in kinetoplasts where DNA is a network of thousands of linked rings. 3 DNA catenanes in nature were of large molecular weight and complex topological structure, which endowed controllable and valuable functions in biological activities.</p>
+<p>With the rapid development of DNA nanotechnology, artificial fabrication of DNA catenanes has attracted more and more attention in this field. Compared with natural DNA catenanes, artificial DNA catenanes are smaller and topologically simpler. Generally single-stranded (ss) DNA, whose length is always less than 150 nt, was used to fabricate the nanostructures. Using elaborate design, people could make two or three ring catenanes with ssDNA which are controllable to participate in various activities on nano-scale, such as molecular motors. Examples like catenane rotary motor with controlled directionality 4 and oscillator controlled by pH 5 have been reported in the past few years. Meanwhile, studies on the topological state of artificial DNA catenanes e.g. secondary structure 6 also provide new insight into DNA basic research.</p>
 
 <div class="img">
   <a target="_blank" href="figure1.jpg">
    <img src="figure1.jpg" alt="Ballade" width="500" height="360">
-  </a>
-  <div class="desc">
+     <div class="desc">
 Figure1. Mathematical biological model of DNA catenane[12] 
   </div>
+  </a>
+
 </div>
 
-<h3>DNA Topology</h3>
+<h2>DNA Topology</h2>
 <p>A typical DNA molecule consists of two complementary polynucleotide chains that are multiply interwound, forming a double helix. Topological aspects of DNA structure arise primarily from the fact that the two DNA strands are repeatedly intertwined. 
 The fundamental topological parameter of a covalently closed circular DNA is called the linking number (Lk).Assume that one DNA strand is the edge of an imaginary surface and count the number of times that the other DNA strand crosses this surface. The algebraic sum of all intersections is the Lk.[13]
 Associated with linking number, we were curious what will happen if we mix two complementary mini circles because of the topological constraint should prohibit them to form only B-form conformation. 
@@ -277,13 +272,8 @@ Our team had done DNA catenanes which successfully gained the DNA Triad(three-ri
 <li>Jump up to:a b Champ PC, Maurice S, Vargason JM, Camp T, Ho PS (2004). "Distributions of Z-DNA and nuclear factor I in human chromosome 22: a model for coupled transcriptional regulation".Nucleic Acids Res. 32 (22): 6501–6510. doi:10.1093/nar/gkh988. PMC 545456 .PMID 1559882</li>  
 <li>Ha SC, Lowenhaupt K, Rich A, Kim YG, Kim KK (2005). "Crystal structure of a junction between B-DNA and Z-DNA reveals two extruded bases". Nature. 437 (7062): 1183–1186. Bibcode:2005Natur.437.1183H.doi:10.1038/nature04088. PMID 16237447</li>  
 <li>Champ PC, Maurice S, Vargason JM, Camp T, Ho PS (2004)."Distributions of Z-DNA and nuclear factor I in human chromosome 22: a model for coupled transcriptional regulation". Nucleic Acids Res. 32(22): 6501–6510. doi:10.1093/nar/gkh988. PMC 545456 .PMID 15598822</li>  
-<li>Kim U, Wang Y, Sanford T, Zeng Y, Nishikura K (November 1994)."Molecular cloning of cDNA for double-stranded RNA adenosine deaminase, a candidate enzyme for nuclear RNA editing". Proceedings of the National Academy of Sciences of the United States of America. 91 (24): 11457–61.doi:10.1073/pnas.91.24.11457. PMC 45250 . PMID 7972084.</li>  
-<li>Samuel CE (2012). Adenosine deaminases acting on RNA (ADARs) and A-to-I editing. Heidelberg: Springer. ISBN 978-3-642-22800-1.</li>  
-<li>"ADAR". NBCI. U.S. National Library of Medicine.</li>  
-<li>Savva YA, Rieder LE, Reenan RA (2012). "The ADAR protein family". Genome Biology. 13 (12): 252. doi:10.1186/gb-2012-13-12-252.PMC 3580408 . PMID 23273215.</li>  
-<li>Weiden MD, Hoshino S, Levy DN, Li Y, Kumar R, Burke SA, Dawson R, Hioe CE, Borkowsky W, Rom WN, Hoshino Y (2014). "Adenosine deaminase acting on RNA-1 (ADAR1) inhibits HIV-1 replication in human alveolar macrophages".PloS One. 9 (10): e108476. doi:10.1371/journal.pone.0108476.PMC 4182706 . PMID 25272020.</li>  
-<li>Jayaram M. Mathematical validation of a biological model for unlinking replication catenanes by recombination[J]. Proceedings of the National Academy of Sciences, 2013, 110(52): 20854-20855.</li>  
-<li>Mirkin, Sergei M. "DNA topology: fundamentals." eLS (2001).</li>  
+<li>7.	Jayaram M. Mathematical validation of a biological model for unlinking replication catenanes by recombination[J]. Proceedings of the National Academy of Sciences, 2013, 110(52): 20854-20855.</li>  
+<li>8.	Mirkin, Sergei M. "DNA topology: fundamentals." eLS (2001).</li>  
 </ol>
 
 </body>
