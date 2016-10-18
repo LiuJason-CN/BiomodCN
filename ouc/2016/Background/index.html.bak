@@ -190,7 +190,6 @@ div.img
 <link rel="shortcut icon" href="my.ico">
 <title>Team Members</title>
 <style>
-li { font-size:18px;margin-top:10px; }
 a.img
   {
   margin:40px 60px;
