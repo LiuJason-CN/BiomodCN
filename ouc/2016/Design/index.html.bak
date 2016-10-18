@@ -54,7 +54,7 @@ div.img
 
     <!-- Title -->
     
-    <title>Design</title>
+    <title>Season</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -554,7 +554,7 @@ AGACAUACAUCGACCGGUCCA</font>C<font color="blue">A</font> -3’
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
                 <h2>Contact Us</h2>
                 <p>
-                    This project was developed by Season 2016.If you have any questions,feel free to email OUCBIOMOD@163.com.
+                    This project was developed by Season 2016.If you have any questions,feel free to email <a href="mailto:OUCBIOMOD@163.com">OUCBIOMOD@163.com</a>.
                 </p>
             </div>
             

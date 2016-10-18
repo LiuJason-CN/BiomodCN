@@ -188,7 +188,7 @@ div.img
 <html>
 <head>
 <link rel="shortcut icon" href="my.ico">
-<title>Team Members</title>
+<title>Background</title>
 <style>
 }
 div.img
@@ -314,7 +314,8 @@ Our team had done DNA catenanes which successfully gained the DNA Triad(three-ri
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
                 <h2>Contact Us</h2>
                 <p>
-                    This project was developed by Season 2016.If you have any questions,feel free to email OUCBIOMOD@163.com.
+            This project was developed by Season 2016.If you have any questions,feel free to email 
+			<a href="mailto:OUCBIOMOD@163.com">OUCBIOMOD@163.com</a>.
                 </p>
             </div>
             

@@ -198,6 +198,7 @@ div.img
 <br><br>
 
 <h1>The Z-B chimera</h1>
+
 <iframe width="800" height="500" src="https://www.youtube.com/embed/6Jh2n5ki0KE" frameborder="0" allowfullscreen></iframe>
 
 
@@ -234,8 +235,7 @@ div.img
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
                 <h2>Contact Us</h2>
                 <p>
-                    This project was developed by Season 2016.If you have any questions,feel free to email OUCBIOMOD@163.com.
-                </p>
+                    This project was developed by Season 2016.If you have any questions,feel free to email <a href="mailto:OUCBIOMOD@163.com">OUCBIOMOD@163.com</a>.                </p>
             </div>
             
     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">

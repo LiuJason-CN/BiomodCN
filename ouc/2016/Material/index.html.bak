@@ -579,7 +579,7 @@ div.desc
 <h3>4.	AFM:</h3>
 <p> (AFM) measurements were performed at room temperature using a multimode scanning probe microscope with a Nanoscope 3A controller (Digital Instruments/Veeco Probes/USA). AFM images were recorded on freshly cleaved mica surfaces, prepared by the deposition of a 10 μL sample of the respective DNA nanostructures. The simples were dried in the air. Images were taken with MPP-11100-70 tips (Veeco) using the tapping mode at their resonant frequency.</p>
 
-<h3>5.	CD analysis<>
+<h3>5.	CD analysis</h3>
 <p>Circular dichroism (CD) is a phenomenon originating from interactions of chiral molecules with circularly polarized electromagnetic rays. Absorption of right- and left-handed circularly polarized light by chiral molecules differs and the difference is called CD. CD spectroscopy is primarily used empirically inn studies of DNA, the concentration of DNA should be 20μg/ml at least or the amounts of DNA should be 25μg at least.<sup>[1]</sup> </p>
 
 <h2>The transcription of Z-B chimera</h2>
@@ -649,8 +649,7 @@ div.desc
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
                 <h2>Contact Us</h2>
                 <p>
-                    This project was developed by Season 2016.If you have any questions,feel free to email OUCBIOMOD@163.com.
-                </p>
+                    This project was developed by Season 2016.If you have any questions,feel free to email <a href="mailto:OUCBIOMOD@163.com">OUCBIOMOD@163.com</a>.                </p>
             </div>
             
     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">
@@ -685,24 +684,7 @@ div.desc
                         </a>
                     </li>
                     
-                    
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-instagram"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a href="http://qzone.qq.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-qq"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
+                 
                     
                     <li class="list-inline-item">
                         <a href="https://plus.google.com/">

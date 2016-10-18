@@ -263,7 +263,7 @@ div.desc
 
 <div class="img">
   <a target="_blank" href="lls.jpg">
-  <img src="liang.jpg" alt="Ballade" width="400" height="500">
+  <img src="liang.jpg" alt="Ballade" width="700" height="400">
   </a>
   <div class="desc"> Prof. Liang</div>
 </div>
