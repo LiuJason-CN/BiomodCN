@@ -197,7 +197,7 @@ div.img
   margin:40px 60px;
   height:auto;
   width:auto;
-  float:left;
+  float:middle;
   text-align:center;
   }
   div.img img
