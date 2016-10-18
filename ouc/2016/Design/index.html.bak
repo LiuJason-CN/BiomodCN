@@ -196,6 +196,7 @@ div.img
 #div{
 	width:400px;
 	height:300px;
+	float:middle;
 }
 div.img
   {
@@ -244,12 +245,12 @@ div.img desc
 
 <br><br>
 
-<div class="img" width="800px">
+<div class="img" width="1200px">
   <a target="_blank" href="figure0.jpg" class="img">
   <img src="figure0.jpg" alt="Ballade" width="500" height="360">
-	<div class="desc">
+	<span class="desc" style="font-size:14px;">
    Figure 1. How to get the circular DNA. All the sequences are designed for the formation of the circular DNA
-	</div>
+	</span>
   </a>
   </div>
 	<div style="clear:both"></div>
