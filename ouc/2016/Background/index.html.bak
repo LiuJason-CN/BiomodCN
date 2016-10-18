@@ -110,7 +110,7 @@ div.img
             
             <li class="menu-item">
                 <a href="../Simulation">
-                    Simulation
+                    Simulation&Tools
                 </a>
             </li>
             
@@ -219,7 +219,6 @@ div.img desc
   font-family: "Orbitron", sans-serif;
   cursor: pointer;
   text-align:center;
-  vertical-align:left;
   }
 </style>
 </head>
@@ -244,15 +243,14 @@ div.img desc
 
 
 <br><br>
-
+<div class="img">
   <a target="_blank" href="figure1.jpg" class="img">
-  <img src="figure1.jpg" alt="Ballade" width="400" height="360">
-	  <div class="desc">
-
-	</div>
+  <img src="figure1.jpg" alt="Ballade" width="400" height="360">	
   </a>
-
-
+  <div class="desc">
+	   Figure1. Mathematical biological model of DNA catenane.<sup>[7]</sup> 
+	</div>
+  </div>
  <div style="clear:both"></div>
 
 <h2>DNA Topology</h2>

@@ -6,7 +6,7 @@ body {
 }
 @media (max-width: 33.9em) {
   body {
-    font-size: 0.7em;
+    font-size: 20px;
   }
 }
 .bg-gradient {
@@ -68,7 +68,7 @@ a:hover {
   }
 }
 header {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 header .logo {
   margin: 0 auto;
@@ -102,6 +102,7 @@ section.main {
 section.main .post {
   margin-top: 70px;
   margin-left: 40px;
+  margin-right: 55px;
 }
 @media (max-width: 33.9em) {
   section.main .post {
@@ -111,14 +112,14 @@ section.main .post {
 section.main .post .post-header {
   position: relative;
   width: 100%;
-  margin: 0 10px;
+  margin: 0 0px;
 }
 section.main .post .post-header:before {
-  position: absolute;
+  position: relative;
   padding: 5px;
   top: -10px;
   bottom: -10px;
-  left: -5px;
+  left: 0px;
   content: "  ";
   transition: left 0.3s ease;
 }
@@ -133,7 +134,7 @@ section.main .post .post-header:after {
   padding: 5px;
   top: -10px;
   bottom: -10px;
-  right: -5px;
+  right: 0px;
   transition: right 0.3s ease;
 }
 @media (max-width: 33.9em) {
@@ -270,7 +271,7 @@ section.main .post .content h3 {
 }
 section.main .post .content p {
   text-indent: 2em;
-  font-size: 22px;
+  font-size: 18px;
 }
 section.main .post .content hr {
   border-color: #d7ecff;
