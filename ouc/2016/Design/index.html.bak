@@ -200,7 +200,7 @@ div.img
 }
 div.img
   {
-  margin:7px 20px 20px 20px;
+  margin:20px 20px 20px 20px;
   height:auto;
   width:auto;
   float:middle;
@@ -278,7 +278,7 @@ div.img desc
 	<div class="desc"> Figure 3. Single sequences form the dsDNA circle by the help of DNA splint.</div>
   </a>
   </div>
-
+	<div style="clear:both"></div>
 
 <p>In addition to the two complementary ssDNA, we also need to design two DNA splints, which is used for preparation of ssDNA circles (Fig. 2). In the design process of DNA sequence, the software we used is Primer Premier, which is used to detect the mismatch of the DNA sequence. Then we adjusted the sequence according to the results of the software to minimize the number of mismatch, which can improve the yield of the experiment. The ratio of Z-forming sequence to B-forming sequence is about 12: 10.5. Because the B-DNA double helix has 10.5bp per complete turn and Z-DNA double helix has 12bp per complete turn. We have designed five kinds of DNA sequence (42bp, 53bp, 63bp, 74bp, 84bp) (Table.1). These sequences have two necessary things in common. Firstly, the percent of GC (GC%) is less than 50%; Because high GC% will make it difficult to unscrew the double helix. Secondly, the Tm of splint should be more than 25℃ to make it combine to the DNA linear more firmly.</p>
 
@@ -384,7 +384,7 @@ TTGTAAGTTGAAAGCGAGGTGGTAGG-3’
     <div class="desc">Figure 4. Z-forming sequence which contains the promoter sequence for transcription. The yellow part is the raised A/T. The blue part is the Z-forming sequence. The red part is the promoter sequence (promoter upstream sequence (PUS), T7 sequence(T7S) and promoter downstream sequence (PDS)). The black part is the random sequence.</div>
   </a>
 </div>
-
+	<div style="clear:both"></div>
 
 
  <p><a href="../Results/index.html">Our experimental results </a>show that most of our sequences can successfully form Z-forming DNA. As it is known to us all, these is a close connection between the Z-DNA and transcription [2]. Then we redesigned a 92bp DNA sequence for transcription (Table.2). So we added the T7 promoter sequence include the promoter upstream and downstream sequence to this sequence (Fig. 3). Because the shorter sequence is harder to form Z-DNA according to the previous experimental results, we designed the sequence that about half of the formed dsDNA has Z-DNA conformation and left part has B-DNA conformation, instead of all the alternating pyrimidine-purine sequence. Because too long Z-forming sequence will make it very stable and isn’t helpful for  transcription. The software we used in this design process is The mfold Web Server, which can view the secondary structure of the sequence (Fig. 4A). We can change the order of base according to the secondary structure to reduce the stability of the secondary structure.</p>
@@ -441,7 +441,7 @@ TCGTATTATATCTGC</font><font color="yellow">T</font>-3’
   </a>
  </div>
 
-
+	<div style="clear:both"></div>
 
 
 
