@@ -269,6 +269,12 @@ section.main .post .content h3 {
   margin: 50px 0 15px 0;
   text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #228dff;
 }
+section.main .post .content h4{
+  font-size: 25px;
+}
+section.main .post .content h5{
+  font-size: 22px;
+}
 section.main .post .content p {
   text-indent: 2em;
   font-size: 18px;
