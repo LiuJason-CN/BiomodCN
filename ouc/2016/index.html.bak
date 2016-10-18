@@ -243,21 +243,24 @@
 	<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 	<!-- 控制按钮 -->
 	<div style="text-align:center;">
-		<input type="button" id="btt1" class="btn slide-one" value="1" onclick="modify(1)">
-		<input type="button" class="btn slide-two" value="2" onclick="modify(2)">            
-		<input type="button" class="btn slide-three" value="3" onclick="modify(3)">
-		<input type="button" class="btn slide-four" value="4" onclick="modify(4)">
-		<input type="button" class="btn slide-five" value="5" onclick="modify(5)">
+		<input type="button" id="btt1" class="btn slide-one" value="1" onclick="modify(0)">
+		<input type="button" class="btn slide-two" value="2" onclick="modify(1)">            
+		<input type="button" class="btn slide-three" value="3" onclick="modify(2)">
+		<input type="button" class="btn slide-four" value="4" onclick="modify(3)">
+		<input type="button" class="btn slide-five" value="5" onclick="modify(4)">
 	</div>
 </div> 
 
-	
+<a href="vedio/index.html">	<font size="22px">see more</font><a>
 
 <h1>Abstract</h1>
 <p>Z-DNA (left-handed DNA duplex) is hard to form under physiological conditions. Usually, it forms only under special constrains, such as high salt concentrations, base-modification, alternative purine-pyrimidine sequence, or aid of chiral molecules. Therefore, Z-DNA research is difficult to be carried out. Our aim is to prepare stable Z-DNA conformation of natural DNA sequences under physiological conditions. We noticed that half left-handed duplex and half right-handed one have to form when two closed DNA circles turn around with each other. Our basic molecular design is to mix two circular DNAs with complementary sequences, and the hybridization between them will form right-handed DNA duplex and left-handed one simultaneously. We are preparing circular ssDNA with various lengths (42, 53, 63, 74 and 84 nt). We will use PAGE analysis and AFM to check whether our idea works. The Z-RNA formation and mimic transcription process in vivo will also be challenged.
 </p>
 
 <h1>Vedio</h1>
+
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/-M92QAzqYBc" frameborder="0" allowfullscreen></iframe>
 
 <video id="video" controls preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
       <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
