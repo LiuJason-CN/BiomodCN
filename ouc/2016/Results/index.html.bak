@@ -227,7 +227,7 @@ div.desc
 
 <div class="img">
   <a target="_blank" href="figure1.jpg">
-   <img src="figure1.jpg" alt="Ballade" width="500" height="360">
+   <img src="figure1.jpg" alt="Ballade" width="700" height="360">
   </a>
   <div class="desc">
   Figure 1．Native PAGE (a) and denaturing PAGE (b) patterns of 42nt (lane 1) linear &alpha;, (lane 2) linear &beta;;, (lane 3) circle A. (lane 4) circle B, (lane 5) Z-B chimera, lane 6 contains circle A with it’s complementary linear &beta;;, lane 7 contains circle B with it’s complementary linear &alpha; and (lane 8) duplex formed by linear &alpha; and it’s complementary linear &beta;;.
