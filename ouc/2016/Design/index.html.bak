@@ -113,7 +113,7 @@ div.img
             
             <li class="menu-item">
                 <a href="../Simulation">
-                    Simulation&Tools
+                    Simulation
                 </a>
             </li>
             
@@ -294,26 +294,26 @@ div.img desc
 <tr>
 <td align="center" rowspan="2" valign="middle" width="100">42 bp</td>
 <td align="center" valign="middle" width="284" style="word-break:break-all">linear &alpha;</td>
-<td valign="top" width="284">5’AACCG<u><font color="red">TGCGTGC</font>GTGCG</u>GATCAACTAATAC<font color="red">GACTC</font>ATCATAA-3’
+<td valign="top" width="284">5’AACCG<u>TGCGTGCGTGCG</u>GATCAACTAATACGACTCATCATAA-3’
 </td>
 <td valign="top" width="284">5’-CACGGTTTTATGAT-3’</td>
 </tr>
 <tr>
 <td align="center" valign="middle" width="284">linear &beta;</td>
-<td valign="top" width="284" style="word-break:break-all">5’-TTATGAT<font color="red">GAGTC</font>GTATTAGTTGATC<u>C<font color="red">GCACGC</font>ACGCA</u>CGGTT-3’
+<td valign="top" width="284" style="word-break:break-all">5’-TTATGATGAGTCGTATTAGTTGATC<u>CGCACGCACGCA</u>CGGTT-3’
 </td>
 <td valign="top" width="284">5’-ATCATAAAACCGTG-3’</td>
 </tr>
 <tr>
 <td align="center" rowspan="2" valign="middle" width="100" style="word-break:break-all">53 bp</td>
 <td align="center" valign="middle" width="284">linear &alpha;</td>
-<td valign="top" width="284" style="word-break:break-all">5’-ACGGTACGGGATATAATAC<font color="red">GACTC</font>ACTATA<u>T<font color="red">GCGTGC</font>GTGCG</u>ATTCCACCAGA-3’
+<td valign="top" width="284" style="word-break:break-all">5’-ACGGTACGGGATATAATACGACTCACTATA<u>TGCGTGCGTGCG</u>ATTCCACCAGA-3’
 </td>
 <td valign="top" width="284">5’-TACCGTTCTGGT-3’</td>
 </tr>
 <tr>
 <td align="center" valign="middle" width="284" style="word-break:break-all">linear &beta;</td>
-<td valign="top" width="284" style="word-break:break-all">5’-TCTGGTGGAAT<u>C<font color="red">GCACGC</font>ACGCA</u>TATAGT<font color="red">GAGTC</font>GTATTATATCCCGTACCGT-3’</td>
+<td valign="top" width="284" style="word-break:break-all">5’-TCTGGTGGAAT<u>CGCACGCACGCA</u>TATAGTGAGTCGTATTATATCCCGTACCGT-3’</td>
 <td valign="top" width="284">5’-ACCAGAACGGTA-3’</td>
 </tr>
 <tr>
@@ -355,7 +355,7 @@ GAC<u>CGCACGCACGCA</u>TTGTAAGTTGAAAGCGAGGTG-3’
 <td align="center" rowspan="2" valign="middle" width="100">84 bp</td>
 <td align="center" valign="middle" width="284">linear &alpha;</td>
 <td valign="top" width="284" style="word-break:break-all">5’-CCTACCACCTCGCTTTCAACTTACAA<u>TGCGTGCGTGCG</u>GTCTAA
-TAC<font color="red">GACTC</font>ACTATAAATCGAACATCAGCAAACGGACAGAG-3’
+TACGACTCACTATAAATCGAACATCAGCAAACGGACAGAG-3’
 </td>
 <td valign="top" width="284">5'-GGTAGGCTCTGT-3’
 </td>
@@ -363,7 +363,7 @@ TAC<font color="red">GACTC</font>ACTATAAATCGAACATCAGCAAACGGACAGAG-3’
 <tr>
 <td align="center" valign="middle" width="284">linear &beta;</td>
 <td valign="top" width="284" style="word-break:break-all">5’-CTCTGTCCGTTTGCTGATGTTCGATTTATA
-GT<font color="red">GAGTC</font>GTATTAGAC<u>CGCACGCACGCA</u>
+GTGAGTCGTATTAGAC<u>CGCACGCACGCA</u>
 TTGTAAGTTGAAAGCGAGGTGGTAGG-3’
 </td>
 <td valign="top" width="284">5’-ACAGAGCCTACC-3’
@@ -410,7 +410,7 @@ TTGTAAGTTGAAAGCGAGGTGGTAGG-3’
 <tr>
 <td align="center" rowspan="2" valign="middle" width="100">92 bp</td>
 <td align="center" valign="middle" width="284">linear &alpha;</td>
-<td valign="top" width="284"><font color="yellow">A</font><font color="red">GCAGATATAATACGACTCACTATAGGG</font>AAGC
+<td valign="top" width="284"><font color="yellow">5’A</font><font color="red">GCAGATATAATACGACTCACTATAGGG</font>AAGC
 AGGATTGAACA<font color="yellow">A</font>GATTGATG<font color="blue">TGTGTACGTG</font>A
 TGGAGTAGGTCAAA<font color="blue">5’- TCTGCTGTACAC-3’</font>-3’
 </td>
@@ -479,14 +479,14 @@ AGACAUACAUCGACCGGUCCA</font>C<font color="blue">A</font> -3’
 
 
 <td align="center" valign="middle" width="284">A accessorial</td>
-<td valign="top" width="284">5’-CACGTGTGCAAGACAT</td>
+<td valign="top" width="284">5’-CACGTGTGCAAGACAT-3’</td>
 <td valign="top" width="284"></td>
 <td valign="top" width="284"></td>
 
 
 <tr>
 <td align="center" valign="middle" width="284">DNA-1</td>
-<td valign="top" width="284">ACATCGAC -3’(24bp)</td>
+<td valign="top" width="284">5’-ACATCGAC -3’(24bp)</td>
 <td valign="top" width="284"></td>
 <td valign="top" width="284"></td>
 </tr>
