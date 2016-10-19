@@ -221,7 +221,6 @@ div.desc
   {
   text-align:center;
   font-weight:weight;
-  width:10px;
   font-size:30px;
   margin:10px 5px 10px 5px;
   font-family: "Orbitron", sans-serif;
@@ -356,7 +355,7 @@ div.desc
     <div class="desc">Yuying Xu</div>
   </a>
 </div>
-
+	<div style="clear:both"></div>
 
 
 <h2>Thanks for<h2>
