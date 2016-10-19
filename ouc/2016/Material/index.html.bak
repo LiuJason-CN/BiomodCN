@@ -463,16 +463,16 @@ div.desc
 <p>Phenol chloroform extraction is to wipe off protein, polysaccharide and phenolic substance and alcohol precipitation is to dissociate the nucleic acid from the system.</p>
 <h3>2.	Preparation of Z-B DNA chimera:</h3>
 <h4>1)	Base pairing reaction between two circular DNAs with complementary sequences.</h4>
-<p>Mix the products from the step 1 4)（linear &alpha; and its complementary linear linear &beta;）up in another tube and keep their proportion in 1:1, add 10×NEB1.1 buffer and ddH2O to the tube, react in 90℃ for 3 minutes to open the secondary structure, then ramp down to 25℃by 0.1℃/s and react for 10 minutes.</p>
+<p>Mix the products from the step 1 4)（linear &alpha; and its complementary  linear &beta;）up in another tube and keep their proportion in 1:1, add 10×NEB1.1 buffer and ddH2O to the tube, react in 90℃ for 3 minutes to open the secondary structure, then ramp down to 25℃by 0.1℃/s and react for 10 minutes.</p>
 <h4>2)	Preparation of reference samples.</h4>
 <h5>(1)	Base pairing reaction between circular DNA and its complementary ssDNA.</h5>
 <p>Mix up the circular DNAs and its complementary ssDNA and keep their proportion in 1:1, add 10×NEB1.1 buffer and ddH2O to the tube, react in 90℃ for 3 minutes to open the secondary structure, then ramp down to 25℃by 0.1℃/s and react for 10 minutes.</p>
 <h5>(2)	Base pairing reaction between complementary linear DNAs.</h5>
-<p>Mix &alpha; and it’s complementary linear &beta; in 1×NEB1.1 reaction buffer and keep their proportion in 1:1, add ddH2O to the tube, heat up to 90℃ for 3 minutes to open the secondary structure, then cool down to 25℃( 0.1℃/s) and keep for 10 minutes.</p>
+<p>Mix linear &alpha; and it’s complementary linear &beta; in 1×NEB1.1 reaction buffer and keep their proportion in 1:1, add ddH2O to the tube, heat up to 90℃ for 3 minutes to open the secondary structure, then cool down to 25℃( 0.1℃/s) and keep for 10 minutes.</p>
 <h5>(3)	Reaction between ss-cirDNA and it’s complementary linear DNA withT4 DNA ligase.</h5>
 <p>Mix circle DNA and it’s complementary linear DNA in 1×T4 DNA ligase reaction buffer ( 4.5μl ) and keep their proportion in 1:1, add 0.5μl T4 DNA ligase and ddH2O to the tube, heat up to 80℃ for 3 minutes to open the secondary structure, then cool down to 25℃( 0.1℃/s )and keep for 2 hours, inactivate enzyme by heating the mixture up to 65℃for 10 minutes. Then the closed B-DNA circles were prepared.</p>
 <h3>3.	Gel electrophoresis:</h3>
-<p>Z-B DNA chimera was analyzed on an 8% native polyacrylamide gel with 10mM MgCl2 under 250V and an 8% denaturing polyacrylamide gel under 350V respectively. The native polyacrylamide gels were run in 1X TBE buffer with 1mM MgCl2 at the temperature under 20℃ and the denaturing polyacrylamide were run in 1×TBE at ambient temperature. ( The preparation of 8% native polyacrylamide gel and the condition of running buffer were optimized, the reason why we optimized the experiment condition will debate in <a href="../Results/index.html" style="text-decoration: none;"><font
+<p>Z-B DNA chimera was analyzed on an 8% native polyacrylamide gel with 10mM MgCl2 under 250V and an 8% denaturing polyacrylamide gel under 350V respectively. The native polyacrylamide gels were run in 1X TBE buffer with 1mM MgCl2 at the temperature under 20℃ and the denaturing polyacrylamide were run in 1×TBE at ambient temperature. ( The preparation of 8% native polyacrylamide gel and the condition of running buffer were optimized, the reason why we optimized the experiment condition will debate in <a href="../Results/index.html#Discussion" style="text-decoration: none;"><font
 color="gold">Discussion 1</font></a>.) When other lengths of Z-B chimera were analyzed, the native polyacrylamide gels were run in 1X TBE buffer at the temperature under 20℃ and the denaturing polyacrylamide were run in 1×TBE at ambient temperature. Samples were prepared as below: </p>
 
 <h3>The preparation of ladder</h3>
@@ -602,7 +602,6 @@ color="gold">Discussion 1</font></a>.) When other lengths of Z-B chimera were an
 <h4>2）	Circularization of single strand RNA by using DNA splint.</h4>
 <p>We need 1μl of single strand RNA solution to make the final concentration be 0.5μmol/L, 1μl DNA splint to promote the circularization of single strand RNA, 0.5μl RNase inhibitor to inhibit the degradation of RNA, 2μl T4 DNA ligase buffer, 0.5μl T4 DNA ligase, and 15μl ddH2O to add the volume to 20μl. Mix the above reagents and heat the mixture to 75℃ for 3 minutes to open the secondary structure, then incubate in 25℃ for around 3 hours, finally, heat up to 65℃ for 10 minutes to inactivate the ligase.</p>
 <h3>2.	Preparation of Z-B RNA chimera:</h3>
-<h4>1）	Circularization of single strand RNA by using T4 RNA ligase directly. </h4>
 <p>Mix the products from the step 1（circle &alpha; and its complementary circle &beta;）up in another tube directly and keep their proportion in 1:1, react in 75℃ for 3 minutes to open the secondary structure, then ramp down to 25℃by 0.1℃/s and react for 20 minutes.</p>
 
 

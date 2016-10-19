@@ -271,23 +271,7 @@ div.img
                     </li>
                     
                     
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-instagram"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a href="http://qzone.qq.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-qq"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
+                   
                     
                     <li class="list-inline-item">
                         <a href="https://plus.google.com/">
@@ -324,14 +308,7 @@ div.img
                         </a>
                     </li>
                     
-		    
-                    <li class="list-inline-item">
-                        <a href="https://about.gitlab.com/gitlab-com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-gitlab"></i>
-                            </span>
-                        </a>
-                    </li>
+		
                     
 
                 </ul>
