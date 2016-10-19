@@ -250,20 +250,13 @@ div.desc
 
 <h1>3.Z-B chimera transcription model</h1>
 <p> When transcribing, the transcription enzyme binds to BDNA of Z-B chimera. When the enzyme is moving, junction is moving too. We use Max 3DS software to make this model.</p>
-     <div class="img">
-	<div class="img" style="text-align:center">
-	  <a target="_blank" href="figure3.png">
-	  <img src="figure3.png" alt="Figure2" width="400" height="360">
-	  </a>
-	</div>
 
-	<div class="img" style="text-align:center">
-	  <a target="_blank" href="figure4.png">
-	  <img src="figure4.png" alt="Figure4" width="400" height="360">
-	  </a>
-	</div>
-	<div style="clear:both"></div>
-</div>
+<video width="400" height="360" controls>
+  <source src="../vedio/simulation.mp4" type="video/mp4">
+  <object data="../vedio/simulation.mp4" width="400" height="360">
+    <embed src="movie.swf" width="400" height="360">
+  </object> 
+</video>
 
 
 </body>
@@ -303,7 +296,7 @@ div.desc
             </div>
             
     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">
-        <h2>Larotory</h2>
+        <h2>Laboratory</h2>
 	<a href="http://www.drnatech.com/"><img src="lablogo.png"  height="80" width="465"></a>
 
     </div>
