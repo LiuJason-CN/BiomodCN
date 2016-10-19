@@ -316,7 +316,7 @@ div.desc
     <div class="desc">Hao Wang</div>
   </a>
 </div>
-
+ <div style="clear:both"></div>
 <div class="img">
   <a target="_blank" href="wht2.png">
   <img src="wht2.png" alt="Ballade" width="380" height="300">
@@ -325,15 +325,13 @@ div.desc
 </div>
 
 
-
-
 <div class="img">
   <a target="_blank" href="gl.png">
   <img src="gl.png" alt="Ballade" width="380" height="300">
     <div class="desc">Lu Guo</div>
   </a>
 </div>
-
+ <div style="clear:both"></div>
 <div class="img">
   <a target="_blank" href="zqy.png">
   <img src="zqy.png" alt="Ballade" width="380" height="300">
@@ -341,16 +339,13 @@ div.desc
   </a>
 </div>
 
-
-
-
 <div class="img">
   <a target="_blank" href="hwj.png">
   <img src="hwj.png" alt="Ballade" width="380" height="300">
     <div class="desc">Wenjing Huang</div>
   </a>
 </div>
-
+ <div style="clear:both"></div>
 <div class="img">
   <a target="_blank" href="hxd.png">
   <img src="hxd.png" alt="Ballade" width="380" height="300">
