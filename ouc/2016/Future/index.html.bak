@@ -268,13 +268,13 @@ Figure3.The schematic of the Z-B chimera plasmid with target gene(or Open Readin
 <h1>Reference</h1>
 
 <ol>
-<li>1. Alexander Rich and Shuguang Zhang, Z-DNA: The Long Road to Biological Function, Nature, 2003, 4 (July): 566–72.</li>
-<li>2. Aliabadi, Hamidreza Montazeri, Parvin Mahdipoor, Cezary Kucharsky, Nicole Chan, and Hasan Uluda, Effect of siRNA Pre-Exposure on Subsequent </li>
+<li> Alexander Rich and Shuguang Zhang, Z-DNA: The Long Road to Biological Function, Nature, 2003, 4 (July): 566–72.</li>
+<li> Aliabadi, Hamidreza Montazeri, Parvin Mahdipoor, Cezary Kucharsky, Nicole Chan, and Hasan Uluda, Effect of siRNA Pre-Exposure on Subsequent </li>
 <li>Response to siRNA Therapy, Pharm Res (2015) 32:3813–3826.
 </li>
-<li>3. Stephen Neidle, Principles of Nucleic Acid Structure, 2008</li>
-<li>4. 陈小英, 质粒的基本特征和分类, 综述.</li>
-<li>5. 王镜岩, 朱胜庚, 徐长法, 生物化学, 第三版, 北京:高等教育出版社, 2002.
+<li> Stephen Neidle, Principles of Nucleic Acid Structure, 2008</li>
+<li> 陈小英, 质粒的基本特征和分类, 综述.</li>
+<li> 王镜岩, 朱胜庚, 徐长法, 生物化学, 第三版, 北京:高等教育出版社, 2002.
 </li>
 </ol>
 
@@ -313,8 +313,7 @@ Figure3.The schematic of the Z-B chimera plasmid with target gene(or Open Readin
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
                 <h2>Contact Us</h2>
                 <p>
-                    This project was developed by Season 2016.If you have any questions,feel free to email OUCBIOMOD@163.com.
-                </p>
+                    This project was developed by Season 2016.If you have any questions,feel free to email <a href="mailto:OUCBIOMOD@163.com">OUCBIOMOD@163.com</a>.                </p>
             </div>
             
     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">
@@ -350,22 +349,7 @@ Figure3.The schematic of the Z-B chimera plasmid with target gene(or Open Readin
                     </li>
                     
                     
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-instagram"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a href="http://qzone.qq.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-qq"></i>
-                            </span>
-                        </a>
-                    </li>
+                   
                     
                     
                     <li class="list-inline-item">
@@ -404,14 +388,7 @@ Figure3.The schematic of the Z-B chimera plasmid with target gene(or Open Readin
                     </li>
                     
 		    
-                    <li class="list-inline-item">
-                        <a href="https://about.gitlab.com/gitlab-com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-gitlab"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
+        
 
                 </ul>
             </div>

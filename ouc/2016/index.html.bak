@@ -384,6 +384,9 @@
     function modify(index){
         $("#myCarousel").carousel(index);
     }
+	$('.carousel').carousel({
+		interval: 1500;
+	})
 </script>  
 
 <!-- Tween Max -->
