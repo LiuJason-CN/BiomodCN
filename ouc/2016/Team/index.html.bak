@@ -364,7 +364,7 @@ div.desc
 
 <div class="img">
   <a target="_blank" href="2014.jpg">
-  <img src="2014.jpg" alt="Ballade" width="380" height="300">
+  <img src="2014.jpg" alt="Ballade" width="600" height="360">
   </a>
 </div>
 	<div style="clear:both"></div>
