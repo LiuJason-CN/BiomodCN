@@ -453,7 +453,7 @@ div.desc
 <h2>Preparation of Z-B chimera<h2>
 <h3>1.	Preparation of ssDNA circle:<h3>
 <h4>1)	Phosphorylation of single strand DNA in 5’ end.</h4>
-<p>All DNA strands were synthesized and purified by GENEWIZ Bio-Technique Co. Ltd. We need 5μl of original material（single strand DNA）to make  the final concentration be 5μmol/L, 2μl of ATP to provide phosphate group, 2μl of PNK ligase to promote phosphorylation, 2μl of PNK buffer A to provide other ion conditions, and 10μl of ddH2O to add the volume to 20μl. Mix the above reagents in a tube, heat the mixture in PCR Thermocycle Instrument to 37℃ and incubate for a whole night, then heat up to 75℃ for 10 minutes to inactivate the ligase.</p>
+<p>All DNA strands were synthesized and purified by GENEWIZ Bio-Technique Co. Ltd. We need 5μl of original material（single-stranded DNA）to make  the final concentration be 5μmol/L, 2μl of ATP to provide phosphate group, 2μl of PNK ligase to promote phosphorylation, 2μl of PNK buffer A to provide other ion conditions, and 10μl of ddH2O to add the volume to 20μl. Mix the above reagents in a tube, heat the mixture in PCR Thermocycle Instrument to 37℃ and incubate for a whole night, then heat up to 75℃ for 10 minutes to inactivate the ligase.</p>
 <h4>2) Circularization of single strand DNA by using splint.</h4>
 <p>We need 1.6μl of single strand DNA solution after phosphorylation from the step 1 to make the final concentration be 0.1μmol/L, 0.8μl splint to promote the circularization of single strand DNA, 8μl T4 DNA ligase buffer, 2μl T4 DNA ligase, and 67.6μl ddH2O to add the volume to 80μl. Mix the above reagents and heat the mixture to 90℃ for 3 minutes to open the secondary structure, then incubate in 25℃ for 3 hours, finally, heat up to 65℃ for 10 minutes to inactivate the ligase.
 </p>
@@ -646,7 +646,7 @@ color="gold">Discussion 1</font></a>.) When other lengths of Z-B chimera were an
             </div>
             
     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">
-        <h2>Larotory</h2>
+        <h2>Laboratory</h2>
 	<a href="http://www.drnatech.com/"><img src="lablogo.png"  height="80" width="465"></a>
 
     </div>

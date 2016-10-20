@@ -254,7 +254,7 @@ div.img desc
   </div>
 	<div style="clear:both"></div>
 
-<h2>Part 1: Preparation of circular DNA</h2>
+<h2 id="contentD-1">Part 1: Preparation of circular DNA</h2>
 
 <div class="img">
   <a target="_blank" href="figure1.jpg" class="img">
@@ -429,7 +429,7 @@ TCGTATTATATCTGC</font><font color="yellow">T</font>-3'
 <div class="desc">Table.2 The sequence of Z-DNA. The red part is the T7 promoter sequence. The yellow part is the raised A/T. The blue part is the APP sequence.</div>
 <br><br>
 
-<h2>Part 3: The design of the Z-RNA sequence</h2>
+<h2 id="contentD-3">Part 3: The design of the Z-RNA sequence</h2>
 
  <div class="img">
   <a target="_blank" href="figure5.jpg" class="img">
@@ -444,7 +444,7 @@ TCGTATTATATCTGC</font><font color="yellow">T</font>-3'
 
 
 
-<p>We not only thought of the Z-DNA, we also took the Z-RNA into consideration,we thought about whether the RNA can form the Z-DNA structure by the same way. What's more, we are interested in the function of the small interfering RNA (siRNA), which plays an important role in the process in which genes can be silenced sequence-specifically <sup>[3]</sup>. So we had changed the experimental material from DNA to RNA (Table.3) and add the siRNA sequences into the dsRNA circle. The two siRNA sequences we selected are the specific E6 and E7 siRNA for treatment of HPV16 positive cervical cancer <sup>[4]</sup>, one of which contains the APP sequence and is added in the Z-DNA part. The other without the APP sequence is added in the B-forming part (Fig.5). Because the APP sequence is very easy to form stable secondary structure according to the results from The mfold Web Server (Fig. 4B), which is harmful to make the RNA become a circle. We design a special kind of DNA sequence called accessorial DNA, which can combine with the alternating pyrimidine-purine sequence and avoid generating stable secondary structure (Fig. 4C).</p>
+<p>We not only thought of the Z-DNA, we also took the Z-RNA into consideration, we thought about whether the RNA can form the Z-DNA structure by the same way. What's more, we are interested in the function of the small interfering RNA (siRNA), which plays an important role in the process in which genes can be silenced sequence-specifically <sup>[3]</sup>. So we had changed the experimental material from DNA to RNA (Table.3) and add the siRNA sequences into the dsRNA circle. The two siRNA sequences we selected are the specific E6 and E7 siRNA for treatment of HPV16 positive cervical cancer <sup>[4]</sup>, one of which contains the APP sequence and is added in the Z-DNA part. The other without the APP sequence is added in the B-forming part (Fig.5). Because the APP sequence is very easy to form stable secondary structure according to the results from The mfold Web Server (Fig. 4B), which is harmful to make the RNA become a circle. We design a special kind of DNA sequence called accessorial DNA, which can combine with the alternating pyrimidine-purine sequence and avoid generating stable secondary structure (Fig. 4C).</p>
 
 <br><br>
 <table border="1" cellspacing="0" cellpadding="0">
