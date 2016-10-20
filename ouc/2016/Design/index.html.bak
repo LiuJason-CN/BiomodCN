@@ -240,7 +240,7 @@ div.img desc
 </ul>
 
 
-<p>In this experiment, DNA and RNA are our experimental material. In order to make them form left handed DNA(Z-DNA), we designed the DNA sequence by our idea.Preparation of circular DNA is the key point, so all these sequences will be treated particularly(figure.1). From the previous lectures, we can know that the alternating pyrimidine-purine sequence can form left-hand DNA [1]. The classic Z-DNA sequence is d(CG). So we designed three kinds of sequences around Z-DNA to perform different experiments.
+<p>In this experiment, DNA and RNA are our experimental material. In order to make them form left handed DNA (Z-DNA), we designed the DNA sequence by our idea.Preparation of circular DNA is the key point, so all these sequences will be treated particularly (figure.1). From the previous lectures, we can know that the alternating pyrimidine-purine sequence can form left-hand DNA <sup>[1]</sup>. The classic Z-DNA sequence is d(CG). So we designed three kinds of sequences around Z-DNA to perform different experiments.
 </p>
 
 <br><br>
@@ -268,7 +268,7 @@ div.img desc
 
 <br><br>
 
-<p>In this part, our goal is to form Z-DNA. The DNA we designed has two complementary mini circles and contains the Z-DNA formation regions with APP (alternative purine-pymidine) sequence(d(TGCG)n)(Fig. 1). The APP sequence is believed to be capable of forming Z-DNA. </p>
+<p>In this part, our goal is to form Z-DNA. The DNA we designed has two complementary mini circles and contains the Z-DNA formation regions with APP  (alternative purine-pymidine) sequence (d(TGCG)n) (Fig. 2). The APP sequence is believed to be capable of forming Z-DNA. </p>
 
 
 <div class="img">
@@ -386,7 +386,7 @@ TTGTAAGTTGAAAGCGAGGTGGTAGG-3'
 	<div style="clear:both"></div>
 
 
- <p><a href="../Results/index.html">Our experimental results </a>show that most of our sequences can successfully form Z-DNA DNA. As it is known to us all, these is a close connection between the Z-DNA and transcription [2]. Then we redesigned a 92bp DNA sequence for transcription (Table.2). So we added the T7 promoter sequence include the promoter upstream and downstream sequence to this sequence (Fig. 3). Because the shorter sequence is harder to form Z-DNA according to the previous experimental results, we designed the sequence that about half of the formed dsDNA has Z-DNA conformation and left part has B-DNA conformation, instead of all the alternating pyrimidine-purine sequence. Because too long Z-DNA sequence will make it very stable and isn't helpful for  transcription. The software we used in this design process is The mfold Web Server, which can view the secondary structure of the sequence (Fig. 4A). We can change the order of base according to the secondary structure to reduce the stability of the secondary structure.</p>
+ <p><a href="../Results/index.html">Our experimental results </a>show that most of our sequences can successfully form Z-DNA DNA. As it is known to us all, these is a close connection between the Z-DNA and transcription <sup>[2]</sup>. Then we redesigned a 92bp DNA sequence for transcription (Table.2). So we added the T7 promoter sequence include the promoter upstream and downstream sequence to this sequence (Fig. 3). Because the shorter sequence is harder to form Z-DNA according to the previous experimental results, we designed the sequence that about half of the formed dsDNA has Z-DNA conformation and left part has B-DNA conformation, instead of all the alternating pyrimidine-purine sequence. Because too long Z-DNA sequence will make it very stable and isn't helpful for  transcription. The software we used in this design process is The mfold Web Server, which can view the secondary structure of the sequence (Fig. 4A). We can change the order of base according to the secondary structure to reduce the stability of the secondary structure.</p>
  
 
  <div class="img">
@@ -444,7 +444,7 @@ TCGTATTATATCTGC</font><font color="yellow">T</font>-3'
 
 
 
-<p>We not only thought of the Z-DNA, we also took the Z-RNA into consideration,we thought about whether the RNA can form the Z-DNA structure by the same way. What's more, we are interested in the function of the small interfering RNA (siRNA), which plays an important role in the process in which genes can be silenced sequence-specifically [3]. So we had changed the experimental material from DNA to RNA (Table.3) and add the siRNA sequences into the dsRNA circle. The two siRNA sequences we selected are the specific E6 and E7 siRNA for treatment of HPV16 positive cervical cancer [4], one of which contains the APP sequence and is added in the Z-DNA part. The other without the APP sequence is added in the B-forming part (Fig.5). Because the APP sequence is very easy to form stable secondary structure according to the results from The mfold Web Server (Fig. 4B), which is harmful to make the RNA become a circle. We design a special kind of DNA sequence called accessorial DNA, which can combine with the alternating pyrimidine-purine sequence and avoid generating stable secondary structure (Fig. 4C).</p>
+<p>We not only thought of the Z-DNA, we also took the Z-RNA into consideration,we thought about whether the RNA can form the Z-DNA structure by the same way. What's more, we are interested in the function of the small interfering RNA (siRNA), which plays an important role in the process in which genes can be silenced sequence-specifically <sup>[3]</sup>. So we had changed the experimental material from DNA to RNA (Table.3) and add the siRNA sequences into the dsRNA circle. The two siRNA sequences we selected are the specific E6 and E7 siRNA for treatment of HPV16 positive cervical cancer <sup>[4]</sup>, one of which contains the APP sequence and is added in the Z-DNA part. The other without the APP sequence is added in the B-forming part (Fig.5). Because the APP sequence is very easy to form stable secondary structure according to the results from The mfold Web Server (Fig. 4B), which is harmful to make the RNA become a circle. We design a special kind of DNA sequence called accessorial DNA, which can combine with the alternating pyrimidine-purine sequence and avoid generating stable secondary structure (Fig. 4C).</p>
 
 <br><br>
 <table border="1" cellspacing="0" cellpadding="0">

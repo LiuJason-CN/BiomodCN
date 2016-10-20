@@ -251,13 +251,14 @@ div.desc
 <h1>3.Z-B chimera transcription model</h1>
 <p> When transcribing, the transcription enzyme binds to BDNA of Z-B chimera. When the enzyme is moving, junction is moving too. We use Max 3DS software to make this model.</p>
 
+<p align="center">
 <video width="400" height="360" controls>
   <source src="../vedio/simulation.mp4" type="video/mp4">
   <object data="../vedio/simulation.mp4" width="400" height="360">
     <embed src="movie.swf" width="400" height="360">
   </object> 
 </video>
-
+</p>
 
 </body>
 </html>

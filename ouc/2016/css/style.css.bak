@@ -270,9 +270,13 @@ section.main .post .content h3 {
   text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #228dff;
 }
 section.main .post .content h4{
+  margin: 35px 0 10px 0;
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #228dff;
   font-size: 25px;
 }
 section.main .post .content h5{
+  margin: 20px 0 5px 0;
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #228dff;
   font-size: 22px;
 }
 section.main .post .content p {
