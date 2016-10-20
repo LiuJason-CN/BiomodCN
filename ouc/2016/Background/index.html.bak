@@ -211,7 +211,7 @@ div.img a:hover img
   border:1px solid #333333;
 div.img desc
   {
-
+  float:middle;
   font-weight:weight;
   width:100px;
   font-size:30px;
@@ -226,7 +226,7 @@ div.img desc
 <h1>1.	What is Z-DNA?</h1>
 <p>Z-DNA is one of the many possible double helical structures of DNA. It is a left-handed double helical structure in which the double helix winds to the left in a zig-zag pattern (instead of to the right, like the more common B-DNA form). Z-DNA is thought to be one of three biologically active double helical structures along with A- and B-DNA.</p>
 <h2>Structure</h2>
-<p>Z-DNA is quite different from the right-handed forms. In fact, Z-DNA is often compared against B-DNA in order to illustrate the major differences. The Z-DNA helix is left-handed and has a structure that repeats every 2 base pairs. The major and minor grooves, unlike A- and B-DNA, show little difference in width. Formation of this structure is generally unfavorable, although certain conditions can promote it; such as alternating purine-pyrimidine sequence (especially poly(dGC)2), negative DNA supercoiling or high salt and some cations (all at physiological temperature, 37 °C, and pH 7.3-7.4). Z-DNA can form a junction with B-DNA (called a "B-to-Z junction box") in a structure which involves the extrusion of a base pair.<sup>[3]</sup> The Z-DNA conformation has been difficult to study because it does not exist as a stable feature of the double helix. Instead, it is a transient structure that is occasionally induced by biological activity and then quickly disappears.<sup>[4]</sup><p>
+<p>Z-DNA is quite different from the right-handed forms. In fact, Z-DNA is often compared against B-DNA in order to illustrate the major differences. The Z-DNA helix is left-handed and has a structure that repeats every 2 base pairs (Fig.1). The major and minor grooves, unlike A- and B-DNA, show little difference in width. Formation of this structure is generally unfavorable, although certain conditions can promote it; such as alternating purine-pyrimidine sequence (especially poly(dGC)2), negative DNA supercoiling or high salt and some cations (all at physiological temperature, 37 °C, and pH 7.3-7.4). Z-DNA can form a junction with B-DNA (called a "B-to-Z junction box") (Fig.2) in a structure which involves the extrusion of a base pair.<sup>[3]</sup> The Z-DNA conformation has been difficult to study because it does not exist as a stable feature of the double helix. Instead, it is a transient structure that is occasionally induced by biological activity and then quickly disappears.<sup>[4]</sup><p>
 
 <br><br>
 <div class="img">
@@ -243,10 +243,10 @@ div.img desc
 <div class="img">
   <a target="_blank" href="figure2.jpg" class="img">
   <img src="figure2.jpg" alt="Ballade" width="360" height="420">
-   <div class="desc">
+  </a>
+     <div class="desc">
 	  Fig.2 Structure of an oligonucleotide having a B-Z junction <sup>[2]</sup>(Ha et al., 2005) 
 	</div>
-  </a>
  
   </div>
  <div style="clear:both"></div>
@@ -274,10 +274,10 @@ With the rapid development of DNA nanotechnology, artificial fabrication of DNA 
 <br><br>
 <div class="img">
   <a target="_blank" href="figure3.jpg" class="img">
-  <img src="figure3.jpg" alt="Ballade" width="450" height="360">
-      Fig. 3 Mathematical biological model of DNA catenane<sup>[17]</sup> 
+  <img src="figure3.jpg" alt="Ballade" width="450" height="360">     
   </a>
   <div class="desc">
+  Fig. 3 Mathematical biological model of DNA catenane<sup>[17]</sup> 
 	</div>
   </div>
  <div style="clear:both"></div>
@@ -313,6 +313,9 @@ With the rapid development of DNA nanotechnology, artificial fabrication of DNA 
 <li style="word-break:break-all">Qi, X. J.; Lu, C. H.; Liu, X.; Shimron, S.; Yang, H. H.; Willner, I., Autonomous control of interfacial electron transfer and the activation of DNA machines by an oscillatory pH system. Nano letters 2013, 13 (10).</li>
 <li style="word-break:break-all">Liang, X.; Kuhn, H.; Frank-Kamenetskii, M. D., Monitoring single-stranded DNA secondary structure formation by determining the topological state of DNA catenanes. Biophys J 2006, 90 (8), 2877-89.</li>
 <li style="word-break:break-all">Jayaram M. Mathematical validation of a biological model for unlinking replication catenanes by recombination[J]. Proceedings of the National Academy of Sciences, 2013, 110(52): 20854-20855.</li>
+<li style="word-break:break-all">Wang, A.H.-J., Quigley G.J., Kolpak, F.J., Crawford , J.L., van Boom, J.H., van der Marel, G., and Rich ,A.(1979).Molecular structure of a left-handed double helical DNA fragment at atomic resolution. Nature, 282,680-686.</li>
+<li style="word-break:break-all">Hays, F.A., Teegarden, A., Jones, Z.J.R., Harms, M., Raup, D., Watson,. J., Caveliere, E., and Ho, P.S.(2005) How sequence defines structure: a crystallographic map of DNA structure and conformation. Proc. Natl. Acad Sci. USA, 102,7157-7162.
+</li>
 </ol>
 
 </body>
