@@ -235,21 +235,10 @@ div.desc
 	</div>
 </div>
 <div style="clear:both"></div>
+
 <h1>2.Z-B chimera combination process simulation</h1>
 
 <p>When the two single ring meet, because the base complementary pairing, two single ring will be entangled together, we use Max 3DS software to simulate the loop process, as follows: (put animation)</p>
-	<div class="img" style="text-align:center">
-	  <a target="_blank" href="figure2.png">
-	  <img src="figure2.png" alt="Figure2" width="400" height="360">
-        <div class="desc">Figure2	Stick Z-B chimera model</div>
-	  </a>
-	</div>
-	<div style="clear:both"></div>
-
-<h1>2.Z-B chimera combination process simulation</h1>
-
-<h1>3.Z-B chimera transcription model</h1>
-<p> When transcribing, the transcription enzyme binds to BDNA of Z-B chimera. When the enzyme is moving, junction is moving too. We use Max 3DS software to make this model.</p>
 
 <p align="center">
 <video width="400" height="360" controls>
@@ -259,6 +248,12 @@ div.desc
   </object> 
 </video>
 </p>
+
+
+<h1>3.Z-B chimera combination process simulation</h1>
+<p>When transcribing, the transcription enzyme binds to BDNA of Z-B chimera. When the enzyme is moving, junction is moving too. We use Max 3DS software to make this model.</p>
+
+
 
 </body>
 </html>
