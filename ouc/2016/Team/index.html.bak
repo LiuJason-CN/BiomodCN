@@ -265,12 +265,21 @@ div.desc
   <a target="_blank" href="lls.jpg">
   <img src="liang.jpg" alt="Ballade" width="700" height="400">
   </a>
-  <div class="desc"> Prof. Liang</div>
+  <div class="desc"> Prof.XingGuo Liang</div>
 </div>
 <div style="clear:both"></div>
 
 
 <h2>Faculty mentors</h2>
+
+<div class="img">
+
+  <img src="wj.jpg" alt="Ballade" width="380" height="300">
+    <div class="desc">Qi Li</div>
+
+</div>
+
+
 
 <div class="img">
 
