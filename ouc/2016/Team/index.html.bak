@@ -353,7 +353,7 @@ div.desc
     <div class="desc">Yu Cheng</div>
   </a>
 </div>
-
+	<div style="clear:both"></div>
 <h2>Thanks for<h2>
 
 <div class="img">
