@@ -1,0 +1,380 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+<title>Season2017 Home</title>
+<link type="text/css" rel="stylesheet" href="css/style1-content-2.css">
+<link rel="stylesheet" href="css/My bootstrap.min.css.css">
+<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Kelly+Slab|Raleway" rel="stylesheet">
+<!--footer-->
+
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> 
+<!--图片弹出css-->
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css" media="screen" />
+<!--文字特效css-->  
+<link rel="stylesheet" href="dist/aos.css" />
+  
+<link rel="stylesheet" href="css/edslider.css">
+<link rel="stylesheet" href="css/animate-custom.css">
+
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/My bootstrap.min.js"></script>
+
+<!--图片弹出js-->
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-1.3.4.js"></script>
+<!--图片弹出js-->  
+
+<style>
+      body {
+      position: relative;
+      background: -ms-linear-gradient(top, #161616, #275886);        /* IE 10 */
+      background:-moz-linear-gradient(top,#161616,#275886);/*火狐*/ 
+      background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#161616), to(#275886));/*谷歌*/ 
+      background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#161616), to(#275886));      /* Safari 4-5, Chrome 1-9*/
+      background-attachment:fixed;
+      background-image: url(image/bg3.jpg);
+    }
+    h1{font-family: 'Fontdiner Swanky', cursive;font-size:120px;text-shadow: 0 0 10px #69b7ff, 0 0 125px #69b7ff, 0 0 15px #69b7ff;margin-top: 100px;}
+    h2{font-family: 'Kelly Slab', cursive;font-size:55px;font-weight: bolder;text-shadow: 0 0 8px #69b7ff, 0 0 11px #69b7ff, 0 0 11px #228dff;}
+    h3{font-family: 'Kelly Slab', cursive;font-size:35px;font-weight: bolder; text-shadow: 0 0 8px #69b7ff, 0 0 11px #69b7ff, 0 0 11px #228dff;}
+    p{font-family: 'Raleway', sans-serif;text-indent: 2em;font-size: 18px;}
+    nav{font-family: 'Kelly Slab', sans-serif;}
+
+
+    </style>
+
+<!--display bar-->
+<style>.xui-wrapper {
+          
+          width:100%;
+          max-width:750px;
+          margin-left: 135px;
+          /*height:100vh;*/
+          background-color:#efeff4;
+      }
+      .xui-myPromption-wrapper .xui-returnCommission .xui-process {
+          position: relative;
+          display: inline-block;
+          vertical-align: middle;
+          padding: -3px 0 12px;
+          width: 76%;
+      }
+      .xui-myPromption-wrapper .xui-process .xui-icon-flag {
+          position: absolute;
+          top: 10px;
+          left: 0;
+          width: 12px;
+          height: 18px;
+          background-size: 11px;
+      }
+      .xui-myPromption-wrapper .xui-process .xui-process-static {
+          width: 100%;
+          height: 15px;
+          border-radius: 10px;
+          margin-top:-20px;
+          -webkit-box-shadow: 0 0 5px rgba(0, 198, 255,.6);
+          box-shadow: 0 0 5px rgba(0, 198, 255,.6);
+          background-color: #112d46;
+      }
+      .xui-myPromption-wrapper .xui-process .xui-process-active {
+          position: absolute;
+          top: -20px;
+          left: 0;
+          width: 0;
+          height: 14px;
+          border: 1px solid #4dafe2;
+          border-radius: 10px;
+          background-image: linear-gradient(60deg, transparent 0rem, transparent 0.8rem, #4dafe2 0.8rem, #4dafe2 1.6rem, transparent 1.6rem, transparent 2.4rem, #4dafe2 2.4rem);
+          background-color: #008cd5;
+          background-size: 20px 38px;
+          -box-shadow: box-shadow: 1px 1px 5px rgba(0, 140, 213, .8);
+          box-shadow: 1px 1px 5px rgba(0, 140, 213, .8);
+          -webkit-animation: process 800ms infinite linear;
+          animation: process 800ms infinite linear;
+      }
+      .xui-myPromption-wrapper .xui-process .xui-process-active:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          height: 100%;
+          border-radius: 10px;
+          background-image: linear-gradient(to bottom,rgba(0, 140, 213, .6), rgba(0, 140, 213, .6) 15%, transparent 60%, rgba(0, 140, 213, .6));
+      } 
+  
+      /* 动画 */
+      @-webkit-keyframes process {
+          0% { background-position: 0 0; }
+          100% { background-position: 20px 0; }
+      }
+      @keyframes process {
+         0% { background-position: 0 0; }
+          100% { background-position: 20px 0; }
+      }
+</style>
+<style>
+.demo{margin:60px auto}
+.audio{margin-top:20px}
+</style>
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/jquery.edslider.js"></script>
+  <script>
+    $(document).ready(function(){
+      //Call plugin
+      $('.mySlideshow').edslider({
+        width : '100%',
+        height: 500
+      });
+    });
+  </script>
+
+<!--图片弹窗-->
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    
+    $("a#figure").fancybox({
+      'titlePosition':'inside'
+    });
+
+    
+  });
+</script>
+<!--图片弹窗-->
+
+<!--back to top-->
+<style type="text/css">
+/*** reset ***/
+.cf:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.cf{*zoom:1;}
+
+/*** guide ***/
+.guide{width:60px;margin-left:1210px;margin-top:0px;position:fixed;_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight - this.clientHeight - 134+'px');display:block;}
+.guide a{display:block;width:60px;height:50px;background:url(image/sprite_v2.png) no-repeat;margin-top:10px;text-decoration:none;font:22px/50px "Pangolin";text-align:center;color:#fff;border-radius:2px;box-shadow: 0 0 7px #69b7ff, 0 0 7px #69b7ff, 0 0 5px #69b7ff}
+.guide a span{display:none;text-align:center;}
+.guide a:hover{text-decoration:none;background-color:#39F;color:#fff;}
+.guide a:hover span{display:block;width:60px;background:#39F}
+
+.guide .top{background-position:-145px -185px;}
+</style>
+<!--back to top-->
+
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="height:200px;overflow:auto; position: relative;">
+
+
+
+<!--Start top navigation-->
+<nav class="nav-toggle two">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="widescreen">
+          <a href="index.html"><img src="image/logo.jpg" class="logo" alt="OUC BIOMOD2017"></a>
+            
+         <ul class="left-links main-nav">
+            <li class="nav-item"><a href="project.html">PROJECT</a></li>
+            <li class="nav-item"><a href="design.html">DESIGN</a></li>
+            <li class="nav-item"><a href="simulation.html">SIMULATION</a></li>
+            <li class="dropdown nav-item">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					EXPERIMENT <b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu nav-item">
+          <li class="divider"></li>
+          <li><a href="material.html">MATERIALS&METHODS</a></li>
+          <li class="divider"></li>
+          <li><a href="results.html">RESULTS&DISCUSSION</a></li></ul>
+            <li class="nav-item"><a href="perpective.html">PERSPECTIVE</a></li>
+            <li class="nav-item"><a href="team.html">TEAM</a></li>
+          </ul>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<ul class="mySlideshow">
+      <li class="first">
+        <a href="#" target="_blank" class="animated fadeInLeft">
+          <img src="images/hd-logo.png" width="330" height="255" alt="Harley-Davidson">
+        </a>
+        <div class="animated fadeInRight">Add your content here!</div>
+      </li>
+      <li class="second">
+        <img src="images/second-title.png" class="animated fadeInRight">
+      </li>
+      <li class="third">
+        <img src="images/third-title.png" class="animated fadeInLeft">
+      </li>
+      <li class="fourth">
+        <img src="images/fourth-title.png" class="animated fadeInRight">
+      </li>
+      <li class="fifth">
+        <img src="images/fifth-title.png" class="animated fadeInLeft">
+      </li>
+    </ul>
+<h2 id="h2-home" style="border:none;box-shadow:none;margin-top:15px;"><a href="#section0"><i class="fa fa-hand-o-down fa-3x"></i></a></h2>
+
+<!--End top navigation-->
+<div class="guide">
+  <div class="guide-wrap" style="display:none">
+    <a href="javascript:window.scrollTo(0,0)" class="top" title="回顶部"><span>TOP</span></a>
+  </div>
+</div>
+<!--Start side navigation-->
+<div class="container">
+
+
+	<div class="row" style="margin-right:150px;margin-left:-120px">
+		<nav class="col-sm-3" id="myScrollspy">
+			<div class="container-fluid"> 
+			<div class="container-fluid"> 
+			<ul style="display:none" class="nav nav-pills nav-stacked" font-weight:bolder;>
+			    <li id="side-nav-head">PROJECT</a></li>
+			    <li class="active"><a  class="nav-shadow" href="#sectioni1">Background&Motivation</a></li>
+				<li><a href="#sectioni2">Idea</a></li>
+				<li><a href="#sectioni3">Goal</a></li>
+				<li ><a href="#sectioni4" >Achievement</a></li>
+				
+			</ul>
+			</div>	
+			</div>		
+		</nav>
+		<!--End side navigation-->
+
+<div class="col-sm-9">
+            <div id="section0">    
+				<h1 align="center" style="padding-top:100px;margin-top:0px">Home Page</h1>
+			</div>
+   
+<!--顶部carousel-->  
+
+
+			<div aos="fade-up" id="sectioni1">  
+			<h2><i class="fa fa-magic"></i>Abstract</h2>
+				<p>Z-DNA is one of the many possible double helical structures of DNA. It is a left-handed double helical structure in which the double helix winds to the left in a zig-zag pattern (instead of to the right, like the more common B-DNA form). Z-DNA is thought to be one of three biologically active double helical structures along with A- and B-DNA.</p>
+      </div>
+				  
+			
+      <div aos="fade-up" id="sectioni2" style="margin-bottom:100px"> 
+				<h2><i class="fa fa-youtube-square"></i>Video</h2>
+			        <div class="demo">
+           <video class="video" style="margin-left:120px;" width="618" height="347" controls preload>
+			     <source src="video/video.mp4"></source> 
+		       </video>  
+      </div>
+
+
+
+
+
+			</div>        
+			
+      
+
+			</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<script type="text/javascript" src="dist/aos.js"></script>
+	<script type="text/javascript">
+		AOS.init({
+			easing: 'ease-out-back',
+			duration: 1000
+		});
+	</script>
+
+<!--视频-->
+<script src="js/html5media.min.js"></script>
+
+<!--display bar-->
+
+<!--display bar-->	
+  <script>
+  (function (hasGet, totalGet) {
+      var flag = document.getElementById('icon-flag'),
+          processBar = document.getElementById('process-bar1'),
+          widthPercentage = Math.round(hasGet/totalGet*100);
+      if (widthPercentage >= 100) {
+          widthPercentage = 100;
+     }
+     flag.style.left = (widthPercentage-1) + '%';
+     processBar.style.width = widthPercentage + '%';
+     if (widthPercentage == 0) {
+         processBar.style.borderStyle = 'none';
+     }
+ })(10, 20);
+ </script>
+
+<!--footer-->
+<div class="footer row-back">
+
+<div class="container">
+								<div class="contact-details">
+									<div class="pattern"></div>
+									<div class="row text-center clearfix" style="margin-left:0px;margin-right:50px">
+										
+										<div class="col-sm-6">
+											<div class="contact-address" style="margin-left:50px;">
+											<address>
+											<p style="font-size:1.9em; font-family:Kelly Slab;letter-spacing:0.5px;text-shadow:0 0 5px #96E1FF, 0 0 11px #96E1FF, 0 0 1px #96E1FF"><strong>Contact Us</p></strong>
+											<small style="font-family:Raleway; padding-left: 50px;">If you have any questions, please feel free to contact us.</small></address>
+												<div class="social-icons" style="padding-left:50px">
+												    <a href="#"><i class="fa fa-envelope-o"></i></a>
+													<a href="#"><i class="fa fa-facebook"></i></a>
+													<a href="#"><i class="fa fa-twitter"></i></a>
+													<a href="#"><i class="fa fa-google-plus"></i></a>
+													<a href="#"><i class="fa fa-youtube"></i></a>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-sm-6">
+											<div class="contact-address" style="margin-right:100px;">
+											<address>
+											<p style="font-size:1.9em; font-family:Kelly Slab;letter-spacing:0.5px;text-shadow:0 0 5px #96E1FF, 0 0 11px #96E1FF, 0 0 1px #96E1FF"><strong style="padding-left:45px">Our Laboratory</p></strong>
+											</address>
+												<div class="picture">
+													<a href="http://www.drnatech.com/"><img style="margin-left:30px" 	alt="中国海洋大学核酸化学与生物技术实验室" src="image/lablogo.jpg"  width="465px" height="80px"></a>
+												</div>
+											</div>
+										</div>
+									</div>	
+									</div>
+								</div> 
+
+
+
+
+
+  <div class="w-container wrap-normal center">Copyright©<strong>OUC Season2017</strong>. All Rights Reserved.</div>
+  
+  
+  </div>
+<!--footer-->
+</body>
+
+</html>
+
