@@ -8,6 +8,8 @@
   
   
 <title>Season2017 Background</title>
+<link rel="icon" href="hahaha.ico" type="image/x-icon">
+<link rel="shortcut icon" href="hahaha.ico" type="image/x-icon">
 <link type="text/css" rel="stylesheet" href="css/style1-content-2.css">
 <link rel="stylesheet" href="css/My bootstrap.min.css.css">
 <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Kelly+Slab|Raleway" rel="stylesheet">
@@ -27,17 +29,14 @@
 <!--图片弹出js-->
   <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox-1.3.4.js"></script>
+    
 <!--图片弹出js-->  
 
 <style>
       body {
       position: relative;
-      background: -ms-linear-gradient(top, #161616, #275886);        /* IE 10 */
-      background:-moz-linear-gradient(top,#161616,#275886);/*火狐*/ 
-      background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#161616), to(#275886));/*谷歌*/ 
-      background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#161616), to(#275886));      /* Safari 4-5, Chrome 1-9*/
-      background-attachment:fixed;
-      background-image: url(image/bg.jpg);
+     background-color: rgb(0,5,34);
+      
     }
     h1{font-family: 'Fontdiner Swanky', cursive;font-size:120px;text-shadow: 0 0 10px #69b7ff, 0 0 125px #69b7ff, 0 0 15px #69b7ff;margin-top: 100px;}
     h2{font-family: 'Kelly Slab', cursive;font-size:54px;font-weight: bolder;text-shadow: 0 0 8px #69b7ff, 0 0 5px #69b7ff, 0 0 11px #228dff;}
@@ -125,13 +124,14 @@
 <!--图片弹窗-->
 <script type="text/javascript">
   $(document).ready(function() {
-
-    
     $("a#figure").fancybox({
-      'titlePosition':'inside'
+      'titlePosition':'inside',
+      'transitionIn'  :   'elastic',
+      'transitionOut' :   'elastic',
+      'speedIn'       :   200, 
+      'speedOut'      :   200, 
+      // 'overlayShow'   :   false
     });
-
-    
   });
 </script>
 <!--图片弹窗-->
@@ -168,16 +168,16 @@
           
          
          
-         <ul class="left-links main-nav">
-            <li class="nav-item" style="margin-right:50px;background-color:#69B7ff;border-radius:5px;color:white;box-shadow: 0 0 1px #008AFF, 0 0 11px #008AFF, 0 0 11px #228dff;"><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+         <ul class="left-links main-nav web-menu">
+            <li class="nav-item" style="margin-right:40px;background-color:#69B7ff;border-radius:5px;color:white;box-shadow: 0 0 1px #008AFF, 0 0 11px #008AFF, 0 0 11px #228dff;"><a href="index.html"><i class="fa fa-home"></i> SEASON</a></li>
             <li class="nav-item"><a href="background.html">BACKGROUND</a></li>
             <li class="nav-item"><a href="design.html">DESIGN</a></li>
             <li class="nav-item"><a href="simulation.html">SIMULATION</a></li>
             <li class="dropdown nav-item">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-					EXPERIMENT <b class="caret"></b>
-				</a>
-				<ul class="dropdown-menu nav-item">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          EXPERIMENT <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu nav-item">
           <li class="divider"></li>
           <li><a href="material.html">MATERIALS&METHODS</a></li>
           <li class="divider"></li>
@@ -185,8 +185,45 @@
             <li class="nav-item"><a href="perpective.html">PERSPECTIVE</a></li>
             <li class="nav-item"><a href="team.html">TEAM</a></li>
           </ul>
-        </div>
 
+          
+        </div>
+        <!-- mobile -->
+          <!-- <div class="mobile-menu clearfix" style="display: ;">
+            <button class="menu-toggle">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="home-block">
+              <a href="index.html"><i class="fa fa-home"></i> HOME</a>
+            </div>
+            <ul class="list-unstyled mobile-outside-list">
+              <li><a href="background.html">BACKGROUND</a></li>
+              <li><a href="design.html">DESIGN</a></li>
+              <li><a href="simulation.html">SIMULATION</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  EXPERIMENT <b class="caret"></b>
+                </a>
+                <ul class="list-unstyled inside-list">
+                  <li><a href="material.html">MATERIALS&METHODS</a></li>
+                  <li><a href="results.html">RESULTS&DISCUSSION</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  EXPERIMENT222 <b class="caret"></b>
+                </a>
+                <ul class="list-unstyled inside-list">
+                  <li><a href="material.html">MATERIALS&METHODS222</a></li>
+                  <li><a href="results.html">RESULTS&DISCUSSION222</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="perpective.html">PERSPECTIVE</a></li>
+              <li class="nav-item"><a href="team.html">TEAM</a></li>
+            </ul>
+          </div> -->
         
       </div>
     </div>
@@ -195,7 +232,7 @@
 <!--End top navigation-->
 <div class="guide">
   <div class="guide-wrap">
-    <a href="javascript:window.scrollTo(0,0)" class="top" title="回顶部"><span>TOP</span></a>
+    <a href="javascript:;" id="toTop" class="top" title="回顶部"><span>TOP</span></a>
   </div>
 </div>
 <!--Start side navigation-->
@@ -205,7 +242,7 @@
 			<div class="container-fluid"> 
 			<div class="container-fluid"> 
 			<ul class="nav nav-pills nav-stacked" font-weight:bolder;>
-			    <a><img src="image/logo.jpg" style="margin-left:10px;height:150px;width:150px;"></a>
+			    <a><img src="image/logo发光版.jpg" style="margin-left:10px;height:150px;width:150px;"></a>
 			    <li id="side-nav-head">Background</a></li>
 			    <li class="active"><a class="nav-shadow" href="#sectionp1">DNA catenanes</a></li>
 				<li><a class="nav-shadow" href="#sectionp2" hover>DNA networks</a></li>
@@ -218,7 +255,7 @@
 		</nav>
 		<!--End side navigation-->
 
-<div class="col-sm-9">
+<div class="col-sm-9" style="margin:auto;">
             <div id="section0">    
 				<h1 align="center";>Background</h1>
 			</div>
@@ -226,8 +263,8 @@
 			<div aos="fade-up" id="sectionp1">  
 			  
 				<h2>1.DNA catenanes</h2>
-				<p>DNA catenanes, a new promising subfield in DNA nanotechnology, are mechanically interlocked ring systems composed of two or more interlocked DNA rings that are unable to be separated without breaking the covalent bonds between the macrocycles.</p>
-				<p>In the biological context, catenanes are widely acknowledged to be essential intermediates in gene activities. One discovery worthy to be mentioned is the mitocondrial DNA of trypanosomatid protozoa termed <a id="figure" href="image/bg1.jpg" title="Description: part of a kDNA network from C.fasciculata, shown by electron microscopy (EM). Each small loop represents a 2.5-kb minicircle.[1]"><u>kinetoplast DNA (kDNA)</u></a>.It is composed of a giant network of many interlocked dsDNA maxicircles and minicircles, which is similar to the <a id="figure" href="image/bg2.jpg" title="Left: rings are connected to build the armor. Right: A European hauberk"><u>medieval hauberk</u></a><sup>[1]</sup>.</p>
+				<p>DNA catenanes, a new promising subfield in DNA nanotechnology, are mechanically interlocked rings systems composed of two or more interlocked DNA rings that are unable to be separated without breaking the covalent bonds between the macrocycles.</p>
+				<p>In the biological context, catenanes are widely acknowledged to be essential intermediates in gene activities. One discovery worthy to be mentioned is the mitocondrial DNA of trypanosomatid protozoa termed <a id="figure" href="image/bg/bg1.jpg" title="Part of a kDNA network from C.fasciculata, shown by electron microscopy (EM). Each small loop represents a 2.5-kb minicircle."><u>kinetoplast DNA (kDNA)</u></a>.It is composed of a giant network of many interlocked dsDNA maxicircles and minicircles, which is similar to the <a id="figure" href="image/bg/bg2.jpg" title="Left: rings are connected to build the armor. Right: A European hauberk"><u>medieval hauberk</u></a><sup>[1]</sup>.</p>
 				<p>Enlightened by these striking natural structures, supstantial efforts towards artificial fabrication of DNA catenanes have been made for further understanding and utility of their distinct features. Synthesis of both double-stranded (ds) and single-stranded (ss) DNA catenanes have been reported. Generally, most of the catenanes contained in topologically interlocked structures are based on ssDNA. Examples include Seeman’s cube<sup>[2]</sup>, ssDNA rotary motors<sup>[3]</sup> and catenated scaffolds for assembly of hierarchical nanostructures<sup>[4]</sup>.</p>
 				<p>There are several ways of synthesizing two-ring interlocked ssDNA catenanes, which pave the way for more complex interlocked ssDNA catenane nanostructures. For instance, linking two rings together by enzymatic ligation of two inter-threaded strands using splints or by circularizing a DNA oligonucleotide over a premade DNA ring<sup>[5]</sup>. Fabrication of three-, five-, and seven-ring catenanes has been achieved following several paths<sup>[3]</sup>. Controlling topology (linking number, Lk: the number of turns intertwining between two circles) between catenated rings strictly and effectively is another problem that worth attention<sup>[6]</sup>. Only if Lk is finely controlled can the nanostructure accord with expectation.</p>
 				<p>Recently, our laboratory has developed an efficient approach for preparing linear ssDNA three-ring catenanes, using an oligonucleotide scaffold, which hasn’t been used before, to draw close pre-rings<sup>[7]</sup>. We took advantage of the scaffold to create the topologically linked DNA network, DNA hauberk as well.</p>
@@ -236,55 +273,59 @@
 			
       <div aos="fade-up" id="sectionp2"> 
 				<h2>2.Artificial DNA networks</h2>
-				<p>The conceptual foundation for DNA nanotechnology was first laid out by NadrianSeeman, who realized that it was possible to generate covalently joined three-dimensional networks of nucleic acids in the 1980s<sup>[8]</sup>. A network is any system with sup-units that are linked into a whole, and in the case of DNA nanotechnology, a great many nucleotides are deeply connected with one another, resulting in complex periodic arrangements. Most typical examples are DNA tiles and DNA origami.</p>
-				<p>DNA tile structures provide the foundation for developing artificial DNA network. The core concept of tile-based assembly is combining numerous branched DNA junction with sticky-end associations to form 2D lattices<sup>[9]</sup>. A variety of rigid, branched DNA tile molecules have been designed, bringing about nanostructures like ssDNA octahedrons<sup>[10]</sup> and single-step formation of DNA tetrahedrons<sup>[11]</sup>.</p>
+				<p>The conceptual foundation for DNA nanotechnology was first laid out by Nadrian Seeman, who realized that it was possible to generate covalently joined three-dimensional networks of nucleic acids in the 1980s<sup>[8]</sup>. A network is any system with sup-units that are linked into a whole, and in the case of DNA nanotechnology, a great many nucleotides are deeply connected with one another, resulting in complex periodic arrangements. Most typical examples are DNA tiles and DNA origami.</p>
+				<p>DNA tile structures provide the foundation for developing artificial DNA network. The core concept of tile-based assembly is combining numerous branched DNA junction with sticky-end associations to form two-dimensional (2D) lattices<sup>[9]</sup>. A variety of DNA tile arrays with increased complexity have been produced, bringing about functional nanoarchitectures, as they are excellent templates for positioning functional nanoparticles, for instance, proteins. Using DNA tiles makes it possible to build artificial enzymatic networks and molecular pegboards for functional nanoelectronics.</p>
 			    <div id="picture">  
-            <a id="figure" href="image/bg4.jpg" title="Fig.1 Key concept of DNA tile based self-assembly: combining branched DNA junction with sticky-end associations (e.g. a-a’ and b-b’ pairings) to self-assemble 2D lattices."><img alt="Fig.1 Key concept of DNA tile based self-assembly: combining branched DNA junction with sticky-end associations (e.g. a-a’ and b-b’ pairings) to self-assemble 2D lattices." src="image/bg4.jpg" class="img-thumbnail" width="550px"></a></div>
+            <a id="figure" href="image/bg/bg3.jpg" title="Figure 1. Key concept of DNA tile based self-assembly: combining branched DNA junction with sticky-end associations (e.g. a-a’ and b-b’ pairings) to self-assemble 2D lattices."><img alt="Figure 1.Key concept of DNA tile based self-assembly: combining branched DNA junction with sticky-end associations (e.g. a-a’ and b-b’ pairings) to self-assemble 2D lattices." src="image/bg/bg3.jpg" class="img-thumbnail" width="550px"></a></div>
         <div class="figureD"><p>Fig.1 Key concept of DNA tile based self-assembly: combining branched DNA junction with sticky-end associations (e.g. a-a’ and b-b’ pairings) to self-assemble 2D lattices<sup>[9].</sup></p></div>
-				<p>DNA origami is another type of artificial DNA network. It is a method for folding a long, single-stranded M13mp18 DNA into close-packed bundles of B-form DNA double-helical domains with ‘staple’ strands. Based on this novel technology, 2D shapes (five-pointed stars, smiley faces, etc<sup>[12]</sup>) and 3D structures (box<sup>[13]</sup>, etc) have been developed over the years.</p>
+				<p>DNA origami is a method for folding a long, single-stranded M13mp18 DNA with sets of ‘staple’ strands into arbitrary 2D shapes, which is also widely used to construct artificial DNA network. The arrangement of 2D DNA origami networks with uniform densities has attracted much attention and many accomplishments have been made, as this type of network structure composed of junctions and junctures is another fascinating approach to forthcoming nanoscale network devices<sup>[10]</sup>.</p>
+				<div id="picture">  
+            <a id="figure" href="image/bg/bg4.jpg" title="Figure 2. Schematic structure of origami tiles (two different tiles, A and B) with orthogonal directions of propagation."><img style="max-width:60%;" alt="Fig.2  Schematic structure of origami tiles (two different tiles, A and B) with orthogonal directions of propagation." src="image/bg/bg4.jpg" class="img-thumbnail" width="550px"></a></div>
+        <div class="figureD"><p>Figure 2.Schematic structure of origami tiles (two different tiles, A and B) with orthogonal directions of propagation.<sup>[11]</sup>.</p></div>
        
 			</div>        
 			
       <div aos="fade-up" id="sectionp3">         
 				<h2>3.Application of ssDNA catenanes</h2>
 				<h3>Scaffold</h3>
-				<p>ssDNA catenane scaffolds can be used to orient nanoparticles, proteins, or fluorophores onto a single scaffold with precise relative spatial orientation. When nanoparticles, protein or fluorophores are attached to complementary ssDNA sequences, they can bind ssDNA domains of the catenated system. If the code of sequences are modified to aptamers they are able to bind specific target molecules.The potential of hierarchical nanoassemblies in biosensing, catalyzing enzymatic cascades are just part of the promise of topologically interlocked ssDNA catenanes<sup>[4]</sup>.</p>
+				<p>ssDNA catenane scaffolds can be used to orient nanoparticles, proteins, or fluorophores onto a single scaffold with precise relative spatial orientation. When nanoparticles, proteins or fluorophores are attached to complementary ssDNA sequences, they can bind ssDNA domains of the catenated system. If the code of sequences are modified to aptamers they are able to bind specific target molecules.The potential of hierarchical nanoassemblies in biosensing, catalyzing enzymatic cascades are just part of the promise of topologically interlocked ssDNA catenanes<sup>[4]</sup>.</p>
 				<div id="picture">  
-            <a id="figure" href="image/bg5.jpg" title="Fig.2 Functionalization of the polycatenated DNA with the fluorescent labeled ssDNA"><img alt="Fig.2 Functionalization of the polycatenated DNA with the fluorescent labeled ssDNA" src="image/bg5.jpg" class="img-thumbnail" width="400px"></a></div>
-        <div class="figureD"><p>Fig.2 Functionalization of the polycatenated DNA with the fluorescent labeled ssDNA<sup>[4]</sup>.</p></div>
+            <a id="figure" href="image/bg/bg5.jpg" title="Figure 3. Functionalization of the polycatenated DNA with the fluorescent labeled ssDNA"><img alt="Figure 3. Functionalization of the polycatenated DNA with the fluorescent labeled ssDNA" src="image/bg/bg5.jpg" class="img-thumbnail" width="400px"></a></div>
+        <div class="figureD"><p>Figure 3. Functionalization of the polycatenated DNA with the fluorescent labeled ssDNA<sup>[4]</sup>.</p></div>
 				<h3>Nanomachines</h3>
-				<p>Nanomachines have attracted great attention in recent years, as the most typical example is that the Nobel Prize in Chemistry 2016 was awarded jointly to three outstanding scientists for the design and synthesis of molecular machines. Building molecular machine may be one of the most promising applications of DNA catenanes. The number of dynamic transitions in systems increases with the number of interlocked catenanes. Meanwhile, various methods can be used to trigger the machine to operate in an anticipant approach, especially the fuel/anti-fuel strands<sup>[3,14]</sup>.</p>
+				<p>Nanomachines have attracted great attention in recent years, as the most typical example is that the Nobel Prize in Chemistry 2016 was awarded jointly to three outstanding scientists for the design and synthesis of molecular machines. Building molecular machine may be one of the most promising applications of DNA catenanes. The number of dynamic transitions in systems increases with the number of interlocked catenanes. Meanwhile, various methods can be used to trigger the machine to operate in an anticipant approach, especially the fuel/anti-fuel strands<sup>[3,12]</sup>.</p>
 				<div id="picture">  
-            <a id="figure" href="image/bg6.jpg" title="Fig.3 Reversible reconfiguration of the five-ring interlocked DNA catenane across the states I, II, III and IV using appropriate fuel/anti-fuel strands"><img alt="Fig.3 Reversible reconfiguration of the five-ring interlocked DNA catenane across the states I, II, III and IV using appropriate fuel/anti-fuel strands" src="image/bg6.jpg" class="img-thumbnail" width="420px"></a></div>
-        <div class="figureD"><p>Fig.3 Reversible reconfiguration of the five-ring interlocked DNA catenane across the states I, II, III and IV using appropriate fuel/anti-fuel strands<sup>[14]</sup>.</p></div>
-				<p>Besides operating as positional switches and nanomotors, strand-dictated reconfigurable multi-ring catenanes also provide a rich arena of different states or functional groups that can act as functional elements for computing automata or as a scaffold for multi-valued logics. Furthermore, the fact that circular DNAs lack 3′ and 5′ termini indicates that such structures, and particularly catenanes that include non-natural nucleotide bases, should reveal enhanced stabilities toward enzymatic degradation, as compared to linear analogues<sup>[3]</sup>.</p>
+            <a id="figure" href="image/bg/bg6.jpg" title="Figure 4. Reversible reconfiguration of the five-ring interlocked DNA catenane across the states I, II, III and IV using appropriate fuel/anti-fuel strands"><img alt="Figure 4. Reversible reconfiguration of the five-ring interlocked DNA catenane across the states I, II, III and IV using appropriate fuel/anti-fuel strands" src="image/bg/bg6.jpg" class="img-thumbnail" width="420px"></a></div>
+        <div class="figureD"><p>Figure 4. Reversible reconfiguration of the five-ring interlocked DNA catenane across the states I, II, III and IV using appropriate fuel/anti-fuel strands<sup>[12]</sup>.</p></div>
+				<p>Besides operating as positional switches and nanomotors, strand-dictated reconfigurable multi-ring catenanes also provide a rich arena of different states or functional groups that can act as functional elements for computing automata or as a scaffold for multi-valued logics. Furthermore, the fact that DNA circles lack 3′ and 5′ termini indicates that such structures, and particularly catenanes that include non-natural nucleotide bases, should reveal enhanced stabilities toward enzymatic degradation, as compared to linear analogues<sup>[3]</sup>.</p>
        
       </div>
 			<div aos="fade-up" id="sectionp4">         
 				<h2>Our goals</h2>
-				<p>Up till now, generally single-stranded (ss) DNA have been used to produce topological macrocycle units, or catenated systems composed of 7 rings[15] at most. Artificial DNA networks always appear in the form of DNA tiles or origami, and no DNA catenane has been used to produce topologically interlocked network structure. This summer, enlightened by the natural kDNA network and previous studies towards DNA catenanes, we intend to build new ssDNA catenanes which can offer inspiration to others in the future. Specified purposes are listed as follow:</p>
+				<p>Up till now, generally single-stranded (ss) DNA have been used to produce topological macrocycle units, or catenated systems composed of 7 rings[12] at most. Artificial DNA networks always appear in the form of DNA tiles or origami, and no DNA catenane has been used to produce topologically interlocked network structure. This summer, enlightened by the natural kDNA network and previous studies towards DNA catenanes, we intend to build new ssDNA catenanes which can offer inspiration to others in the future. Specified purposes are listed as follow:</p>
         <p>1.Build multi-ring ssDNA systems and control its topology which mainly focuses on the linking number (Lk) between two adjacent rings.</p>
         <p>2.Explore the relationships between our yield and the application of hinges along with linking domains of different length. Improve the yield based on the results.</p>
         <p>3.Fabricate a brand new type of DNA network: DNA hauberk based on ssDNA catenanes.</p>
+                <div id="picture" style="margin-top:20px;">  
+            <a id="figure" href="image/bg/goal.jpg" title="The structure we decided to build"><img alt="The structure we decided to build" src="image/bg/goal.jpg" width="600px"></a></div>
+        <div class="figureD"><p>The structure we decided to build</p></div>
 			</div>
 
       <div aos="fade-up" id="sectionpR">         
         <h2 id="h2-re">References</h3>
-        <p>[1]Shapiro T A, Englund P T. The structure and replication of kinetoplast DNA.[J]. Annual Review of Microbiology, 1995, 49(49):117.</p>
-        <p>[2]Chen J H, Seeman N C. Synthesis from DNA of a molecule with the connectivity of a cube[J]. Nature, 1991, 350(6319):631-633.</p>
-        <p>[3]Lu C H, Cecconello A, Willner I. Recent Advances in the Synthesis and Functions of Reconfigurable Interlocked DNA Nanostructures[J]. Journal of the American Chemical Society, 2016, 138(16):5172.</p>
-        <p>[4]Weizmann Y, Braunschweig A B, Wilner O I, et al. A polycatenated DNA scaffold for the one-step assembly of hierarchical nanostructures.[J]. Proceedings of the National Academy of Sciences of the United States of America, 2008, 105(14):5289.</p>
-        <p>[5]Billen L P, Li Y. Synthesis and characterization of topologically linked single-stranded DNA rings[J]. Bioorganic Chemistry, 2004, 32(6):582-598.</p>
-        <p>[6]Liang X, Kuhn H, Frankkamenetskii M D. Monitoring Single-Stranded DNA Secondary Structure Formation by Determining the Topological State of DNA Catenanes[J]. Biophysical Journal, 2006, 90(8):2877-89.</p>
-        <p>[7]Qi L, Wu G, Wu W, et al. Efficient Synthesis of Topologically Linked Three‐Ring DNA Catenanes[J]. Chembiochem A European Journal of Chemical Biology, 2016, 17(12):1127.</p>
-        <p>[8]Seeman N C. Nucleic acid junctions and lattices[J]. Journal of Theoretical Biology, 1982, 99(2):237-247.</p>
-        <p>[9]Lin C, Liu Y, Rinker S, et al. DNA Tile Based Self-Assembly: Building Complex Nanoarchitectures[J].Chemphyschem A European Journal of Chemical Physics & Physical Chemistry, 2006, 7(8):1641.</p>
-        <p>[10]Shih W M, Quispe J D, Joyce G F. A 1.7-kilobase single-stranded DNA that folds into a nanoscale octahedron[J]. Nature, 2004, 427(6975):618-21.</p>
-        <p>[11]Goodman R P, Berry R M, Turberfield A J. The single-step synthesis of a DNA tetrahedron[J]. Chemical Communications, 2004, 12(12):1372.</p>
-        <p>[12]Rothemund P W. Folding DNA to create nanoscale shapes and patterns[J]. Nature, 2006, 440(7082):297.</p>
-        <p>[13]Andersen E S, Dong M, Nielsen M M, et al. Self-assembly of a nanoscale DNA box with a controllable lid.[J]. Nature, 2009, 459(7243):73.</p>
-        <p>[14]Lu C H, Qi X J, Cecconello A, et al. Switchable reconfiguration of an interlocked DNA olympiadanenanostructure[J]. AngewandteChemie, 2014, 53(29):7499-503.</p>
-        <p>[15]Lu C H, Cecconello A, Qi X J, et al. Switchable Reconfiguration of a Seven-Ring Interlocked DNA Catenane Nanostructure[J]. Nano Letters, 2015, 15(10):7133-7137.</p>
+        <p class="pforf">[1]Shapiro T A, Englund P T. The structure and replication of kinetoplast DNA.[J]. Annual Review of Microbiology, 1995, 49(49):117.</p>
+        <p class="pforf">[2]Chen J H, Seeman N C. Synthesis from DNA of a molecule with the connectivity of a cube[J]. Nature, 1991, 350(6319):631-633.</p>
+        <p class="pforf">[3]Lu C H, Cecconello A, Willner I. Recent Advances in the Synthesis and Functions of Reconfigurable Interlocked DNA Nanostructures[J]. Journal of the American Chemical Society, 2016, 138(16):5172.</p>
+        <p class="pforf">[4]Weizmann Y, Braunschweig A B, Wilner O I, et al. A polycatenated DNA scaffold for the one-step assembly of hierarchical nanostructures.[J]. Proceedings of the National Academy of Sciences of the United States of America, 2008, 105(14):5289.</p>
+        <p class="pforf">[5]Billen L P, Li Y. Synthesis and characterization of topologically linked single-stranded DNA rings[J]. Bioorganic Chemistry, 2004, 32(6):582-598.</p>
+        <p class="pforf">[6]Liang X, Kuhn H, Frankkamenetskii M D. Monitoring Single-Stranded DNA Secondary Structure Formation by Determining the Topological State of DNA Catenanes[J]. Biophysical Journal, 2006, 90(8):2877-89.</p>
+        <p class="pforf">[7]Qi L, Wu G, Wu W, et al. Efficient Synthesis of Topologically Linked Three‐Ring DNA Catenanes[J]. Chembiochem A European Journal of Chemical Biology, 2016, 17(12):1127.</p>
+        <p class="pforf">[8]Seeman N C. Nucleic acid junctions and lattices[J]. Journal of Theoretical Biology, 1982, 99(2):237-247.</p>
+        <p class="pforf">[9]Lin C, Liu Y, Rinker S, et al. DNA Tile Based Self-Assembly: Building Complex Nanoarchitectures[J].Chemphyschem A European Journal of Chemical Physics & Physical Chemistry, 2006, 7(8):1641.</p>
+        <p class="pforf">[10]Hirano Y, Ojima K, Miyake Y, et al. Emergence of High-density DNA Origami Network by Dewetting with a Binary Solvent[J]. Chemistry Letters, 2012, 41(11):1459-1461.</p>
+        <p  class="pforf">[11]Liu W, Zhong H, Wang R, et al. Crystalline Two‐Dimensional DNA‐Origami Arrays[J]. Angewandte Chemie, 2011, 50(1):264.</p>
+        <p  class="pforf">[12]Lu C H, Qi X J, Cecconello A, et al. Switchable reconfiguration of an interlocked DNA olympiadanenanostructure[J]. AngewandteChemie, 2014, 53(29):7499-503.</p>
+        </div>
      </div>
 
 			
@@ -307,6 +348,19 @@
 			duration: 1000
 		});
 	</script>
+  <script type="text/javascript">
+    $(function () {
+      var speed = 800;//滚动速度
+      var h=document.body.clientHeight;
+      //回到顶部
+      $("#toTop").click(function () {
+        $('html,body').animate({
+          scrollTop: '0px'
+        },
+        speed);     
+      });
+    });
+    </script>
 
 <!--display bar-->
 
@@ -341,11 +395,9 @@
 											<p style="font-size:1.9em; font-family:Kelly Slab;letter-spacing:0.5px;text-shadow:0 0 5px #96E1FF, 0 0 11px #96E1FF, 0 0 1px #96E1FF"><strong>Contact Us</p></strong>
 											<small style="font-family:Raleway; padding-left: 72px;">If you have any questions, please feel free to contact us.</small></address>
 												<div class="social-icons" style="padding-left:50px">
-												    <a href="#"><i class="fa fa-envelope-o"></i></a>
-													<a href="#"><i class="fa fa-facebook"></i></a>
-													<a href="#"><i class="fa fa-twitter"></i></a>
-													<a href="#"><i class="fa fa-google-plus"></i></a>
-													<a href="#"><i class="fa fa-youtube"></i></a>
+												    <a href="mailto:OUCBIOMOD@163.com"><i class="fa fa-envelope-o"></i></a>
+
+													<a href="https://youtu.be/9nuexmJ98OI"><i class="fa fa-youtube"></i></a>
 												</div>
 											</div>
 										</div>
@@ -376,6 +428,21 @@
 <!--footer-->
 
 </body>
+  <script type="text/javascript">
+  var height=$(window).innerHeight;
+  var width=height*2.4;
+  // var transition=-100;
+  // alert(height)
+    $('body').css({
+      'background-color':'#000522',
+      'background-image': 'url(image/bg.jpg)',
+      'background-repeat':'no-repeat',
+        'background-attachment':'fixed',
+        'background-size':width+'px '+height+'px',
+        'background-position':'100px 0px'
+
+    })
+  </script>
 
 </html>
 

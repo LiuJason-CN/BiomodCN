@@ -8,6 +8,8 @@
   
   
 <title>Season2017 Team</title>
+<link rel="icon" href="hahaha.ico" type="image/x-icon">
+<link rel="shortcut icon" href="hahaha.ico" type="image/x-icon">
 <link type="text/css" rel="stylesheet" href="css/style1-content-2.css">
 <link rel="stylesheet" href="css/My bootstrap.min.css.css">
 <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Kelly+Slab|Raleway" rel="stylesheet">
@@ -29,15 +31,23 @@
     <script type="text/javascript" src="js/jquery.fancybox-1.3.4.js"></script>
 <!--图片弹出js-->  
 
+<!-- start slider -->
+<link rel="stylesheet" href="images/css/style.css" />
+<script type='text/javascript' src='images/js/modernizr.min.js?ver=2.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CSSettings = {"pluginPath":"images"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='images/js/cute.slider.js?ver=2.0.0'></script>
+<script type='text/javascript' src='images/js/cute.transitions.all.js?ver=2.0.0'></script>
+<!-- end slider -->
+
 <style>
       body {
       position: relative;
-      background: -ms-linear-gradient(top, #161616, #275886);        /* IE 10 */
-      background:-moz-linear-gradient(top,#161616,#275886);/*火狐*/ 
-      background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#161616), to(#275886));/*谷歌*/ 
-      background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#161616), to(#275886));      /* Safari 4-5, Chrome 1-9*/
-      background-attachment:fixed;
-      background-image: url(image/bg.jpg);
+     background-color: rgb(0,5,34);
+      
     }
     h1{font-family: 'Fontdiner Swanky', cursive;font-size:120px;text-shadow: 0 0 10px #69b7ff, 0 0 125px #69b7ff, 0 0 15px #69b7ff;margin-top: 100px;}
     h2{font-family: 'Kelly Slab', cursive;font-size:54px;font-weight: bolder;text-shadow: 0 0 8px #69b7ff, 0 0 5px #69b7ff, 0 0 11px #228dff;}
@@ -150,6 +160,46 @@
 .guide a:hover span{display:block;width:60px;background:#39F}
 
 .guide .top{background-position:-145px -185px;}
+.ps-logo {
+  padding: 20px 0;
+}
+.ps-logo img{
+  width: 100%;
+}
+.c-demoslider{
+  border-radius: 6px;
+  box-shadow: 0 0 11px #96E1FF, 0 0 1px #96E1FF, 0 0 11px #96E1FF;
+}
+.dtl31{
+  box-shadow: none;
+}
+#sectiont4{
+  height: auto;
+}
+.carousel-inner img{
+  width: 800px;
+  height: 491px;
+}
+.carousel{
+  width: 800px;
+  margin: 0 auto;
+}
+.carousel-control .fa-chevron-right {
+    right: 50%;
+    margin-right: -10px;
+}
+.carousel-control .fa-chevron-left{
+    left: 50%;
+    margin-left: -10px;
+}
+.carousel-control .fa-chevron-left, .carousel-control .fa-chevron-right{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 40px;
+}
 </style>
 <!--back to top-->
 
@@ -168,16 +218,16 @@
           
          
          
-         <ul class="left-links main-nav">
-            <li class="nav-item" style="margin-right:50px;background-color:#69B7ff;border-radius:5px;color:white;box-shadow: 0 0 1px #008AFF, 0 0 11px #008AFF, 0 0 11px #228dff;"><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+         <ul class="left-links main-nav web-menu">
+            <li class="nav-item" style="margin-right:40px;background-color:#69B7ff;border-radius:5px;color:white;box-shadow: 0 0 1px #008AFF, 0 0 11px #008AFF, 0 0 11px #228dff;"><a href="index.html"><i class="fa fa-home"></i> SEASON</a></li>
             <li class="nav-item"><a href="background.html">BACKGROUND</a></li>
             <li class="nav-item"><a href="design.html">DESIGN</a></li>
             <li class="nav-item"><a href="simulation.html">SIMULATION</a></li>
             <li class="dropdown nav-item">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-					EXPERIMENT <b class="caret"></b>
-				</a>
-				<ul class="dropdown-menu nav-item">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          EXPERIMENT <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu nav-item">
           <li class="divider"></li>
           <li><a href="material.html">MATERIALS&METHODS</a></li>
           <li class="divider"></li>
@@ -185,8 +235,45 @@
             <li class="nav-item"><a href="perpective.html">PERSPECTIVE</a></li>
             <li class="nav-item"><a href="team.html">TEAM</a></li>
           </ul>
-        </div>
 
+          
+        </div>
+        <!-- mobile -->
+          <!-- <div class="mobile-menu clearfix" style="display: ;">
+            <button class="menu-toggle">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="home-block">
+              <a href="index.html"><i class="fa fa-home"></i> HOME</a>
+            </div>
+            <ul class="list-unstyled mobile-outside-list">
+              <li><a href="background.html">BACKGROUND</a></li>
+              <li><a href="design.html">DESIGN</a></li>
+              <li><a href="simulation.html">SIMULATION</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  EXPERIMENT <b class="caret"></b>
+                </a>
+                <ul class="list-unstyled inside-list">
+                  <li><a href="material.html">MATERIALS&METHODS</a></li>
+                  <li><a href="results.html">RESULTS&DISCUSSION</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  EXPERIMENT222 <b class="caret"></b>
+                </a>
+                <ul class="list-unstyled inside-list">
+                  <li><a href="material.html">MATERIALS&METHODS222</a></li>
+                  <li><a href="results.html">RESULTS&DISCUSSION222</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="perpective.html">PERSPECTIVE</a></li>
+              <li class="nav-item"><a href="team.html">TEAM</a></li>
+            </ul>
+          </div> -->
         
       </div>
     </div>
@@ -200,25 +287,9 @@
 </div>
 <!--Start side navigation-->
 <div class="container">
-	<div class="row">
-		<nav class="col-sm-3" id="myScrollspy">
-			<div class="container-fluid"> 
-			<div class="container-fluid"> 
-			<ul class="nav nav-pills nav-stacked" font-weight:bolder;>
-			    <a><img src="image/logo.jpg" style="margin-left:10px;height:150px;width:150px;"></a>
-			    <li id="side-nav-head">Background</a></li>
-			    <li class="active"><a class="nav-shadow" href="#sectionp1">DNA catenanes</a></li>
-				<li><a class="nav-shadow" href="#sectionp2" hover>DNA networks</a></li>
-				<li><a class="nav-shadow" href="#sectionp3">Application</a></li>
-				<li ><a class="nav-shadow" href="#sectionp4" >Our goals</a></li>
-				
-			</ul>
-			</div>	
-			</div>		
-		</nav>
-		<!--End side navigation-->
+	<div class="row" style="margin:auto;">
 
-<div class="col-sm-9">
+<div class="col-sm-9" style="float:none;margin:auto;">
             <div id="section0">    
 				<h1 align="center";>Team</h1>
 			</div>
@@ -227,74 +298,55 @@
 			  
 				<h2><i class="fa fa-rocket"></i>Our Team</h2>
 
-     <div class="rt-grid-12 rt-alpha rt-omega" >
-          <link rel="stylesheet" href="css/style.css">
-          <!--[if IE]><link rel="stylesheet" href="css/ie.css"><![endif]-->
-          <!--[if lte IE 9]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
-  
-          <div class="csslider1 autoplay" style="border-radius:6px;margin-top:40px;margin-left:20px;height:476px;width:800px;    box-shadow: 0 0 12px #96E1FF, 0 0 10px #96E1FF, 0 0 5px #96E1FF;">
-            <input name="cs_anchor1" autocomplete="off" id="cs_slide1_0" type="radio" class="cs_anchor slide" >
-            <input name="cs_anchor1" autocomplete="off" id="cs_slide1_1" type="radio" class="cs_anchor slide" >
-            <input name="cs_anchor1" autocomplete="off" id="cs_slide1_2" type="radio" class="cs_anchor slide" >
-            <input name="cs_anchor1" autocomplete="off" id="cs_slide1_3" type="radio" class="cs_anchor slide" >
-            <input name="cs_anchor1" autocomplete="off" id="cs_play1" type="radio" class="cs_anchor" checked>
-            <input name="cs_anchor1" autocomplete="off" id="cs_pause1" type="radio" class="cs_anchor" >
-            <ul>
-              <div style="border-radius:6px;width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
-                <img class="teambig" src="image/team1.jpg" style="width: 100%;">
-              </div>
-              <li class="num0 img">
-                <img class="teambig" src="image/team1.jpg" alt="team1"/>
-              </li>
-              <li class="num1 img">
-                <img class="teambig" src="image/team2.jpg" alt="team2"/>
-              </li>
-              <li class="num2 img">
-                <img class="teambig" src="image/team3.jpg" alt="team3"/>
-              </li>
-              <li class="num3 img">
-                <img class="teambig" src="image/liang.jpg" alt="liang"/>
-              </li>
-            </ul>
-           
-            
-            <div class="cs_bullets">
-              <label class="num0" for="cs_slide1_0">
-                <span class="cs_point"></span>
-                <span class="cs_thumb"><img class="teamsmall" src="image/team1.jpg" alt="team1"/></span>
-              </label>
-              <label class="num1" for="cs_slide1_1">
-                <span class="cs_point"></span>
-                <span class="cs_thumb"><img class="teamsmall" src="image/team2.jpg" alt="team2"/></span>
-              </label>
-              <label class="num2" for="cs_slide1_2">
-                <span class="cs_point"></span>
-                <span class="cs_thumb"><img class="teamsmall" src="image/team3.jpg" alt="team3"/></span>
-              </label>
-              <label class="num3" for="cs_slide1_3">
-                <span class="cs_point"></span>
-                <span class="cs_thumb"><img class="teamsmall" src="image/liang.jpg" alt="liang"/></span>
-              </label>
-            </div>
-            
-          </div>
-  
-        </div>
+        
         <div class="clear"></div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-top:30px;box-shadow: 0 0 10px #96E1FF, 0 0 10px #96E1FF, 0 0 1px #96E1FF;border-radius: 10px;">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="image/team/c1.jpg" alt="...">
+            </div>
+            <div class="item">
+              <img src="image/team/c2.jpg" alt="...">
+            </div>
+            <div class="item">
+              <img src="image/team/c3.jpg" alt="...">
+            </div>
+            <div class="item">
+              <img src="image/team/liang.jpg" alt="...">
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="fa fa-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="fa fa-chevron-right" aria-hidden="true" ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
     </div>
    
        <!-- /slider -->
 	  
 			
+
       <div aos="fade-up" id="sectiont2"> 
 				<h2><i class="fa fa-thumbs-o-up"></i>Project Adviser</h2>
 				<div class="picture-team picture-teamleft" style="height:300px;width:550px;margin-top:20px;    margin-left: 150px;">  
-                    <div class="dtl31">
+                    <div class="dtl31" style="box-shadow: 0 0 10px #96E1FF, 0 0 10px #96E1FF, 0 0 1px #96E1FF;border-radius: 10px;">
                             <img src="image/liang.jpg" alt="" >
-                            <div class="dtl">
-                                <h3>Email: liangxg@ouc.edu.cn</h3>
-                                <p style="font-size:16px;">Xingguo Liang is currently a professor in Ocean University of China. His research interest is in the field of Nucleic Acids Chemistry, Food Science, Biotechnology, Bionanomaterials, and Nanodevices, studying the artificial regulation of DNA/RNA function, metabolism and detection of DNA/RNA, and nano structures of nucleic acids.</p>
-                            </div>
+                            
                         </div>
                         <div><h2 id="h2-team">Prof.XingGuo Liang</h2></div>
                     </div>
@@ -302,87 +354,41 @@
 
 			</div>        
 			
-      <div aos="fade-up" id="sectiont3">         
+      <div aos="fade-up" id="sectiont3" style="height:650px;display: block;">         
 				<h2><i class="fa fa-thumbs-up"></i>Faculty Mentors</h2>
-			</div>	
-      <div aos="fade-up" id="sectiont4">  
-      <h2><i class="fa fa-group"></i>&nbsp;Team Members</h2>
-<div class="picture-team picture-teamleft" style="height:302px;width:380px;margin-top:20px">  
-                    <div class="dtl31">
-                            <img src="image/hxd.jpg" alt="" >
-                            <div class="dtl">
-                                <h3>Experiment</h3>
-                                <p>We are waiting for Syber Green.</p>
-                            </div>
-                        </div>
-                        <div><h2 id="h2-team">Haotian Wu</h2></div>
-                    </div>
+ <div class="picture-team picture-teamright" style="height:302px;width:380px;margin-top:20px">  
+        <div class="dtl31" style="box-shadow: 0 0 10px #96E1FF, 0 0 10px #96E1FF, 0 0 1px #96E1FF;border-radius: 10px;left:30px;">
+          <img src="image/team/cyx.jpg" alt="">
+        </div>
+        <div><h2 id="h2-team">Yixiao Cui</h2></div>
+      </div>   
+
 <div class="picture-team picture-teamright" style="height:302px;width:380px;margin-top:20px">  
-                    <div class="dtl31">
-                            <img src="image/hxd.jpg" alt="">
-                            <div class="dtl">
-                                <h3>Sequence Design</h3>
-                                <p>We are waiting for Syber Green.</p>
-                            </div>
-                        </div>
-                        <div><h2 id="h2-team">Haotian Wu</h2></div>
-                    </div>
-<div class="picture-team picture-teamleft" style="height:302px;width:380px;">  
-                    <div class="dtl31">
-                            <img src="image/hxd.jpg" alt="">
-                            <div class="dtl">
-                                <h3>Experiment</h3>
-                                <p>We are waiting for Syber Green.</p>
-                            </div>
-                        </div>
-                        <div><h2 id="h2-team">Haotian Wu</h2></div>
-                    </div>
-<div class="picture-team picture-teamright" style="height:302px;width:380px;">  
-                    <div class="dtl31">
-                            <img src="image/hxd.jpg" alt="">
-                            <div class="dtl">
-                                <h3>Sequence Design</h3>
-                                <p>We are waiting for Syber Green.</p>
-                            </div>
-                        </div>
-                        <div><h2 id="h2-team">Haotian Wu</h2></div>
-                    </div>                    
-<div class="picture-team picture-teamleft" style="height:302px;width:380px;">  
-                    <div class="dtl31">
-                            <img src="image/hxd.jpg" alt="">
-                            <div class="dtl">
-                                <h3>Experiment</h3>
-                                <p>We are waiting for Syber Green.</p>
-                            </div>
-                        </div>
-                        <div><h2 id="h2-team">Haotian Wu</h2></div>
-                    </div>
-<div class="picture-team picture-teamright" style="height:302px;width:380px;">  
-                    <div class="dtl31">
-                            <img src="image/hxd.jpg" alt="">
-                            <div class="dtl">
-                                <h3>Sequence Design</h3>
-                                <p>We are waiting for Syber Green.</p>
-                            </div>
-                        </div>
-                        <div><h2 id="h2-team">Haotian Wu</h2></div>
-                    </div>
-<div class="picture-team picture-teamcenter" style="height:302px;width:380px;margin-bottom:50px">  
-                    <div class="dtl31">
-                            <img src="image/hxd.jpg" alt="">
-                            <div class="dtl">
-                                <h3>Sequence Design</h3>
-                                <p>We are waiting for Syber Green.</p>
-                            </div>
-                        </div>
-                        <div><h2 id="h2-team">Haotian Wu</h2></div>
-                    </div>        
-        
-</div>
+        <div class="dtl31" style="box-shadow: 0 0 10px #96E1FF, 0 0 10px #96E1FF, 0 0 1px #96E1FF;border-radius: 10px;left:70px;">
+           <img src="image/team/fyq.jpg" alt="">
+        </div>
+        <div><h2 id="h2-team" style="margin-left: 150px;">Yiqiao Fan</h2></div>
+      </div>   
+
+ <div class="picture-team picture-teamleft" style="height:302px;width:380px;margin-top:20px;margin-left: 150px;">  
+        <div class="dtl31" style="box-shadow: 0 0 10px #96E1FF, 0 0 10px #96E1FF, 0 0 1px #96E1FF;border-radius: 10px;left:100px;">
+          <img src="image/team/hxtg.jpg" alt="">
+        </div>
+        <div><h2 id="h2-team" style="margin-left: 170px;">Xutiange Han</h2></div>
+      </div> 
+
+</div>	
+      
+      <div aos="fade-up" id="sectiont4">  
+         <h2><i class="fa fa-group"></i>&nbsp;Team Members</h2>
+            <div class="ps-logo">
+    <img src="image/team/tm.jpg" alt="team3"/>
+            </div>
+      </div>
+<!-- add by maggie -->
 
 
-<div aos="fade-up" id="sectiont5">  
-      <h2><i class="fa fa-heart"></i>Special Thanks</h2>
+
       
 
 			
@@ -439,11 +445,9 @@
 											<p style="font-size:1.9em; font-family:Kelly Slab;letter-spacing:0.5px;text-shadow:0 0 5px #96E1FF, 0 0 11px #96E1FF, 0 0 1px #96E1FF"><strong>Contact Us</p></strong>
 											<small style="font-family:Raleway; padding-left: 50px;">If you have any questions, please feel free to contact us.</small></address>
 												<div class="social-icons" style="padding-left:50px">
-												    <a href="#"><i class="fa fa-envelope-o"></i></a>
-													<a href="#"><i class="fa fa-facebook"></i></a>
-													<a href="#"><i class="fa fa-twitter"></i></a>
-													<a href="#"><i class="fa fa-google-plus"></i></a>
-													<a href="#"><i class="fa fa-youtube"></i></a>
+												    <a href="mailto:OUCBIOMOD@163.com"><i class="fa fa-envelope-o"></i></a>
+
+													<a href="https://youtu.be/9nuexmJ98OI"><i class="fa fa-youtube"></i></a>
 												</div>
 											</div>
 										</div>
@@ -462,16 +466,26 @@
 									</div>
 								</div> 
 
-
-
-
-
   <div class="w-container wrap-normal center">Copyright©<strong>OUC Season2017</strong>. All Rights Reserved.</div>
   
   
   </div>
 <!--footer-->
 </body>
+  <script type="text/javascript">
+  var height=$(window).innerHeight;
+  var width=height*2.4;
+  // var transition=-100;
+  // alert(height)
+    $('body').css({
+      'background-color':'#000522',
+      'background-image': 'url(image/bg.jpg)',
+      'background-repeat':'no-repeat',
+        'background-attachment':'fixed',
+        'background-size':width+'px '+height+'px',
+        'background-position':'100px 0px'
 
+    })
+  </script>
 </html>
 
