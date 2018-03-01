@@ -9,11 +9,11 @@
 #fancybox-tmp{padding:0;margin:0;border:0;overflow:auto;display:none;}
 #fancybox-wrap{position:absolute;top:0;left:0;padding:20px;z-index:1101;outline:none;display:none;}
 #fancybox-outer{position:relative;width:100%;height:100%;background:#fff;}
-#fancybox-content{width:0;height:0;padding:0;outline:none;position:relative;overflow:hidden;z-index:1102;border:0px solid #fff;}
+#fancybox-content{width:0;height:0;padding:0;outline:none;position:relative;overflow:hidden;z-index:1102;border:0px solid #fff;background-color:white;}
 #fancybox-hide-sel-frame{position:absolute;top:0;left:0;width:100%;height:100%;background:transparent;z-index:1101;}
 #fancybox-close{position:absolute;top:-15px;right:-33px;width:30px;height:30px;background:transparent url('../image/fancybox.png') -40px 0px;cursor:pointer;z-index:1103;display:none;}
 #fancybox-error{color:#444;font:normal 12px/20px Arial;padding:14px;margin:0;}
-#fancybox-img{width:100%;height:100%;padding:0;margin:0;border:none;outline:none;line-height:0;vertical-align:top;}
+#fancybox-img{width:100%;height:100%;padding:0;margin:0;border:none;outline:none;line-height:0;vertical-align:top;background-color:white;}
 #fancybox-frame{width:100%;height:100%;border:none;display:block;}
 #fancybox-left, #fancybox-right{position:absolute;bottom:0px;height:100%;width:35%;cursor:pointer;outline:none;background:transparent url('../image/blank.gif');z-index:1102;display:none;}
 #fancybox-left{left:0px;}
